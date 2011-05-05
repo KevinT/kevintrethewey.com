@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Kevin Trethewey</title>
- <link href="http://kevint.github.com/atom.xml" rel="self"/>
- <link href="http://kevint.github.com/"/>
+ <link href="http://kevintrethewey.com/atom.xml" rel="self"/>
+ <link href="http://kevintrethewey.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://kevint.github.com/</id>
+ <id>http://kevintrethewey.com/</id>
  <author>
    <name>Kevin Trethewey</name>
    <email>kevint@drivensoftware.net</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
    <entry>
      <title>{{ post.title }}</title>
-     <link href="http://kevint.github.com{{ post.url }}"/>
+     <link href="http://kevintrethewey.com{{ post.url }}"/>
      <updated>{{ post.date | date_to_xmlschema }}</updated>
-     <id>http://kevint.github.com{{ post.id }}</id>
+     <id>http://kevintrethewey.com{{ post.id }}</id>
      <content type="html">{{ post.content | xml_escape }}</content>
    </entry>
  {% endfor %}
