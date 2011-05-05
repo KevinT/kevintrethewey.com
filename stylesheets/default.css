@@ -170,3 +170,8 @@ h3 {
 .searching #home {
   display: none;
 }
+
+#post_lastupdated {
+    font-style:italic;
+    font-size: 70%;
+}
