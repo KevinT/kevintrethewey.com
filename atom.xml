@@ -11,7 +11,7 @@ layout: nil
  <id>http://kevintrethewey.com/</id>
  <author>
    <name>Kevin Trethewey</name>
-   <email>kevint@drivensoftware.net</email>
+   <email>kevint@drivensoftware.com</email>
  </author>
  
  {% for post in site.posts %}
