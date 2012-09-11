@@ -5,9 +5,9 @@ summary: The internet has been growing up, and it about to leave home.
 lastupdated: Sep 11 2012 7:45 AM
 ---
 
-> My name is Kevin Trethewey, and I am writing this from the context of being a professional software developer with ± 15 years experience, with the last 5 spent coaching development teams and companies.
+<i>My name is Kevin Trethewey, and I am writing this from the context of being a professional software developer with ± 15 years experience, with the last 5 spent coaching development teams and companies.</i>
 
-# We’ve come a long way
+## We’ve come a long way
 
 Since I started developing software around 1997 the landscape has been changing at an ever increasing rate. This was driven at first by processor speed and storage capacity, then rise of the internet and the fall of the costs of computing.
 
@@ -23,13 +23,11 @@ Today, the game has fundamentally changed. Those left behind are going to have a
 
 So where to from here? The software car is powering up the street, but what is over the horizon?
 
-# Back to the future
+## Back to the future
 
 My interest in computers started when I was 19. I bought my first computer, an Intel DX4-100, in 1996. I got it home, switched it on and after some beeping it stopped at a black screen...
 
-{% highlight ruby %}  
 C:\> _
-{% endhighlight %} 
 
 I had to go back to the store to borrow some manuals to find out how what to do next. A few weeks later that computer must have thought it was a piece of lego, the number of times I had pulled it apart and put it back together again. I was hooked.
 
@@ -37,7 +35,7 @@ At that point I found myself at a crossroads. Should I choose to work with hardw
 
 The same pressures I described shaping software development are going to drastically reshape the hardware landscape and the world we live in will not be same again.
 
-# Barrier to entry
+## Barrier to entry
 
 As described, lowering the barrier to entry for releasing software products fundamentally changed the software landscape. The barrier to entry for releasing hardware products is rapidly eroding as well.
 
@@ -47,7 +45,7 @@ Today you can use cheap prebuilt plug and play components to rapidly prototype y
 
 You can then mail off the designs to a Chinese manufacturing concern and have a container of your widget heading back to you in no time at all. Or, manufacture the widgets in your garage and sell them in your neighbourhood.
 
-# The hardware game changers
+## The hardware game changers
 
 * Open source/Open hardware
 * Cheap pluggable commodity components
@@ -55,7 +53,7 @@ You can then mail off the designs to a Chinese manufacturing concern and have a 
 * Cheap low volume Chinese manufacturing
 * Crowdfunding 
 
-# Leaving home
+## Leaving home
 
 So where does that put us? 
 
@@ -71,7 +69,7 @@ Not as an app on a cellphone, but built into our houses, streets, cars, clothes,
 
 The Outernet.
 
-# Its already here
+## Its already here
 
 This isn’t some sort of science fiction prediction, its already here...
 
@@ -81,7 +79,7 @@ This isn’t some sort of science fiction prediction, its already here...
 * [Wondering about the quality of air around you?](http://www.kickstarter.com/projects/edborden/air-quality-egg)
 * [Want to build your own 3D printer?](http://www.kickstarter.com/projects/printrbot/printrbot-your-first-3d-printer)
 
-# Some Parting thoughts
+## Some Parting thoughts
 
 * Is this the underlying reason for current the mobile patent turf wars?
 * Software developers are in a far better position to participate than anyone else
