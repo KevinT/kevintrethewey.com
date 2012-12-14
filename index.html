@@ -16,23 +16,31 @@ javascript:
   <h2>Posts</h2>
 
   <ul class="posts">
-    {% for post in site.posts %}
-    <li>
+
+
+{% for weight in (1..10) %}
+  {% for post in site.posts %}
+
+        {% if post.weight == weight %}
+
+        <li>
       <a href="{{ post.url }}">{{ post.title }}</a> <span id="post_lastupdated"> &raquo last revised {{ post.lastupdated | date: "%B, %d, %Y." }}</span>
+        <div><i>{{ post.summary }}</i></div>
     </li>
-    {% endfor %}
-  </ul>
+      
+        {% endif %}
+  {% endfor %}
+{% endfor %}
 
   <br>
 
-  <h2>Tweets</h2>
-  <div id="tweets">
-    Loading...
-  </div>
+  <h2>Last 5 Tweets</h2>
+    <div id="tweet">
+        <p>Please wait while my tweets load <img src="/images/loading.gif" /></p>
+        <p><a href="http://twitter.com/kevintrethewey">If you can't wait - check out what I've been twittering</a></p>
+    </div>
   <br>
-  <h2>Instagram</h2>
-   <iframe src='http://badgeplz.com/instagram/?u=kevint&t=c&bgclr=f2f2f2&brclr=cccccc&px=5&py=1&pb=5&brds=5&incls=n&svc=instagram&pbclr=ffffff' allowTransparency='true' frameborder='0' scrolling='no' style='border:none; overflow:hidden; width:462px; height: 138px'></iframe>
-
+  
   <script type="text/javascript" charset="utf-8">
     var posts = [
       {% for post in site.posts %}
@@ -48,15 +56,16 @@ javascript:
     posts.pop();
   </script>
 
-  <script type="text/javascript" src="/javascripts/twitter-1.11.2.js"></script>
-  
+  <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+
   <script type="text/javascript">
-    getTwitters('tweets', { 
+    getTwitters('tweet', {
       id: 'kevintrethewey',
-      count: 5, 
-      enableLinks: true, 
+      count: 8,
+      enableLinks: true,
+      ignoreReplies: true,
       clearContents: true,
-      template: '%text%'
+      template: '%text% <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a><hr>'
     });
   </script>
 </div>

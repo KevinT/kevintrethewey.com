@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hello World
-summary: This is just a test post and will be deleted
+summary: A (very) brief introduction of who I am
+weight: 3
 lastupdated: May 05 2011 8:27 AM
 ---
 
