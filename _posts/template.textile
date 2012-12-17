@@ -1,9 +1,0 @@
----
-layout: post
-title: My title here
-summary: My summary here. Used in search functionality
-lastupdated: May 05 2011 8:27 AM
----
-
-
-....

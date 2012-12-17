@@ -1,0 +1,38 @@
+---
+layout: post
+title: Hello World
+summary: A (very) brief introduction of who I am
+weight: 3
+lastupdated: May 05 2011 8:27 AM
+---
+
+<h4>Professionally</h4>
+
+I'm the founding member of Driven Software in Johannesburg, South Africa.
+
+I have a strong technical background after almost 15 years in the software industry at almost every level from tea boy to management (and back again).
+
+In this time I have had the opportunity to work in and observe projects and teams in vastly different environments, and seen vastly differing levels of success amongst them and through this I've developed an eye for what works and what doesn't, and a passion for assisting and empowering people.
+
+I still write code (and plan to continue indefinitely), but the majority of my time currently is spent in a leadership position.
+
+<h4>Personally</h4>
+
+This page isn't long enough to describe the list of things I am interested in outside of my professional working life (and there isn't really a clear distinction anyway).
+
+I'm a happy family man, with a wife who is my partner in everything, including my business. Father of one, soon to be two. On any given day I could be spending time woodworking, developing a new software product idea, digging in the garden, soldering something, out on my mountain bike or deep in a book - usually with my son in tow.
+
+<h4>Reading List</h4>
+<h5>Last 5</h5>
+* The Goal - Eliyahu Goldratt
+* Making Things Move - Roberts
+* John dies at the end - David Wong
+* Brave new world - Aldous Huxley
+* Specification by Example - Adzic
+
+<h5>Next 5</h5>
+* Radical management - Denning
+* Continuous Delivery - Farley
+* Your Brain at work - Rock
+* The Wide Lens - Adner
+* Peopleware - DeMarco

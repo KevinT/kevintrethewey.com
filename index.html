@@ -6,20 +6,20 @@ javascript:
 ---
  
 <div id="search_results_area">
-  <h2>Posts <span id="result_count"></span></h2>
+  <h2>Pages <span id="result_count"></span></h2>
   <ul id="search_results" class="posts">
   </ul>
 </div>
 
 <div id="home">
 
-  <h2>Posts</h2>
+  <h2>Pages</h2>
 
   <ul class="posts">
 
 
 {% for weight in (1..10) %}
-  {% for post in site.posts %}
+  {% for post in site.pages %}
 
         {% if post.weight == weight %}
 
@@ -35,7 +35,7 @@ javascript:
   <br>
 
   <h2>Last 5 Tweets</h2>
-    <div id="tweet">
+    <div id="tweets">
         <p>Please wait while my tweets load <img src="/images/loading.gif" /></p>
         <p><a href="http://twitter.com/kevintrethewey">If you can't wait - check out what I've been twittering</a></p>
     </div>
@@ -43,7 +43,7 @@ javascript:
   
   <script type="text/javascript" charset="utf-8">
     var posts = [
-      {% for post in site.posts %}
+      {% for post in site.pages %}
         {
           title:   unescape('{{ post.title   | strip_html | cgi_escape }}').gsub(/\+/, ' '),
           summary: unescape('{{ post.summary | strip_html | cgi_escape }}').gsub(/\+/, ' '),
@@ -59,7 +59,7 @@ javascript:
   <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
 
   <script type="text/javascript">
-    getTwitters('tweet', {
+    getTwitters('tweets', {
       id: 'kevintrethewey',
       count: 8,
       enableLinks: true,

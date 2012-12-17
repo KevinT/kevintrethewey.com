@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: maruku
 pygments: true
 auto: true
 ftp_host: ftp.drivensoftware.net
