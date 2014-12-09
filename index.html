@@ -13,7 +13,7 @@ javascript:
 
 <div id="home">
 
-  <h2>Pages</h2>
+  <h2></h2>
 
   <ul class="posts">
 
@@ -32,14 +32,6 @@ javascript:
   {% endfor %}
 {% endfor %}
 
-  <br>
-
-  <h2>Last 5 Tweets</h2>
-    <div id="tweets">
-        <p>Please wait while my tweets load <img src="/images/loading.gif" /></p>
-        <p><a href="http://twitter.com/kevintrethewey">If you can't wait - check out what I've been twittering</a></p>
-    </div>
-  <br>
   
   <script type="text/javascript" charset="utf-8">
     var posts = [
@@ -56,16 +48,5 @@ javascript:
     posts.pop();
   </script>
 
-  <script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
-
-  <script type="text/javascript">
-    getTwitters('tweets', {
-      id: 'kevintrethewey',
-      count: 8,
-      enableLinks: true,
-      ignoreReplies: true,
-      clearContents: true,
-      template: '%text% <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a><hr>'
-    });
   </script>
 </div>

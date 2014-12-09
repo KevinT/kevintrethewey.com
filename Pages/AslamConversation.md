@@ -2,8 +2,8 @@
 layout: post
 title: Enriching the conversation
 summary: My side of a twitter debate between myself (@KevinTrethewey) and Aslam Khan (@AslamKhn)
-weight: 1
-lastupdated: Dec 22 2011 06:27 AM
+weight: 10
+lastupdated: Dec 22 2013 06:27 AM
 ---
 
 On the 14th of December 2013 (last Saturday at the time of writing this) I facilitated the <a href="http://www.meetup.com/coderetreat">Johannesburg instance</a> of <a href="http://www.coderetreat.org">Coderetreat</a>, as part of the "Global Day of Coderetreat". These are free events for people who already know how to write software. The team at Driven Software (my company) organises, facilitates, sponsors and arranges co-sponsorship. This event was our 12th.

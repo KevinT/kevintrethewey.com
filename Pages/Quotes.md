@@ -2,7 +2,7 @@
 layout: post
 title: Quotes
 summary: A collection of other people's quotes and comments that mean something to me...
-weight: 2
+weight: 5
 lastupdated: Dec 14 2012 05:27 AM
 ---
 
