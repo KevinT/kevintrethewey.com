@@ -1,11 +1,10 @@
 ---
 layout: post
-title: My Aphorisms
+title: My Shower Thoughts
 summary: Short ideas or observations about the world around me...
 weight: 2
 lastupdated: Dec 09 2014 06:27 AM
 ---
-
 
 *   Team dynamics seem to be much healthier when the person leading what gets done and the one leading how are not the same person.
 *   We equate effort with value because effort's easier to quantify and measure. In knowledge work they don't correlate. Ever.
@@ -27,4 +26,3 @@ lastupdated: Dec 09 2014 06:27 AM
 *   It's not the strongest who go forwards, it's the ones who can adapt.
 *   Progress in mastery is a transcendence of the questions, not the answers.
 *   Pause for a moment today and think about whether the tools you are using are limiting you.
-*   
