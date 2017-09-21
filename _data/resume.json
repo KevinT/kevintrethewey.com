@@ -1,29 +1,29 @@
 {
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
-    "picture": "https://placehold.it/126x126",
+    "name": "Kevin Trethewey",
+    "label": "Consultant. Coach. Founder of Driven Alliance.",
+    "picture": "/assets/img/kevint-128-128.jpg",
     "email": "",
-    "phone": "(912) 555-4321",
-    "website": "https://richardhendricks.com",
+    "phone": "+27 (0) 82 579-9154",
+    "website": "https://kevintrethewey.com",
     "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation! Open `_data/resume.json` to edit this text.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Sandton",
+      "postalCode": "2146",
+      "city": "Johannesburg",
+      "countryCode": "ZA",
+      "region": "Gauteng"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "kevintrethewey",
+        "url": "http://twitter.com/kevintrethewey"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "LinkedIn",
+        "username": "kevint",
+        "url": "https://www.linkedin.com/in/kevint"
       }
     ]
   },
@@ -123,8 +123,41 @@
   ],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Morag Evans",
+      "reference": "I have the greatest respect for Kevin who continually impresses me both with his knowledge of his industry as well as his commitment to nurturing and growing developers. It has been a privilege working with him."
+    },
+    {
+      "name": "Hendrik Briel",
+      "reference": "Kevin may work in the technology field, but he believes results come from motivated well functioning teams. He has made a vast impact to the way technology is approached and implemented at my employer. We have had huge successes primarily as a result of Kevin's input."
+    },
+    {
+      "name": "Daniel Cabral",
+      "reference": "I thoroughly enjoyed Kevin's workshops and presentations at FirstRand. Kevin was instrumental in instilling a culture of unit testing and practicing other good software dev principles (eg. SOLID, agile, etc.) at FirstRand. He is passionate about software and I am sure he will continue to be a success."
+    },
+    {
+      "name": "Tania van Wyk de Vries",
+      "reference": "Kevin has very sound knowledge on technical practices related to writing good quality software. Is works very closely with developers and they always have a lot of respect for him due to the knowledge and approach he takes. An asset to any engagement."
+    },
+    {
+      "name": "Johann de Swart",
+      "reference": "Working with Kevin is as insightful as it is inspiring. He is driven and has an unending passion for teaching and driving others to teach. The breadth and depth of his technical and management knowledge far exceeds what has come to be the norm in our industry and this has pushed me to up my own game in terms of knowledge transfer and technical excellence. I would gladly work with him in the future."
+    },
+    {
+      "name": "Cheri Way",
+      "reference": "I worked with Kevin at De Beers. I found Kevin to have a wealth of technical knowledge which he is eager to share. He was early in the South African market to adopt the agile approach to development which is now becoming a mainstream movement. I am sure he will be a valueble asset to any company or team wanting to implement an agile approach to their development strategy."
+    },
+    {
+      "name": "Chris Rheeder",
+      "reference": "Kevin provided us with the insights needed to transform from a traditional 'waterfall approach' systems development team to an Agile SCRUM methodology that produced 3 times the output previously achieved. I have made use of Kevins services more than once and will most certainly recommend him."
+    },
+    {
+      "name": "Paul Sainsbury",
+      "reference": "Kevin has a keen eye for detail and a great ability to understand our business needs and provide training and solutions to meet them well."
+    },
+    {
+      "name": "Ridz van Wyk de Vries",
+      "reference": "Kevin is technically very astute, is pragmatic in his overall solution recommendations and really comes into his own in a team leadership/mentor role. Over the years I have become accustomed to handing him and his team a business problem, knowing that he will deliver the optimal solution with no intervention necessary."
     }
   ]
+
 }
