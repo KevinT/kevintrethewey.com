@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-menu: true
+menu: false
 order: 7
 ---
 

@@ -2,32 +2,32 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Hydejack
+title:               Kevin Trethewey
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://qwtel.com
+url:                 http://kevintrethewey.com
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             /hydejack
+baseurl:             ''
 
 # A very short description of your page
-tagline:             A pretentious two-column Jekyll theme.
+tagline:             Building longer tables instead of higher fences. Leaving the campsite better than I found it. Overusing metaphors.
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Open `_config.yml` to edit this text.
+  I'm always interested in consulting and speaking opportunities internationally. 
+  Please connect with me for this, or anything else you'd like to discuss.  
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Kevin Trethewey
+  email:             kevint@gmail.com
 
 # Fallback image and color
-image:               /hydejack/assets/img/nap.jpg
+image:               /assets/img/nap.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
@@ -45,10 +45,10 @@ google_fonts:        Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    <UA-XXXXXXXX-X>
+google_analytics:    UA-146968-7
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    <username>
+disqus_shortname:    kevint
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2017. All rights reserved.'
@@ -97,7 +97,7 @@ collections:
 #  Advanced configuration
 # -----------------------------------------------------------------------------
 
-gems:
+plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
