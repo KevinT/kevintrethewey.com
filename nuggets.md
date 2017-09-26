@@ -31,7 +31,6 @@ Short personal insights, observations and hypothesis. I may expand these into [b
 |A 10x dev is'nt 10x because they're 10x smarter. They've taken the time to learn & practice the skills that make them more 10x effective. On question of if there's such thing as 10x: Definitely. There's also -10x. And often those who don't understand software confuse the two.|
 |Hypothesis: If a human being leaves your team and you are not at some level sad about that, you were probably not a team in the first place.|
 |Your organisation’s structure is perfectly designed for the speed it’s currently going.|
-{:.scroll-table-small}
 
 |2016|
 |----|
@@ -40,7 +39,6 @@ Short personal insights, observations and hypothesis. I may expand these into [b
 |When people resign or leave you can't replace them. You may find someone to do the same work that they used to. These two things are not the same.|
 |Manual labour has a symmetrical relationship between hours worked and value produced. Mental labour is asymmetrical.|
 |Progress in mastery is a transcendence of the questions, not the answers.|
-{:.scroll-table-small}
 
 |2015|
 |----|
@@ -48,7 +46,6 @@ Short personal insights, observations and hypothesis. I may expand these into [b
 |If at first you don’t succeed and you can’t afford to try again, you probably approached it wrong.|
 |In every line of code you write you make design decisions. You make an asynchronous trade off between future effort and value.|
 |It’s not the strongest who go forwards, it’s the ones who can adapt.|
-{:.scroll-table-small}
 
 |2014|
 |----|
@@ -59,7 +56,6 @@ Short personal insights, observations and hypothesis. I may expand these into [b
 |When someone tells me a tech is powerful but complicated I’m sceptical. When they say it’s powerful and simple then they have my attention.|
 |Next challenge for mid-large enterprise: understanding they still need good software developers whilst good developers no longer need them.|
 |It’s much harder to admit you have a problem when you don’t know how to deal with it. The converse is also true.|
-{:.scroll-table-small}
 
 
 [blog]: blog.md
