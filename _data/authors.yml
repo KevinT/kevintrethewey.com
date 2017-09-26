@@ -8,9 +8,7 @@ qwtel:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I have had the opportunity to build software, teams and organisations in vastly different domains, and seen vastly differing levels of success along the way. 
-    Through my experiences I have grown an understanding of the values, principles and practices that are required for healthy systems, as well as gained deep experience in how to bring these into organisations.
-
+    I'm a coach, consultant and business owner with a software development background and a deep curiosity for how work works. I have had the opportunity to build software, teams and organisations in vastly different domains, and seen growing levels of success along the way.
   # This photo will be used in the about section
   picture:
     src:             /assets/img/kevint-128-128.jpg

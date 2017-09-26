@@ -3,7 +3,7 @@ layout: projects
 title: Projects
 show_collection: projects
 description: >
-  This is a gallery of all previous versions of Hyde and Hydejack and should give you and impression of what the `projects` layout can do.
+  This is a selection of the things I've started or had a lead role in creating and curating. It's a mix of professional, community and personal projects.
 menu: true
 order: 3
 ---

@@ -6,14 +6,14 @@ order: 2
 sitemap: true
 ---
 
-Short insights, observations and hypothesis. I may expand these into [blog](/blog) posts, or delete them when my thinking moves on.
+Short personal insights, observations and hypothesis. I may expand these into [blog] posts, or delete them when my thinking moves on.
 
 *Let me know if there's any you would get value on me expanding further...*
 
 |2017|
 |----|
 |Agile methods are techniques rather than objectives. It follows that techniques of Agile must not be allowed to obscure the goal of agility.|
-|The true value of an #agile board lies in its ability to enable collaboration, not in tracking when the work will be done.|
+|The true value of an Agile board lies in its ability to enable collaboration, not in tracking when the work will be done.|
 |If a team is considering digitizing their retrospectives, it's very possible they've not understood the original intent of the practice.|
 |The longer I haven't done something the more I have all the answers for doing it right.|
 |The older I get, the more time becomes a vector in my understanding of how things work.|
@@ -60,3 +60,6 @@ Short insights, observations and hypothesis. I may expand these into [blog](/blo
 |Next challenge for mid-large enterprise: understanding they still need good software developers whilst good developers no longer need them.|
 |It’s much harder to admit you have a problem when you don’t know how to deal with it. The converse is also true.|
 {:.scroll-table-small}
+
+
+[blog]: blog.md

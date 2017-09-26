@@ -2,6 +2,7 @@
 layout: welcome
 title: Welcome
 selected_projects:
+  - _projects/drivenci.md
   - _projects/teamtourism.md
   - _projects/spinemodel.md
   - _projects/teamcanary.md
@@ -13,12 +14,11 @@ more_posts: posts.md
 ---
 
 
-Open `index.md` to edit this text.
+This personal site is where I keep track of some of the [things I'm working on][projects]. I also [blog] occasionally, and record what I am thinking about as small [nuggets] worth pondering about.
+
+I'm very interested in global business and learning opportunities, but would not relocate from Johannesburg South Africa at this time.
 
 [blog]: blog.md
-[portfolio]: projects.md
+[projects]: projects.md
 [resume]: resume.md
-[docs]: docs/6.6.0/index.md
-[installation]: docs/6.6.0/installation.md
-[configuration]: docs/6.6.0/configuration.md
-[migration]: docs/6.6.0/migration.md
+[nuggets]: nuggets.md

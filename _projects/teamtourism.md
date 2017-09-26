@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Team Tourism
-date: 21 Sep 2017
+date: 1 Jan 2017
 screenshot:
   src: /assets/img/projects/teamtourism@0,25x.jpg
   srcset:
