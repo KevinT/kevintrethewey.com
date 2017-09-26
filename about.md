@@ -7,7 +7,7 @@ order: 5
 
 If you would like to know more about my professional career, [LinkedIn] is a good place to start.
 
-I have quite an active [twitter account] where I tweet what I am thinking about or interested in. This is usually things around the work I do, and things I am trying to understand in relation to how work works in the organisations I am involved in.
+I have quite an active [twitter account] where I tweet what I am thinking about or interested in. This is usually topics around the work I do, and concepts I am trying to understand in relation to how work works in the organisations I am involved in.
 
 Outside of work related things, I'm a very involved and committed father to two young boys, and husband to a [wonderful wife and mother][shanaaz] (who is also my [business partner][driven]).
 
