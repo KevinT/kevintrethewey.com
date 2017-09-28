@@ -16,4 +16,11 @@ links:
     url: https://twitter.com/search?q=%23drivenci
 ---
 
-...TODO
+Every year since 2014, [we][driven] host an invitation-only Drivenci [unconference]. People from the software development industry (coders / analysts/ coaches / start up people) are invited to spend a weekend away together (60-80 people). There is always great fun with lots of learning across many topics beside technical ones.
+
+Each year we also invite a couple of people from outside our direct software industry to attend and bring their different perspective to the group. We've had a fine artist, a banker, a crypto currency expert, even a sexologist. The idea is that we don't sit in an echo chamber and only see things from a narrow perspective.
+
+The event runs on the last weekend of July every year.
+
+[driven]: http://drivenalliance.com
+[unconference]: https://en.wikipedia.org/wiki/Unconference
