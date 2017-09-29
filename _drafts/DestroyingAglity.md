@@ -7,3 +7,6 @@ description: >
   First post in a series on how to destroy agility at work.
 ---
 
+future posts:
+WIP
+No North Star
