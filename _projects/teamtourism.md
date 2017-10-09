@@ -18,7 +18,9 @@ links:
 
 The seed for Team Tourism as a concept was planted during a conversation between myself and [David Campey][campey] around 2013. At first it was just a couple of us (I particularly remember [Mark Pearl][pearl] being very active) asking friends in the software development industry if we could come and visit their environments as a tourist.
 
-From there my company [Driven][driven] invested some time and money into putting up a website and printing awesome physical passports to take with on our visits.
+From there my company [Driven][driven] invested some time and money into putting up a website and printing awesome physical passports to take with on our visits...
+
+![Team Tourism Passport](/assets/img/projects/teamtourismpassport.jpg)
 
 You can learn more about the idea, and order your passport from the website: [TeamTourism.directory][teamtourism]. The long term plan is to grow the TT community internationally, facilitating connections with people around the world!
 
