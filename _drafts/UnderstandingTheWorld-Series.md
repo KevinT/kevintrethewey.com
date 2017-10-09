@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding The World
+title: Understanding The World - Series
 tags: [systemic thinking]
 comments: true
 description: >

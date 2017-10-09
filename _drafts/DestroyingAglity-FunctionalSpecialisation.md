@@ -4,9 +4,7 @@ title: Destroying Agility - Functional Specialisation
 tags: [systemic thinking, agility]
 comments: true
 description: >
-  First post in a series on how to destroy agility at work.
+  still TODO
 ---
-
-future posts:
-WIP
-No North Star
+  
+First post in a series on how to destroy agility at work.

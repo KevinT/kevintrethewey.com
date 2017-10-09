@@ -12,8 +12,11 @@ Short personal insights, observations and hypothesis. I may expand these into [b
 
 |2017|
 |----|
-|Agile methods are techniques rather than objectives. It follows that techniques of Agile must not be allowed to obscure the goal of agility.|
-|The true value of an Agile board lies in its ability to enable collaboration, not in tracking when the work will be done.|
+|[Observation: Command & control style managers produce conditions in which only command and control management gets anything done.](https://twitter.com/kevintrethewey/status/915853025796861953){:target="_blank"}|
+|[You can’t predict a complex work system using metrics. You can use metrics to learn how to change a system to be more predictable.](https://twitter.com/kevintrethewey/status/916204713569345542){:target="_blank"}|
+|[Functional specialization of individuals destroys team agility. Functional specialization of teams destroys organizational agility.](https://twitter.com/kevintrethewey/status/913285238201122816){:target="_blank"}|
+|[Agile methods are techniques rather than objectives. It follows that techniques of Agile must not be allowed to obscure the goal of agility.](https://twitter.com/kevintrethewey/status/907253136540258305){:target="_blank"}|
+|[The true value of an Agile board lies in its ability to enable collaboration, not in tracking when the work will be done.](https://twitter.com/kevintrethewey/status/905777052128858112){:target="_blank"}|
 |If a team is considering digitizing their retrospectives, it's very possible they've not understood the original intent of the practice.|
 |The longer I haven't done something the more I have all the answers for doing it right.|
 |The older I get, the more time becomes a vector in my understanding of how things work.|
