@@ -1,88 +1,96 @@
-$pad: 1rem;
-
-.grid {
-  margin-left: -$pad;
-  display: flex;
-  flex-wrap: wrap;
-
-  &::after {
-    @include clearfix();
-  }
+.sixteen-nine {
+  @include aspect-ratio(16, 9);
 }
 
-.col {
-  float: left;
-  padding-left: $pad;
-  margin-bottom: $pad;
-  width: 100%;
-  display: flex;
-}
+.layout-projects, .layout-project, .layout-welcome  {
+  $pad: 1rem;
 
-@media screen and (min-width: $break-point-1) {
-  .col-1-2 { width: 50%; }
-}
+  .columns {
+    margin-left: -$pad;
+    display: flex;
+    flex-wrap: wrap;
 
-@media screen and (min-width: $break-point-2) {
-  .col-1-2 { width: 100%; }
-}
-
-@media screen and (min-width: $break-point-3) {
-  .col-1-2 { width: 50%; }
-}
-
-@media print {
-  .grid {
-    display: block;
+    &::after {
+      @include clearfix();
+    }
   }
 
-  .col {
-    display: block;
-    width: 50%;
-  }
-}
-
-.card {
-  width: 100%;
-  background: #fff;
-  border: 1px solid $border-color-light;
-  text-align: center;
-  padding-bottom: 0.75rem;
-  margin-bottom: 1rem;
-  contain: content;
-  overflow: hidden;
-  border-radius: .25rem;
-
-  page-break-inside: avoid;
-
-  > a > .img {
-    margin-bottom: 0;
-    border-bottom: 1px solid $border-color-light;
-    border-top: 1px solid $border-color-light;
-    position: relative;
-    top: -1px;
+  .column {
+    float: left;
+    padding-left: $pad;
+    margin-bottom: $pad;
+    width: 100%;
+    display: flex;
   }
 
-  > .name, > .caption {
-    padding: 0 1rem;
+  @media screen and (min-width: $break-point-1) {
+    .column-1-2 { width: 50%; }
   }
 
-  > .name {
-    display: block;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 0.75rem;
-    margin-bottom: 0.25rem;
-    color: inherit;
+  @media print {
+    .columns {
+      display: block;
+    }
+
+    .column {
+      display: block;
+      width: 50%;
+    }
   }
 
-  > .caption {
-    margin: 0.25rem 0;
+  .project-card {
+    width: 100%;
+    background: $body-bg;
+    border: 1px solid $border-color;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    border-radius: .25rem;
+    contain: content;
 
-    font-size: smaller;
-    color: $gray-text;
+    page-break-inside: avoid;
 
-    > p {
+    > a > .project-card-img {
       margin-bottom: 0;
+      border-bottom: 1px solid $border-color;
+      border-top: 1px solid $border-color;
+      position: relative;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      top: -1px;
+      > img { transition: transform 500ms; }
+    }
+
+    > a:hover > .project-card-img > img {
+      transition: transform 250ms;
+      transform: scale(1.025);
+    }
+
+    > .project-card-title, > .project-card-text {
+      text-align: center;
+      padding: 0 1rem;
+    }
+
+    > .project-card-title {
+      display: block;
+      font-size: 1rem;
+      margin-top: 0.75rem;
+      margin-bottom: 0.25rem;
+      color: inherit;
+    }
+
+    > .project-card-text {
+      margin: 0.25rem 0;
+    }
+  }
+
+  .column-1 > .project-card {
+    > .project-card-title {
+      font-size: 1.17rem;
+    }
+
+    > .project-card-text {
+      font-size: 1rem;
     }
   }
 }

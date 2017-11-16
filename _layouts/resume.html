@@ -2,32 +2,42 @@
 layout: base
 ---
 
-<!--[if gt IE 8]><!---->
-<style>{% capture include_to_scssify %}{% include pro/styles/resume.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
-<!--<![endif]-->
+{% assign strings = site.data.strings %}
+{% assign colon = strings.colon | default:":" %}
+{% assign icons = strings.resume.icons %}
+{% assign present = strings.resume.present | default:"present" %}
+{% assign from_to_separator = strings.resume.from_to_separator | default:"–" %}
+{% assign from_to_format = strings.date_formats.resume | default:"%b %Y" %}
 
+{% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 {% assign resume = site.data.resume %}
 
-<article class="page" role="article">
+<article class="page {% unless nsd %}vcard h-card{% endunless %}" role="article" {% unless nsd %}vocab="http://schema.org/" typeof="Person"{% endunless %}>
+  <meta property="mainEntityOfPage" content="{{ page.url | absolute_url }}"/>
+
   {% assign basics = resume.basics %}
 
   {% if basics.picture.size > 0 %}
-    {% include srcset-img.html class="me" img=basics.picture alt=basics.name %}
+    {% include srcset-img.html class="avatar photo u-photo" img=basics.picture alt=basics.name property="image" %}
   {% endif %}
 
   <header class="hr">
-    <h1 class="page-title">{{ basics.name }}</h1>
+    <h1 class="page-title fn p-name" property="name">{{ basics.name }}</h1>
     {% if basics.label %}
-      <p class="h3 faded subline">{{ basics.label }}</p>
+      <p class="h3 faded subline title p-job-title" property="jobTitle">{{ basics.label }}</p>
     {% endif %}
   </header>
 
   {% if basics.summary.size > 0 %}
-    {{ basics.summary | markdownify }}
+    <p class="note p-note" property="description">
+      {{ basics.summary | markdownify | replace:'<p>','' | replace:'</p>','' }}
+    </p>
   {% endif %}
 
-  <dl class="grid contact">
-    <div class="col col-3-5">
+  {% include message.html text=page.description hide=page.hide_description alt="" %}
+
+  <div class="columns contact">
+    <dl class="column column-3-5">
       {% assign location = basics.location %}
       {% if
         location.address.size > 0 or
@@ -37,34 +47,36 @@ layout: base
         location.countryCode.size > 0
       %}
         <dt class="faded">
-          <span class="icon-location" title="Location"></span>
-          <span class="sr-only">Location:</span>
+          <span class="{{ icons.location | default:'icon-location' }}" title="{{ strings.resume.location | default:'Location' }}"></span>
+          <span class="sr-only">{{ strings.resume.location | default:"Location" }}</span>
         </dt>
 
-        <dd class="h4">
+        {% assign sep = strings.resume.location_separator | default:"," %}
+        <dd class="bold adr p-adr h-adr" property="address" typeof="PostalAddress">
           {% if location.address.size > 0 %}
-            {{ location.address }},
+            <span class="street-address p-street-address" property="streetAddress">{{ location.address }}</span>{{ sep }}
           {% endif %}
 
           {% if location.postalCode.size > 0 %}
-            {{ location.postalCode }},
+            <span class="postal-code p-postal-code" property="postalCode">{{ location.postalCode }}</span>{{ sep }}
           {% endif %}
 
           {% if location.city.size > 0 %}
-            {{ location.city }},
+            <span class="locality p-locality" property="addressLocality">{{ location.city }}</span>{{ sep }}
           {% endif %}
 
           {% if location.region.size > 0 %}
-            {{ location.region }},
+            <span class="region p-region" property="addressRegion">{{ location.region }}</span>{{ sep }}
           {% endif %}
 
           {% if location.countryCode.size > 0 %}
             {% assign countryCode = location.countryCode | upcase %}
-            {% assign country = site.data.countries | where:"code", countryCode | first %}
+            {% assign country = site.data.countries | where:"code",countryCode | first %}
             {% if country %}
-              {{ country.name }}
+              <meta property="addressCountry" content="{{ location.countryCode }}"/>
+              <span class="country-name p-country-name">{{ country.name }}</span>
             {% else %}
-              {{ location.countryCode }}
+              <span class="country-name p-country-name" property="addressCountry">{{ location.countryCode }}</span>
             {% endif %}
           {% endif %}
         </dd>
@@ -72,37 +84,39 @@ layout: base
 
       {% if basics.email.size > 0 %}
         <dt class="faded">
-          <span class="icon-envelop" title="Email"> </span>
-          <span class="sr-only">Email:</span>
+          <span class="{{ icons.email | default:'icon-envelop' }}" title="{{ strings.resume.email | default:'Email' }}"></span>
+          <span class="sr-only">{{ strings.resume.email | default:"Email" }}</span>
         </dt>
-        <dd class="h4">
-          <a href="mailto:{{ basics.email }}" class="no-push-state">{{ basics.email }}</a>
+        <dd class="bold">
+          <meta property="email" content="{{ basics.email }}"/>
+          <a href="mailto:{{ basics.email }}" class="external email u-email">{{ basics.email }}</a>
         </dd>
       {% endif %}
 
       {% if basics.phone.size > 0 %}
         <dt class="faded">
-          <span class="icon-phone" title="Phone"></span>
-          <span class="sr-only">Phone:</span>
+          <span class="{{ icons.phone | default:'icon-phone' }}" title="{{ strings.resume.phone | default:'Phone' }}"></span>
+          <span class="sr-only">{{ strings.resume.phone | default:"Phone" }}</span>
         </dt>
-        <dd class="h4">
-          <a href="tel:{{ basics.phone }}" class="no-push-state">{{ basics.phone }}</a>
+        <dd class="bold">
+          <meta property="telephone" content="{{ basics.phone }}"/>
+          <a href="tel:{{ basics.phone | replace:' ','' }}" class="external tel p-tel">{{ basics.phone }}</a>
         </dd>
       {% endif %}
 
       {% if basics.website.size > 0 %}
         <dt class="faded">
-          <span class="icon-link" title="Website"></span>
-          <span class="sr-only">Website:</span>
+          <span class="{{ icons.website | default:'icon-link' }}" title="{{ strings.resume.website | default:'Website' }}"></span>
+          <span class="sr-only">{{ strings.resume.website | default:"Website" }}</span>
         </dt>
-        <dd class="h4">
-          <a href="{{ basics.website }}">{{ basics.website }}</a>
+        <dd class="bold">
+          <a href="{{ basics.website }}" class="url u-url" property="sameAs">{{ basics.website }}</a>
         </dd>
       {% endif %}
-    </div>
+    </dl>
 
     {% if basics.profiles.size > 0 %}
-      <div class="col col-2-5">
+      <dl class="column column-2-5">
         {% for pro in basics.profiles %}
           {% assign platform = pro.network | downcase %}
           {% assign = data_social = site.data.social[platform] %}
@@ -113,173 +127,240 @@ layout: base
             {% assign name = pro.network %}
           {% endif %}
           <dt class="faded">
-            <span class="{{ icon | default:'icon-link' }}" title="{{ name }}"></span>
-            <span class="sr-only">{{ name }}:</span>
+            <span class="{{ icon | default:icons.website | default:'icon-link' }}" title="{{ name }}"></span>
+            <span class="sr-only">{{ name }}</span>
           </dt>
-          <dd class="h4">
-            {% include link.html href=pro.url title=pro.username %}
+          <dd class="bold">
+            {% include link.html href=pro.url class="nickname p-nickname" title=pro.username property="sameAs" %}
           </dd>
         {% endfor %}
-      </div>
+      </dl>
     {% endif %}
-  </dl>
+  </div>
 
-  <div class="grid">
-    <div class="col col-3-5">
+  <div class="columns">
+    <div class="column column-3-5">
       {% if resume.work.size > 0 %}
-        <h2 class="h3 faded hr">Experience <span class="symbol icon-briefcase"></span></h2>
+        <section>
+        <h2 id="work" class="h3 faded hr">
+          {{ strings.resume.work | default:"Experience" }}
+          <span class="symbol {{ icons.work | default:'icon-briefcase' }}"></span>
+        </h2>
         {% for work in resume.work %}
-          <header class="{% unless forloop.first %}mt3{% endunless %}">
-            <p class="heading faded">
-              <time datetime="{{ work.startDate }}">{{ work.startDate | date: "%b %Y"  }}</time>
-              –
-              <time datetime="{{ work.endDate }}">{{ work.endDate | date: "%b %Y" }}</time>
-            </p>
-            <h3 class="h4">
-              <span>{{ work.position }}</span>
-              <span class="faded"> at </span>
-              {% include link.html title=work.company href=work.website %}
+          <header
+            class="{% unless forloop.first %}mt3{% endunless %}"
+            property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}"
+            typeof="Organization"
+            >
+            {% if work.startDate.size > 0 %}
+              <p class="faded">
+                <time datetime="{{ work.startDate }}">{{ work.startDate | date:from_to_format }}</time>
+                {{ from_to_separator }}
+                {% if work.endDate.size > 0 %}
+                  <time datetime="{{ work.endDate }}">{{ work.endDate | date:from_to_format }}</time>
+                {% else %}
+                  <em>{{ present }}</em>
+                {% endif %}
+              </p>
+            {% endif %}
+            <h3 class="h4 faded">
+              <meta property="name" content="{{ work.company }}"/>
+              {% capture position %}<span class="bc">{{ work.position }}</span>{% endcapture %}
+              {% capture company_class %}{% if work.endDate.size > 0 %}{% else %}org p-org h-card{% endif %}{% endcapture %}
+              {% capture company %}{% include link.html title=work.company href=work.website class=company_class span_class="bc" property="sameAs" %}{% endcapture %}
+              {{ strings.resume.work_title
+                | default:"<!--position--> at <!--company-->"
+                | replace:"<!--position-->", position
+                | replace:"<!--company-->", company
+              }}
             </h3>
           </header>
 
-          {% include message.html text=work.summary %}
+          {% include message.html text=work.summary alt="" %}
 
-          <h4 class="sr-only">Highlights</h4>
+          <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
           <ul>
             {% for highlight in work.highlights %}
               <li>{{ highlight }}</li>
             {% endfor %}
           </ul>
         {% endfor %}
-
+        </section>
       {% endif %}
 
       {% if resume.volunteer.size > 0 %}
-        <h2 class="h3 faded hr">Volunteer <span class="symbol icon-earth"></span></h2>
+        <section>
+        <h2 id="volunteer" class="h3 faded hr">
+          {{ strings.resume.volunteer | default:"Volunteer" }}
+          <span class="symbol {{ icons.volunteer | default:'icon-earth' }}"></span>
+        </h2>
         {% for vol in resume.volunteer %}
           <header class="{% unless forloop.first %}mt3{% endunless %}">
-            <p class="heading faded">
-              <time datetime="{{ vol.startDate }}">{{ vol.startDate | date: "%b %Y"  }}</time>
-              –
-              <time datetime="{{ vol.endDate }}">{{ vol.endDate | date: "%b %Y"  }}</time>
-            </p>
-            <h3 class="h4">
-              <span>{{ vol.position }}</span>
-              <span class="faded"> at </span>
-              {% include link.html title=vol.organization href=vol.website %}
+            {% if vol.startDate.size > 0 %}
+              <p class="faded">
+                <time datetime="{{ vol.startDate }}">{{ vol.startDate | date:from_to_format }}</time>
+                {{ from_to_separator }}
+                {% if vol.endDate.size > 0 %}
+                  <time datetime="{{ vol.endDate }}">{{ vol.endDate | date:from_to_format }}</time>
+                {% else %}
+                  <em>{{ present }}</em>
+                {% endif %}
+              </p>
+            {% endif %}
+            <h3 class="h4 faded">
+              {% capture position %}<span class="bc">{{ vol.position }}</span>{% endcapture %}
+              {% capture organization %}{% include link.html title=vol.organization href=vol.website span_class="bc" %}{% endcapture %}
+              {{ strings.resume.volunteer_title
+                | default:"<!--position--> at <!--organization-->"
+                | replace:"<!--position-->", position
+                | replace:"<!--organization-->", organization
+              }}
             </h3>
           </header>
 
-          {% include message.html text=vol.summary %}
+          {% include message.html text=vol.summary alt="" %}
 
-          <h4 class="sr-only">Highlights</h4>
+          <h4 class="sr-only">{{ strings.resume.highlights | default:"Highlights" }}</h4>
           <ul>
             {% for highlight in vol.highlights %}
               <li>{{ highlight }}</li>
             {% endfor %}
           </ul>
         {% endfor %}
-
+        </section>
       {% endif %}
 
       {% if resume.education.size > 0 %}
-        <h2 class="h3 faded hr">Education <span class="symbol icon-library"></span></h2>
+        <section>
+        <h2 id="education" class="h3 faded hr">
+          {{ strings.resume.education | default:"Education" }}
+          <span class="symbol {{ icons.education | default:'icon-library' }}"></span>
+        </h2>
         {% for edu in resume.education %}
           <header class="{% unless forloop.first %}mt3{% endunless %}">
-            <p class="heading faded">
-              <time datetime="{{ edu.startDate }}">{{ edu.startDate | date: "%b %Y"  }}</time>
-              –
-              <time datetime="{{ edu.endDate }}">{{ edu.endDate | date: "%b %Y"  }}</time>
-            </p>
-            <h3 class="h4">
-              <span>{{ edu.studyType }}</span>
-              {% if edu.area.size > 0 %}
-                <span class="faded"> in </span>
-                <span>{{ edu.area }}</span>
-              {% endif %}
-              {% if edu.institution.size > 0 %}
-                <span class="faded"> at </span>
-                <span>{{ edu.institution }}</span>
-              {% endif %}
-              {% if edu.gpa.size > 0 %}
-                <span class="faded"> with GPA of </span>
-                <span>{{ edu.gpa }}</span>
-              {% endif %}
+            {% if edu.startDate.size > 0 %}
+              <p class="faded">
+                <time datetime="{{ edu.startDate }}">{{ edu.startDate | date:from_to_format }}</time>
+                {{ from_to_separator }}
+                {% if edu.endDate.size > 0 %}
+                  <time datetime="{{ edu.endDate }}">{{ edu.endDate | date:from_to_format }}</time>
+                {% else %}
+                  <em>{{ present }}</em>
+                {% endif %}
+              </p>
+            {% endif %}
+            <h3 class="h4 faded" {% if edu.endDate.size > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
+              {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{% endcapture %}
+              {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
+              {% capture institution %}<span class="bc" {% if edu.endDate.size > 0 %}property="name"{% endif %}>{{ edu.institution }}</span>{% endcapture %}
+              {% capture gpa %}<span class="bc">{{ edu.gpa }}</span>{% endcapture %}
+              {{ strings.resume.education_title
+                | default:"<!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->"
+                | replace:"<!--study_type-->", study_type
+                | replace:"<!--area-->", area
+                | replace:"<!--institution-->", institution
+                | replace:"<!--gpa-->", gpa
+              }}
             </h3>
           </header>
 
-          <h4 class="faded" style="margin-top:0">Courses</h4>
+          <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
           <ul>
             {% for course in edu.courses %}
               <li>{{ course }}</li>
             {% endfor %}
           </ul>
         {% endfor %}
-
+        </section>
       {% endif %}
 
       {% if resume.awards.size > 0 %}
-        <h2 class="h3 faded hr">Awards <span class="symbol icon-trophy"></span></h2>
+        <section>
+        <h2 id="awards" class="h3 faded hr">
+          {{ strings.resume.awards | default:"Awards" }}
+          <span class="symbol {{ icons.awards | default:'icon-trophy' }}"></span>
+        </h2>
         {% for awa in resume.awards %}
           <header class="{% unless forloop.first %}mt3{% endunless %}">
-            <p class="heading faded">
-              <time datetime="{{ awa.date }}">{{ awa.date | date: "%b %Y"  }}</time>
-            </p>
-            <h3 class="h4">
-              <span>{{ awa.title }}</span>
-              {% if awa.awarder.size > 0 %}
-                <span class="faded"> by </span>
-                <span>{{ awa.awarder }}</span>
-              {% endif %}
+            {% if awa.date.size > 0 %}
+              <p class="faded">
+                <time datetime="{{ awa.date }}">{{ awa.date | date:from_to_format }}</time>
+              </p>
+            {% endif %}
+            <h3 class="h4 faded" property="award">
+              {% capture title %}<span class="bc">{{ awa.title }}</span>{% endcapture %}
+              {% capture awarder %}<span class="bc">{{ awa.awarder }}</span>{% endcapture %}
+              {{ strings.resume.awards_title
+                | default:"<!--title--> from <!--awarder-->"
+                | replace:"<!--title-->", title
+                | replace:"<!--awarder-->", awarder
+              }}
             </h3>
           </header>
 
-          {% include message.html text=awa.summary %}
+          {% include message.html text=awa.summary alt="" %}
         {% endfor %}
-
+        </section>
       {% endif %}
 
       {% if resume.publications.size > 0 %}
-        <h2 class="h3 faded hr">Publications <span class="symbol icon-book"></span></h2>
+        <section>
+        <h2 id="publications" class="h3 faded hr">
+          {{ strings.resume.publications | default:"Publications" }}
+          <span class="symbol {{ icons.publications | default:'icon-book' }}"></span>
+        </h2>
         {% for pub in resume.publications %}
           <header class="{% unless forloop.first %}mt3{% endunless %}">
-            <p class="heading faded">
-              <time datetime="{{ pub.releaseDate }}">{{ pub.releaseDate | date: "%b %Y"  }}</time>
-            </p>
-            <h3 class="h4">
-              {% include link.html title=pub.name href=pub.website %}
-              {% if pub.publisher.size > 0 %}
-                <span class="faded"> by </span>
-                <span>{{ pub.publisher }}</span>
-              {% endif %}
+            {% if pub.releaseDate.size > 0 %}
+              <p class="faded">
+                <time datetime="{{ pub.releaseDate }}">{{ pub.releaseDate | date:from_to_format }}</time>
+              </p>
+            {% endif %}
+            <h3 class="h4 faded">
+              {% capture name %}{% include link.html title=pub.name href=pub.website span_class="bc" %}{% endcapture %}
+              {% capture publisher %}<span class="bc">{{ pub.publisher }}</span>{% endcapture %}
+              {{ strings.resume.publications_title
+                | default:"<!--name--> by <!--publisher-->"
+                | replace:"<!--name-->", name
+                | replace:"<!--publisher-->", publisher
+              }}
             </h3>
           </header>
 
-          {% include message.html text=pub.summary %}
+          {% include message.html text=pub.summary alt="" %}
         {% endfor %}
-
+        </section>
       {% endif %}
 
       {% if resume.references.size > 0 %}
-        <h2 class="h3 faded hr">References <span class="symbol icon-quotes-right"></span></h2>
+        <section>
+        <h2 id="references" class="h3 faded hr">
+          {{ strings.resume.references | default:"References" }}
+          <span class="symbol {{ icons.references | default:'icon-quotes-right' }}"></span>
+        </h2>
         {% for ref in resume.references %}
-          <blockquote class="ref">
+          <blockquote class="reference">
             <p>{{ ref.reference }}</p>
             <footer>— <cite>{{ ref.name }}</cite></footer>
           </blockquote>
         {% endfor %}
+        </section>
       {% endif %}
     </div>
 
-    <div class="col col-2-5">
+    <div class="column column-2-5">
       {% if resume.languages.size > 0 %}
-        <h2 class="h3 faded hr">Languages <span class="symbol icon-bubbles"></span></h2>
+        <section>
+        <h2 id="languages" class="h3 faded hr">
+          {{ strings.resume.languages | default:"Languages" }}
+          <span class="symbol {{ icons.languages | default:'icon-bubbles' }}"></span>
+        </h2>
         <dl class="skills">
           {% for lng in resume.languages %}
             <dt class="h4 fl">{{ lng.language }}</dt>
             <dd class="faded clearafter">
-              <div class="heading fr" style="margin-bottom:0.5rem">
-                <span class="sr-only">Fluency:</span>
+              <div class="fr mb05">
+                <span class="sr-only">{{ strings.resume.fluency | default:"Fluency" }}{{ colon }}</span>
                 {% assign fluency = lng.fluency | slugify %}
                 {% case fluency %}
                   {% when 5 or "native-or-bilingual-proficiency" %}
@@ -319,16 +400,21 @@ layout: base
             </dd>
           {% endfor %}
         </dl>
+        </section>
       {% endif %}
 
       {% if resume.skills.size > 0 %}
-        <h2 class="h3 faded hr">Skills <span class="symbol icon-wrench"></span></h2>
+        <section>
+        <h2 id="skills" class="h3 faded hr">
+          {{ strings.resume.skills | default:"Skills" }}
+          <span class="symbol {{ icons.skills | default:'icon-wrench' }}"></span>
+        </h2>
         <dl class="skills">
           {% for skl in resume.skills %}
             <dt class="h4 fl">{{ skl.name }}</dt>
-            <dd class="faded">
-              <div class="heading fr clearafter" style="margin-bottom:0.5rem">
-                <span class="sr-only">Level:</span>
+            <dd class="faded clearafter">
+              <div class="fr mb05">
+                <span class="sr-only">{{ strings.resume.level | default:"Level" }}{{ colon }}</span>
                 {% assign level = skl.level | slugify %}
                 {% case level %}
                   {% when 3 or "master" or "expert" or "senior" %}
@@ -338,7 +424,7 @@ layout: base
                     </span>
                   {% when 2 or "intermediate" or "amateur"  %}
                     <span class="help" title="{{ skl.level }}">
-                      <span class="sr-only">Intermediate</span>
+                      <span class="sr-only">{{ skl.level }}</span>
                       <span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span>
                     </span>
                   {% when 1 or "beginner" or "novice" or "junior" %}
@@ -352,7 +438,7 @@ layout: base
               </div>
               {% if skl.keywords.size > 0 %}
               <div>
-                <span class="sr-only">Keywords:</span>
+                <span class="sr-only">{{ strings.resume.keywords | default:"Keywords" }}{{ colon }}</span>
                 <ul class="tags">
                   {% for key in skl.keywords %}
                     <li class="tag">{{ key }}</li>
@@ -363,15 +449,20 @@ layout: base
             </dd>
           {% endfor %}
         </dl>
+        </section>
       {% endif %}
 
       {% if resume.interests.size > 0 %}
-        <h2 class="h3 faded hr">Interests <span class="symbol icon-heart"></span></h2>
+        <section>
+        <h2 id="interests" class="h3 faded hr">
+          {{ strings.resume.interests | default:"Interests" }}
+          <span class="symbol {{ icons.interests | default:'icon-heart' }}"></span>
+        </h2>
         <dl class="skills">
           {% for int in resume.interests %}
             <dt class="h4">{{ int.name }}</dt>
             <dd>
-              <span class="sr-only">Keywords: </span>
+              <span class="sr-only">{{ strings.resume.keywords | default:"Keywords" }}{{ colon }}</span>
               <ul class="tags">
                 {% for key in int.keywords %}
                   <li class="tag">{{ key }}</li>
@@ -380,6 +471,7 @@ layout: base
             </dd>
           {% endfor %}
         </dl>
+        </section>
       {% endif %}
     </div>
   </div>

@@ -1,6 +1,10 @@
 ---
 layout: welcome
 title: Welcome
+description: >
+ ...
+hide_description: true
+image: /assets/img/default.jpg
 selected_projects:
   - _projects/drivenci.md
   - _projects/teamtourism.md
@@ -11,8 +15,8 @@ selected_posts:
   - _posts/2014-10-17-problems.md
 more_projects: projects.md
 more_posts: posts.md
+content_separator: <!--more-->
 ---
-
 
 This personal site is where I keep track of some of the [things I'm working on][projects]. I also [blog] occasionally, and record what I am thinking about as small [nuggets] worth pondering about.
 

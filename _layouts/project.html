@@ -2,73 +2,64 @@
 layout: base
 ---
 
-<!--[if gt IE 8]><!---->
-<style>{% capture include_to_scssify %}{% include pro/styles/projects.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
-<!--<![endif]-->
-
 {% assign project = page %}
+{% assign separator = site.data.strings.separator | default:"|" %}
+{% assign nsd = site.hydejack.no_structured_data | default:site.no_structured_data %}
 
-<article class="page" role="article">
+<article class="page" role="article" {% unless nsd %}vocab="http://schema.org/" typeof="CreativeWork"{% endunless %}>
+  <meta property="mainEntityOfPage" content="{{ page.url | absolute_url }}"/>
+
   <header>
-    <h1 class="page-title">{{ project.title }}</h1>
+    <h1 class="page-title" property="name">{{ project.title }}</h1>
 
     <p class="post-date heading">
       {% assign parent = site.pages | where:"show_collection",project.collection | first %}
       {% if parent %}
-        <a href="{{ '/projects/' | relative_url }}" data-flip="title">{{ parent.title }}</a>
-        |
+        <a href="{{ '/projects/' | relative_url }}" class="flip-title" property="genre">{{ parent.title }}</a>
+        {{ separator }}
       {% endif %}
-      <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }}</time>
-      <span style="float:right">
-        <span class="sr-only">Links:</span>
+      {% assign proj_format = site.data.strings.date_formats.project | default:"%Y" %}
+      <time datetime="{{ project.date | date_to_xmlschema }}" property="datePublished">{{ project.date | date:proj_format }}</time>
+      <span class="fr">
+        <span class="sr-only">{{ separator }} {{ site.data.strings.links | default:"Links" }}{{ site.data.strings.colon }}</span>
         {% for link in project.links %}
-          <a href="{{ link.url }}">{{ link.title }}</a>
-          {% unless forloop.last %}|{% endunless %}
+          <a class="external" href="{{ link.url }}" property="sameAs">{{ link.title }}</a>
+          {% unless forloop.last %}{{ separator }}{% endunless %}
         {% endfor %}
       </span>
     </p>
 
+    {% assign screenshot = project.screenshot %}
     <div class="img lead sixteen-nine">
-      {% if project.screenshot %}
-        {%
-          include srcset-img.html
-          img=project.screenshot
-          alt="Screenshot"
-          sizes="(min-width: 92em) 48rem, (min-width: 54em) 42rem, (min-width: 40em) 37.5rem, 100vw"
+      {% if screenshot %}
+        {% include srcset-img.html
+          img=screenshot
+          sizes="(min-width: 90em) 48rem, (min-width: 54em) 42rem, (min-width: 42em) 38rem, 100vw"
+          alt=project.title
+          property="image"
         %}
       {% endif %}
     </div>
 
-    {% include message.html text=project.description %}
+    {% include message.html text=project.description hide=page.hide_description property="description" alt="" %}
+    {% if project.caption %}<meta property="disambiguatingDescription" content="{{ project.caption }}"/>{% endif %}
   </header>
 
   {{ content }}
-
 </article>
 
-{% unless include.link_title %}
-  <hr class="dingbat" />
-{% endunless %}
+<hr class="dingbat related" />
 
-{% include about.html %}
-
-{% assign p1 = page.previous | default:page.next.next %}
-{% assign p2 = page.next | default:page.previous.previous %}
-{% if p1 or p2 %}
-  <h2>Other Projects</h2>
-  <div class="grid">
-    {% assign p1 = page.previous | default:page.next.next %}
-    {% if p1 %}
-      <div class="col col-1-2">
-        {% include pro/project-card.html project=p1 %}
-      </div>
-    {% endif %}
-
-    {% assign p2 = page.next | default:page.previous.previous %}
-    {% if p2 %}
-      <div class="col col-1-2">
-        {% include pro/project-card.html project=p2 %}
-      </div>
-    {% endif %}
-  </div>
-{% endif %}
+{% assign addons = site.hydejack.project_addons %}
+{% unless addons %}{% assign addons = "about,newsletter,other" | split:"," %}{% endunless %}
+{% for addon in addons %}
+  {% case addon %}
+  {% when 'about' %}
+     {% include about.html %}
+  {% when 'newsletter' %}
+    {% include pro/newsletter.html %}
+  {% when 'other' %}
+    {% include pro/other-projects.html %}
+  {% else %}
+  {% endcase %}
+{% endfor %}

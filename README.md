@@ -1,1 +1,0 @@
-Site content published to https://github.com/KevinT/kevint.github.com.git

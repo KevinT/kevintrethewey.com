@@ -2,39 +2,26 @@
 layout: page
 ---
 
-<!--[if gt IE 8]><!---->
-<style>{% capture include_to_scssify %}{% include pro/styles/projects.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
-<!--<![endif]-->
+{% assign show_collection = page.show_collection | default:"projects" %}
+{% assign ordered_projects = site[show_collection] | sort:"date" | reverse %}
 
-{% assign ordered_projects = site[page.show_collection] | sort:"date" | reverse %}
-{% assign is_newline = true %}
+{% assign projects_group_by = site.data.strings.date_formats.projects_group_by | default:"%Y" %}
 
 {% for project in ordered_projects %}
-  {% assign currentdate = project.date | date: "%Y" %}
+  {% assign currentdate = project.date | date:projects_group_by %}
 
   {% if currentdate != date %}
-    {% unless forloop.first %}
-      {% unless is_newline %}</div>{% endunless %}
-      {% assign is_newline = true %}
-    {% endunless %}
+    {% unless forloop.first %}</div>{% endunless %}
 
-    <h2 id="y{{project.date | date: "%Y"}}">{{ currentdate }}</h2>
+    <h2 id="{{ projects_group_by | slugify }}-{{ currentdate | slugify }}">{{ currentdate }}</h2>
+    <div class="columns">
     {% assign date = currentdate %}
   {% endif %}
 
-  {% if is_newline %}<div class="grid">{% endif %}
+  {% assign big_project = page.big_project | default:project.big_project %}
+  <div class="column {% if big_project %}column-1{% else %}column-1-2{% endif %}">
+    {% include pro/project-card.html project=project big_project=big_project %}
+  </div>
 
-  <div class="col col-1-2">{% include pro/project-card.html project = project %}</div>
-
-  {% unless is_newline %}</div>{% endunless %}
-
-  {% if forloop.last %}
-    {% if is_newline %}</div>{% endif %}
-  {% endif %}
-
-  {% if is_newline %}
-    {% assign is_newline = false %}
-  {% else %}
-    {% assign is_newline = true %}
-  {% endif %}
+  {% if forloop.last %}</div>{% endif %}
 {% endfor %}

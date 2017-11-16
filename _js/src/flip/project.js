@@ -1,87 +1,115 @@
-// Copyright (c) 2017 Florian Klampfer
-// Licensed under MIT
+// # src / flip / project.js
+// Copyright (c) 2017 Florian Klampfer <https://qwtel.com/>
+
+import 'core-js/fn/function/bind';
 
 import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
+
 import { fromEvent } from 'rxjs/observable/fromEvent';
-import { timer } from 'rxjs/observable/timer';
+import { of } from 'rxjs/observable/of';
 
-import { _do as effect } from 'rxjs/operator/do';
-import { _finally as cleanup } from 'rxjs/operator/finally';
-import { zipProto as zipWith } from 'rxjs/operator/zip';
+import { _do as tap } from 'rxjs/operator/do';
+import { _finally as finalize } from 'rxjs/operator/finally';
+import { filter } from 'rxjs/operator/filter';
+import { switchMap } from 'rxjs/operator/switchMap';
+import { take } from 'rxjs/operator/take';
+import { zipProto as zip } from 'rxjs/operator/zip';
 
-import { animate } from '../common';
-import Flip from './flip';
+import { animate, empty } from '../common';
 
-export default class ProjectFlip extends Flip {
-  start(currentTarget) {
-    const img = currentTarget.querySelector('.img');
+function cacheImage$(img) {
+  if (!img) return Observable::of({});
 
-    const titleNode = currentTarget.parentNode.querySelector('.name') || {};
-    const title = titleNode.textContent || '|';
+  const imgObj = new Image();
+  const image$ = Observable::fromEvent(imgObj, 'load')
+    ::take(1)
+    ::finalize(() => { imgObj.src = ''; });
+  imgObj.src = img.currentSrc || img.src;
 
-    this.animationMain.querySelector('.page').innerHTML = `
-      <h1 class="page-title" style="opacity:0">${title}</h1>
-      <div class="post-date heading" style="opacity:0">|</div>
-    `;
-
-    const placeholder = document.createElement('div');
-    placeholder.classList.add('sixteen-nine');
-
-    img.parentNode.insertBefore(placeholder, img);
-    img.classList.add('lead');
-    img.style.transformOrigin = 'left top';
-
-    this.animationMain.querySelector('.page').appendChild(img);
-    this.animationMain.style.position = 'fixed';
-    this.animationMain.style.opacity = 1;
-
-    const first = placeholder.getBoundingClientRect();
-    const last = img.getBoundingClientRect();
-
-    const invertX = first.left - last.left;
-    const invertY = first.top - last.top;
-    const invertScale = first.width / last.width;
-
-    return animate(img, [
-      { transform: `translate3d(${invertX}px, ${invertY}px, 0) scale(${invertScale})` },
-      { transform: 'translate3d(0, 0, 0) scale(1)' },
-    ], {
-      duration: this.duration,
-      // easing: 'ease',
-      easing: 'cubic-bezier(0,0,0.32,1)',
-    })
-      ::effect(() => { this.animationMain.style.position = 'absolute'; });
-  }
-
-  ready(main) {
-    this.animationMain.style.willChange = 'opacity';
-
-    const img = main.querySelector('.img');
-
-    if (img != null) {
-      img.style.opacity = 0;
-      img.style.willChange = 'opacity';
-    }
-
-    const realImg = img.querySelector('img');
-    return (realImg == null ?
-      Observable::of(true) :
-      Observable::fromEvent(realImg, 'load')
-    )
-      // HACK: add some extra time to prevent hiccups
-      ::zipWith(Observable::timer(this.duration + 100))
-      ::effect(() => {
-        if (img != null) {
-          img.style.opacity = 1;
-          img.style.willChange = '';
-        }
-      })
-      ::cleanup(() => {
-        this.animationMain.style.opacity = 0;
-        this.animationMain.style.willChange = '';
-      });
-  }
+  return image$;
 }
 
-Flip.types.project = ProjectFlip;
+export default function setupFLIPProject(start$, ready$, fadeIn$, { animationMain, settings }) {
+  if (!animationMain) return start$;
+
+  const flip$ = start$
+    ::filter(({ flipType }) => flipType === 'project')
+    ::switchMap(({ anchor }) => {
+      const img = anchor.querySelector('.project-card-img');
+      if (!anchor || !img) return Observable::of({});
+
+      const page = animationMain.querySelector('.page');
+      if (!page) return Observable::of({});
+
+      const titleNode = anchor.parentNode.querySelector('.project-card-title');
+      const title = (titleNode && titleNode.textContent) || '|';
+
+      const h1 = document.createElement('h1');
+      h1.classList.add('page-title');
+      h1.style.opacity = 0;
+      h1.textContent = title;
+
+      const postDate = document.createElement('div');
+      postDate.classList.add('post-date');
+      postDate.classList.add('heading');
+      postDate.style.opacity = 0;
+      postDate.textContent = '|';
+
+      page::empty();
+      page.appendChild(h1);
+      page.appendChild(postDate);
+
+      const placeholder = document.createElement('div');
+      placeholder.classList.add('sixteen-nine');
+
+      img.parentNode.insertBefore(placeholder, img);
+      img.classList.add('lead');
+      img.style.transformOrigin = 'left top';
+
+      page.appendChild(img);
+      animationMain.style.position = 'fixed';
+      animationMain.style.opacity = 1;
+
+      const first = placeholder.getBoundingClientRect();
+      const last = img.getBoundingClientRect();
+
+      const invertX = first.left - last.left;
+      const invertY = first.top - last.top;
+      const invertScale = first.width / last.width;
+
+      const transform = [
+        { transform: `translate3d(${invertX}px, ${invertY}px, 0) scale(${invertScale})` },
+        { transform: 'translate3d(0, 0, 0) scale(1)' },
+      ];
+
+      return animate(img, transform, settings)
+        ::tap({ complete() { animationMain.style.position = 'absolute'; } });
+    });
+
+  start$::switchMap(({ flipType }) =>
+    ready$
+      ::filter(() => flipType === 'project')
+      ::switchMap(({ replaceEls: [main] }) => {
+        const imgWrapper = main.querySelector('.img');
+        if (!imgWrapper) return Observable::of({});
+        imgWrapper.style.opacity = 0;
+
+        const img = imgWrapper.querySelector('img');
+
+        return this::cacheImage$(img)
+          ::zip(fadeIn$)
+          ::tap(() => {
+            imgWrapper.style.opacity = 1;
+            animationMain.style.opacity = 0;
+          })
+          ::switchMap(() => (img ?
+            animate(animationMain, [{ opacity: 1 }, { opacity: 0 }], { duration: 500 }) :
+            Observable::of({})))
+          ::finalize(() => {
+            animationMain.style.opacity = 0;
+          });
+      }))
+    .subscribe();
+
+  return flip$;
+}

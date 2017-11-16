@@ -1,22 +1,23 @@
 {% assign project = include.project %}
 
-<div class="card">
-  <a href="{{ project.url | relative_url }}" class="no-hover" data-flip="project">
-    <div class="img sixteen-nine">
+{% if include.big_project %}
+  {% assign sizes = "(min-width: 90em) 46rem, (min-width: 54em) 40rem, (min-width: 42em) 36rem, 100vw" %}
+{% else %}
+  {% assign sizes = "(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw" %}
+{% endif %}
+
+<article class="project-card">
+  <a href="{{ project.url | relative_url }}" class="no-hover flip-project" tabindex="-1">
+    <div class="project-card-img img sixteen-nine">
       {% if project.screenshot %}
-        {%
-          include srcset-img.html
-          img=project.screenshot
-          alt="Thumbnail"
-          sizes="(min-width: 92em) 22.5rem, (min-width: 60em) 19.5rem, (min-width: 54em) 32rem, (min-width: 40em) 17.25rem, 100vw"
-        %}
+        {% include srcset-img.html img=project.screenshot alt=project.title sizes=sizes %}
       {% endif %}
     </div>
   </a>
-  <h3 class="name">
-    <a href="{{ project.url | relative_url }}" data-flip="title">{{ project.title }}</a>
+  <h3 class="project-card-title">
+    <a href="{{ project.url | relative_url }}" class="flip-title">{{ project.title }}</a>
   </h3>
   {% if project.caption %}
-    <div class="caption">{{ project.caption | markdownify }}</div>
+    <legend class="project-card-text fine faded">{{ project.caption | markdownify | replace:'<p>','' | replace:'</p>','' }}</legend>
   {% endif %}
-</div>
+</article>

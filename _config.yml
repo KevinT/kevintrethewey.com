@@ -1,132 +1,240 @@
-# -----------------------------------------------------------------------------
-#  User configuration
-# -----------------------------------------------------------------------------
+# Config
+# ========================================================================================
 
-title:               Kevin Trethewey
+title:                 Kevin Trethewey
+
+# Language of your content in 2-letter code, eg: en, de.
+# You may also provide a location, eg: en-us, de_AT.
+lang:                  en
 
 # The unique resource location of your page.
-# Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 http://kevintrethewey.com
+# Set to `https://<username>.github.io` when hosting on GitHub Pages.
+url:                   http://kevintrethewey.com
 
-# Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
-# Set to '/<reponame>' when using the `gh-pages` branch of a repository
-baseurl:             ''
+# Set to '' when hosting on GitHub Pages, like `//<username>.github.io`.
+# Set to '/<reponame>' when using the `gh-pages` branch of a repository.
+baseurl:               ''
 
-# A very short description of your page
-tagline:             Building longer tables instead of higher fences. Leaving the campsite better than I found it. Overusing metaphors.
-
-# A short description of the page, used in the sidebar and as fallback for the meta description tag.
-# Markdown enabled, but don't use more than one paragraph (enforced by `>`)
-description:         >
+# A short description of the page used for the meta description tag.
+description:           >
   I'm always interested in consulting and speaking opportunities internationally. 
-  Please connect with me for this, or anything else you'd like to discuss.  
+  Please connect with me for this, or anything else you'd like to discuss.
 
-# This should be the same author as first entry in `_data/authors.yml`
+# A shorter description for the sidebar.
+tagline:               >
+  I’m always interested in consulting and speaking opportunities internationally. Please connect with me for this, or anything else you’d like to discuss.
+
+# A list of keywords for your blog, will be used as fallback
+# for pages that don't have `keywords` in their front matter.
+keywords:              []
+
+# Used by jekyll-seo-tag...
+logo:                  /assets/icons/icon.png
+
+# This should be the same author as first entry in `_data/authors.yml`.
+# Duplication is necessary due to the jekyll-feed plugin.
 author:
-  name:              Kevin Trethewey
-  email:             kevint@gmail.com
+  name:                Kevin Trethewey
+  email:               kevint@gmail.com
 
-# Fallback image and color
-image:               /assets/img/nap.jpg
-color:               '#4f86aa'
+# This text will appear in a `<small>` tag in the footer of every page.
+copyright:             © 2017. All rights reserved.
 
-# The font used for headings. Expects a string that is a valid CSS font-family value.
-font_heading:        "'Roboto Slab', Helvetica, Arial, sans-serif"
+# Format of the permalinks
+permalink:             pretty
+
+# Pagination configuration (used by the `blog` layout)
+paginate:              5
+paginate_path:         /blog/page-:num/
+
+# Customizaton
+# ========================================================================================
+
+# The string encoding which fonts to fetch from Google Fonts.
+# See: <https://qwtel.com/hydejack/docs/configuration/>
+google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
-font:                "'Noto Sans', Helvetica, Arial, sans-serif"
+font:                  "'Noto Sans', Helvetica, Arial, sans-serif"
 
-# The string encoding what fonts to fetch from Google Fonts.
-# See: https://qwtel.com/hydejack/docs/configuration/
-google_fonts:        Roboto+Slab:700|Noto+Sans:400,400i,700,700i
+# The font used for headings. Expects a string that is a valid CSS font-family value.
+font_heading:          "'Roboto Slab', Helvetica, Arial, sans-serif"
 
-# If you do not use a Google Fonts, uncomment the line below
-# no_google_fonts:     true
+# Fallback image and color
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          '#4fb1ba'
+
+# 3rd Party Integrations
+# ----------------------------------------------------------------------------------------
+
+# Setting a disqus shortname will enable the comment section on
+# pages with `comments: true` in the front matter.
+disqus:                kevint
+
+# Setting a tinyletter username will enable the newsletter subscription box.
+# tinyletter:            <tinyletter_username>
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    UA-146968-7
+google_analytics:      UA-146968-7
 
-# Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    kevint
 
-# This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. All rights reserved.'
+# Hydejack Flags
+# ----------------------------------------------------------------------------------------
 
-# Format of the permalinks
-permalink:           pretty
+hydejack:
+  # Configure the order of complementary content on blog posts
+  post_addons:         [about, newsletter, related, random]
 
-# Pagination configuration (used by the `blog` layout)
-paginate:            5
-paginate_path:       '/blog/page-:num/'
+  # Configure the order of complementary content on project pages
+  project_addons:      [about, newsletter, other]
 
-# If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
-# so that the location of the feed XML stays the same.
-# feed:
-#   path:              atom.xml
+  # If you do not use Google Fonts, set to `true`.
+  no_google_fonts:     false
 
-# Set to true when building with the `--lsi` option
-# See: https://jekyllrb.com/docs/variables/#site-variables
-# use_lsi:             true
+  # Set to `true` if you don't want to show an icon indicating external links
+  no_mark_external:    false
 
-# Set to `true` if you don't want to show an icon after each link that opens to an external site
-# no_mark_external:    true
+  # Set to `true` if third party plugins fail to work with dynamically loaded pages
+  no_push_state:       false
 
-# Uncomment this line if third party plugins fail to work with dynimically loaded pages
-# disable_push_state:  true
+  # Set to `true` if you want to disable the drawer
+  no_drawer:           false
 
-# Uncomment this line if want to disable the touch drawer on mobile
-# disable_drawer: true
+  # Set to `true` if you do not want parts of the css inlined in <head/>
+  # This *may* be benefitial when serving the site over HTTP/2.
+  no_inline_css:       false
 
-# -----------------------------------------------------------------------------
-#  Collections
-# -----------------------------------------------------------------------------
+  # Code blocks and tables "break" the layout by spanning the full available width.
+  # Set this to true if you want them to be the same width as other content.
+  no_break_layout:     false
+
+  # Set to `true` if you do not want to expose your resume and projects
+  # in machine-readable formats.
+  no_structured_data:  false
+
+  # You can set this to `true` if you don't want to set the `theme-color` meta tag,
+  # This only affects the meta tag, not the color specified in the app manifest.
+  no_theme_color:      false
+
+  # Set to `true` when building with the `--lsi` option
+  use_lsi:             false
+
+
+# Collections
+# ========================================================================================
 
 collections:
   featured_categories:
-    permalink:       /category/:name/
-    output:          true
+    permalink:         /category/:name/
+    output:            true
+
   featured_tags:
-    permalink:       /tag/:name/
-    output:          true
+    permalink:         /tag/:name/
+    output:            true
+
   projects:
-    permalink:       /projects/:path/
-    output:          true
+    permalink:         /projects/:path/
+    output:            true
 
-# -----------------------------------------------------------------------------
-#  Advanced configuration
-# -----------------------------------------------------------------------------
 
-plugins:
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-sitemap
+# File inclusion/exclusion
+# ========================================================================================
 
 exclude:
   - README.md
   - node_modules
+  - vendor
   - package.json
   - package-lock.json
   - Gemfile
   - Gemfile.lock
+include:
+  - LICENSE.md
+
+
+# Plugins and Plugin Configuration
+# ========================================================================================
+
+plugins:
+  # - jekyll-avatar
+  # - jekyll-default-layout
+  - jekyll-feed
+  # - jekyll-gist
+  # - jekyll-optional-front-matter
+  - jekyll-paginate
+  # - jekyll-readme-index
+  # - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-titles-from-headings
+
+
+# SEO Tag
+# ---------------------------------------------------------------------------------------
+
+# Where you proof that you own this site (used by jekyll-seo-tag)
+# google_site_verification: <verification-id>
+# -- or --
+# webmaster_verifications:
+#   google:              <verification-id>
+#   bing:                <verification-id>
+#   alexa:               <verification-id>
+#   yandex:              <verification-id>
+
+# Used for Twitter cards
+twitter:
+  username:            kevintrethewey
+
+# Used for Facebook open graph
+# facebook:
+#   app_id:              <id>
+#   publisher:           <id>
+#   admins:              <id>
+
+# Used on index and about sites
+# social:
+#   name:                <firstname> <lastname>
+#   links:
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
+
+
+# Other Plugins
+# ---------------------------------------------------------------------------------------
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
 
 kramdown:
-  footnote_backlink: '&#x21a9;&#xfe0e;'
-  math_engine:       mathjax
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+  math_engine:         mathjax
   math_engine_opts:
-    preview:         true
-    preview_as_code: true
+    preview:           true
+    preview_as_code:   true
 
 compress_html:
-  comments:          ["<!-- ", " -->"]
-  clippings:         all
-  endings:           all
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
   ignore:
-    envs:            [development]
+    envs:              [development]
 
 sass:
-  style:             compressed
+  style:               compressed
+
+# If you are upgrading form v5 (or earlier), uncomment the lines below,
+# so that the location of the feed XML stays the same.
+# feed:
+#   path:                atom.xml
