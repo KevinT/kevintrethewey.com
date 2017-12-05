@@ -9,7 +9,7 @@ selected_projects:
   - _projects/drivenci.md
   - _projects/teamtourism.md
   - _projects/spinemodel.md
-  - _projects/teamcanary.md
+  - _projects/canary.md
 selected_posts:
   - _posts/2016-12-01-collaborativeprogramming.md
   - _posts/2014-10-17-problems.md
