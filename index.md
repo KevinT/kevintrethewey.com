@@ -1,26 +1,22 @@
 ---
 cover: true
-image: /assets/img/hydejack-8.png
+image: /assets/img/kevint-256-256.jpg
 hide_description: true
 ---
 
-# Thank You
-Thank you for buying the PRO version of Hydejack! 🎉
+I'm always interested in new opportunities to learn or interesting collaboration opportunities.
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown, with my own editor, one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+This is where I keep track of some of the [things I'm working on][projects], make occasional [blog] posts, and keep a list of [hypotheses] I think are worth considering.
 
-## First Steps
-Please start by reading the [Documentation]{:.heading.flip-title}.
-Specifically, the chapters below should be relevant now:
+# Recent Projects
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
+<!--projects-->
 
-[documentation]: docs/README.md
-[install]: docs/install.md
-[upgrade]: docs/upgrade.md
-[config]: docs/config.md
+# Recent Blog Posts
+
+<!--posts-->
+
+[blog]: blog.md
+[projects]: projects.md
+[resume]: resume.md
+[hypotheses]: hypotheses.md

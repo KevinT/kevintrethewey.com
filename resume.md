@@ -2,8 +2,7 @@
 layout: resume
 title: Résumé*
 description: >
-  This is the `description` of your resume page, as it will be seen by search engines.
-  Open `resume.md` to edit this text.
+  I've been in the software industry since 1998. This is a summary of my more recent experience.
 hide_description: false
 menu: true
 order: 3
