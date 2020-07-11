@@ -14,3 +14,5 @@ http://localhost:4000
 1. Pottery project detail
 1. Better image on AdvisorPro
 1. Add blog posts
+1. Add talk from devconf 2019
+1. Add talk from agile 2015
