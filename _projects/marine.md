@@ -10,10 +10,12 @@ screenshot:
     480w: /assets/img/projects/marinetank@0,25x.jpg
 caption: Saltwater gardening
 description: >
-  In 2017 I built up a 1100 litre mixed reef marine fish tank.
+  Between 2017 and 2019 I built up a 1100 litre mixed reef marine fish tank.
 ---
 
 This was my first salt water tank, after keeping smaller fresh water tanks for a few years. Sea life is just so different to what we encounter in every day life. Learning about the different creatures, their behaviours and how to maintain them was fascinating to me. 
+
+![](/assets/img/projects/live-fish.jpg)
 
 It is the sort of hobby that would take a lifetime to master - a confluence of marine biology, chemistry, lighting, plumbing, electricity, aesthetic design and several other fields. I think I was also drawn to it because it's was opportunity to work with my hands, which is a nice contrast from during the week when I am mostly using my mind.
 
