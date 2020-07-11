@@ -1,0 +1,2 @@
+# To start
+$ bundle install
