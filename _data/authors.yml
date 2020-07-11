@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I've been a software engineer, a coach, consultant and business owner. More recently I've been leading globally distributed software product delivery teams during their growth phase.
+    I've been a software engineer, a technical coach, consultant and business owner. More recently I've been leading globally distributed software product delivery teams during their growth phase.
   # This photo will be used in the about section
   picture:
     path:            /assets/img/kevint-128-128.jpg
