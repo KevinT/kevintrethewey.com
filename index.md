@@ -6,7 +6,7 @@ hide_description: true
 
 # Welcome
 
-I'm always interested in new opportunities to learn or interesting collaboration opportunities.
+I'm always interested in new opportunities to learn or interesting collaborations.
 
 This is where I keep track of some of the [things I'm working on][projects], make occasional [blog] posts, and keep a list of [hypotheses] I think are worth considering.
 
