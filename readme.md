@@ -11,3 +11,6 @@ http://localhost:4000
 
 # To consider
 1. TinyLetter newsletter integration?
+1. Pottery project detail
+1. Better image on AdvisorPro
+1. Add blog posts

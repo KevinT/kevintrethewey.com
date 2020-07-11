@@ -13,3 +13,4 @@ description: >
   In 2019 I started taking lessons at [Digby Hoet's](https://www.digbyhoets.com/) pottery studio. I now have my own small home studio.
 ---
 
+TODO
