@@ -8,15 +8,15 @@ hide_description: true
 
 I'm always interested in new opportunities to learn or interesting collaborations.
 
-This is where I keep track of some of the [things I'm working on][projects], make occasional [blog] posts, and keep a list of [hypotheses] I think are worth considering.
-
-# Recent Projects
-
-<!--projects-->
+This personal site is where I make occasional [blog] posts, discuss some of the [things I'm working on][projects], and keep a list of [hypotheses] I think are worth considering.
 
 # Recent Blog Posts
 
 <!--posts-->
+
+# Recent Projects
+
+<!--projects-->
 
 [blog]: blog.md
 [projects]: projects.md
