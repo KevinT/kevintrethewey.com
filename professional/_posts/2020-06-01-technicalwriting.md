@@ -9,7 +9,6 @@ description: >
 
 These are 10 suggestions on how to structure your technical documentation in a way that will make it easier for others to follow and to remember…
 
-{:.no_toc}
 * table of contents
 {:toc}
 

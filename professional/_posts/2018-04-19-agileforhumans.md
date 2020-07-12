@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Agile for Humans ep90 Walking the Spine Model
-tags: [podcasts, community]
+tags: [podcasts, community, spine model]
 comments: true
 description: >
   Danie Roux ([@danieroux](https://twitter.com/danieroux)) and I joined Ryan Ripley ([@ryanripley](https://twitter.com/ryanripley)) to discuss the Spine Model and how to use it effectively with agile and scrum teams.
