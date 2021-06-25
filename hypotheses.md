@@ -13,7 +13,7 @@ I use these as thought experiments, and as test straps to see how my thinking ha
 
 |2021|
 |----|
-|[Here’s the problem: In for-profit companies, high quality code does not matter. What matters, and even then only sometimes, is having poor quality code. The challenge for software people is that when that does matter it matters hard, and it’s on us to account for.](https://twitter.com/KevinTrethewey/status/1408295009686900746){:target="_blank"}|
+|Here’s the problem: In for-profit companies, high quality code does not matter. What matters, and even then only sometimes, is having poor quality code. The challenge for software people is that when that does matter it matters hard, and it’s on us to account for. [[...]](https://twitter.com/KevinTrethewey/status/1408295009686900746){:target="_blank"}|
 {:.stretch-table}
 
 |2017|
