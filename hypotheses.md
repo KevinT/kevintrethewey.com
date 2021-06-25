@@ -10,6 +10,12 @@ Short personal insights, observations and hypothesis over time.
 
 I use these as thought experiments, and as test straps to see how my thinking has expanded or moved on over time...
 
+
+|2021|
+|----|
+|[Here’s the problem: In for-profit companies, high quality code does not matter. What matters, and even then only sometimes, is having poor quality code. The challenge for software people is that when that does matter it matters hard, and it’s on us to account for.](https://twitter.com/KevinTrethewey/status/1408295009686900746){:target="_blank"}|
+{:.stretch-table}
+
 |2017|
 |----|
 |[Observation: Command & control style managers produce conditions in which only command and control management gets anything done.](https://twitter.com/kevintrethewey/status/915853025796861953){:target="_blank"}|
