@@ -18,7 +18,7 @@ Sorry. They don’t exist.
 Where a team can be observed, what you are actually seeing is:
 
 * Each individual’s behaviours, 
-* in emergent response what is going on around them, 
+* in emergent response to what is going on around them, 
 * as processed through their archetype of what a team should be
 * with their latest individual mental model of what their team currently is, and 
 * their individual role and purpose relative to the team at the given moment.
