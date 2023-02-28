@@ -5,7 +5,7 @@
     "picture": "/assets/img/kevint-128-128.jpg",
     "email": "",
     "phone": "+27 (0) 82 579-9154",
-    "website": "https://kevintrethewey.com",
+    "website": "https://linktr.ee/kevintrethewey",
     "summary": "Over the course of my career I have had the opportunity to work in and observe projects, teams and organisations in vastly different environments, and seen vastly differing levels of success amongst them. Through my experiences I have grown an understanding of the values, principles and practices that are required for healthy systems, as well as gained deep experience in how to bring these into organisations as a technical leader.",
     "location": {
       "address": "Sandton",
@@ -88,13 +88,25 @@
     {
       "language": "English",
       "fluency": "Native speaker"
+    }    
+  ],
+  "personal interests": [
+    {
+      "name": "Pottery",
+      "keywords": [
+        "Ceramics",
+        "Raku",
+        "Wabi sabi"
+      ]
     },
     {
-      "language": "Afrikaans",
-      "fluency": "Elementary proficiency"
-    }
-  ],
-  "interests": [
+      "name": "Model engines",
+      "keywords": [
+        "steam engines",
+        "nitro engines",
+        "model aircraft design and construction"
+      ]
+    },
     {
       "name": "Marine Reef Aquariums",
       "keywords": [
@@ -103,14 +115,7 @@
         "Aquascaping"
       ]
     },
-    {
-      "name": "Pottery",
-      "keywords": [
-        "Ceramics",
-        "Raku",
-        "Wabi sabi"
-      ]
-    }
+    
   ],
   "references": [
     {
