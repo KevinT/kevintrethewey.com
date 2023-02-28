@@ -6,7 +6,7 @@
     "email": "",
     "phone": "+27 (0) 82 579-9154",
     "website": "https://kevintrethewey.com",
-    "summary": "Over the course of my career I have had the opportunity to work in and observe projects, teams and organisations in vastly different environments, and seen vastly differing levels of success amongst them. Through my experiences I have grown an understanding of the values, principles and practices that are required for healthy systems, as well as gained deep experience in how to bring these into organisations.",
+    "summary": "Over the course of my career I have had the opportunity to work in and observe projects, teams and organisations in vastly different environments, and seen vastly differing levels of success amongst them. Through my experiences I have grown an understanding of the values, principles and practices that are required for healthy systems, as well as gained deep experience in how to bring these into organisations as a technical leader.",
     "location": {
       "address": "Sandton",
       "postalCode": "2146",
@@ -29,11 +29,24 @@
   },
   "work": [
     {
+      "company": "ExploreAI",
+      "position": "Head of Software Engineering",
+      "website": "https://www.explore.ai",
+      "startDate": "2020-07-31",
+      "endDate": "Today",
+      "summary": "ExploreAI builds AI-driven software and digital twins for global companies.",
+      "highlights": [
+        "Built a world class, remote-first and globally distributed software engineering capabilty from the ground up",
+        "Delivered complex, cloud native, data intensive applications and services across mutiple cloud providers and technology stacks.",
+        "Created and delivered a strategy for growing socio-technical data ecosystems at scale across multiple industry domains.",
+     ]
+    },
+    {
       "company": "Jemstep by Invesco",
       "position": "Director of Engineering",
       "website": "https://www.jemstep.com",
       "startDate": "2018-01-01",
-      "endDate": "Today",
+      "endDate": "2020-07-31",
       "summary": "Based in Silicon Valley, Jemstep is provides a digital investment advise product to large retail banks in the United States.",
       "highlights": [
         "Led software delivery teams across 3 continents and 4 time zones",
