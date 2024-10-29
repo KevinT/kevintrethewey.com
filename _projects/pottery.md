@@ -13,4 +13,14 @@ description: >
   In 2019 I started taking lessons at [Digby Hoet's](https://www.digbyhoets.com/) pottery studio. I now have my own small home studio.
 ---
 
-TODO
+I have always enjoyed working with my hands, and have found it to be a great way to relax and clear my mind. I particularly enjoy gathering wild clay and making things out of that.
+
+I mostly do wheel thrown pots, but I also enjoy the challenge of hand building and carving clay into useful objects.
+
+Here are some of the pieces I have made over the years:
+
+![](/assets/img/projects/pottery-1.jpg)
+![](/assets/img/projects/pottery-2.jpg)
+![](/assets/img/projects/pottery-3.jpg)
+![](/assets/img/projects/pottery-4.jpg)
+![](/assets/img/projects/pottery-5.jpg)
