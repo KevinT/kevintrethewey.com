@@ -9,6 +9,18 @@ description: >
 
 __Note: This is a thought exercise, not a real business plan. It could be used as a starting point for a real plan.__
 
+To the modern eye, Zoos are a depressing place. They are a collection of cages and enclosures housing animals that are not free to roam as they would be in the wild. They are also a reflection of a society that values entertainment above the welfare of the animals. Johannesburg Zoo is no different, and perhaps more so than most because the premises are old, the maintenance has fallen behind and the priority of the city muncipality is, understandably elsewhere.
+
+And:
+
+1. Johannesburg needs a world class tourist attraction to generate revenue for the city to invest in overall improvements
+2. The Johannesburg Zoo is situated on prime property within the city, but in a state of disintegration and decay
+3. If nothing changes, the zoo will continue to decline and become a sad symbol of a city that once aspired to greatness
+
+However, if the zoo's future could be aligned with the real and challenging priorities of the people and muncipality of Johannesburg, the right strategy could create something we, as residents of Johannesburg, take immense pride and satisfaction in.
+
+---
+
 # Business Plan for the Future of the Johannesburg Zoo
 **Date:** October 2024
 ---
