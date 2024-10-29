@@ -11,9 +11,9 @@ __This is a thought exercise, not a real business plan. It could be used as a st
 
 To the modern eye, Zoos are a depressing place. They are a collection of cages and enclosures housing animals that are not free to roam as they would be in the wild. They're a reflection of a society that valued entertainment above the welfare of the animals. Johannesburg Zoo is no different, and perhaps more so than most because tourists arrive here from around the world to see our beautiful wildlife in it's natural habitat. Yet the zoo premises are old, the maintenance has fallen behind and the priority of the city muncipality is, understandably elsewhere.
 
-Johannesburg needs a world class tourist attraction to generate revenue for the city to invest in overall improvements. The Johannesburg Zoo is situated on prime property within the city, but exists in a state of increasing disintegration and decay. If nothing changes, the zoo will continue to decline and become a sad symbol of a city that once aspired to greatness
+And so while Johannesburg needs more world class tourist attractions to generate revenue for the city to invest in upliftment projects, the zoo situated on prime property within the city exists in a state of increasing disintegration and decay. If nothing changes, the zoo will continue to decline and become a sad symbol of a city that once aspired to greatness.
 
-However, if the zoo's future could be aligned with the real and challenging priorities of the people and muncipality of Johannesburg, the right strategy could create something we, as residents of Johannesburg, take immense pride and satisfaction in. 
+However, if the zoo's future could be aligned with the real and challenging priorities of the people and muncipality of Johannesburg, the right strategy could create something we, as residents of Johannesburg, take immense pride and satisfaction in and people come from around the world to visit.
 
 I put this business plan together to explore how this could be achieved, and then published it because it might inspire others to think about what could be possible...
 
