@@ -98,15 +98,15 @@ $$
   L_O = \sum_i \left[ \frac{1}{2} m_i \left( \frac{dx_i}{d\tau_O} \right)^2 \right] - V_O(\{x_i\}, \{\phi_i\}),
   $$
 
-  where $$\(m_i\)$$ are particle masses, and $$\(V_O\)$$ is the potential energy function based on interactions accessible to $$\(O\)$$.
+  where $$m_i$$ are particle masses, and $$V_O$$ is the potential energy function based on interactions accessible to $$O$$.
 
-- **Hamiltonian $$\(H_O\)$$:**
+- **Hamiltonian $$H_O$$:**
 
   $$
   H_O = \sum_i \left( p_i \frac{dx_i}{d\tau_O} \right) - L_O,
   $$
 
-  with $$\(p_i = m_i \frac{dx_i}{d\tau_O}\)$$: conjugate momenta.
+  with $$p_i = m_i \frac{dx_i}{d\tau_O}$$: conjugate momenta.
 
 ### **3.3. Observer-Dependent Electromagnetism**
 
@@ -118,7 +118,7 @@ $$
 \nabla \cdot \mathbf{E}_O = \frac{\rho_O(\{x_i\})}{\epsilon_0},
 $$
 
-where $$\(\rho_O\)$$: charge density as measured by observer $$\(O\)$$.
+where $$\rho_O$$: charge density as measured by observer $$O$$.
 
 #### **3.3.2. Faraday's Law**
 
@@ -132,7 +132,7 @@ $$
 \nabla \times \mathbf{B}_O = \mu_0 \mathbf{J}_O + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}_O}{\partial \tau_O},
 $$
 
-with $$\(\mathbf{J}_O\)$$: current density observed by $$\(O\)$$.
+with $$\mathbf{J}_O$$: current density observed by $$O$$.
 
 ### **3.4. Quantum Mechanics with Observer-Dependent Time**
 
@@ -144,8 +144,8 @@ $$
 
 where:
 
-- $$\(\psi_O\)$$: Wavefunction as perceived by observer $$\(O\)$$.
-- $$\(\hat{H}_O\)$$: Hamiltonian operator including interactions accessible to $$\(O\)$$.
+- $$\psi_O$$: Wavefunction as perceived by observer $$O$$.
+- $$\hat{H}_O$$: Hamiltonian operator including interactions accessible to $$O$$.
 
 ### **3.5. Relativity in the Observer-Dependent Framework**
 
@@ -157,7 +157,7 @@ $$
 x'_O = \gamma_O (x_O - v_{rel} \tau_O), \quad \tau'_O = \gamma_O \left( \tau_O - \frac{v_{rel} x_O}{c^2} \right),
 $$
 
-where $$\(v_{rel}\)$$ is the relative velocity between observer $$\(O\)$$ and the observed frame, and $$\(\gamma_O = \frac{1}{\sqrt{1 - v_{rel}^2/c^2}}\)$$.
+where $$v_{rel}$$ is the relative velocity between observer $$O$$ and the observed frame, and $$\gamma_O = \frac{1}{\sqrt{1 - v_{rel}^2/c^2}}$$.
 
 #### **3.5.2. General Relativity**
 
@@ -167,7 +167,7 @@ $$
 G_{\mu\nu}^O = \frac{8\pi G}{c^4} T_{\mu\nu}^O,
 \]
 
-where all tensors are defined with respect to observer \(O\)'s measurements and emergent time \(\tau_O\).
+where all tensors are defined with respect to observer O's measurements and emergent time \tau_O.
 
 ---
 
@@ -181,19 +181,19 @@ Using Noether's theorem in the context of observer-dependent symmetries, we ensu
 
 - **Time Translation Symmetry:**
 
-  If the Lagrangian $$\(L_O\)$$ is invariant under translations in $$\(\tau_O\)$$, then energy is conserved in the observer's frame.
+  If the Lagrangian $$L_O$$ is invariant under translations in $$\tau_O$$, then energy is conserved in the observer's frame.
 
 - **Spatial Translation and Rotation Symmetries:**
 
-  Invariance under spatial translations and rotations leads to conservation of momentum and angular momentum, respectively, as measured by $$\(O\)$$.
+  Invariance under spatial translations and rotations leads to conservation of momentum and angular momentum, respectively, as measured by $$O$$.
 
 ### **4.2. Compatibility with Quantum Field Theory**
 
-Fields are quantized, and particles are treated as excitations of their respective fields as observed by $$\(O\)$$. The standard model's particle content and interactions are preserved when transformed into observer-dependent formulations.
+Fields are quantized, and particles are treated as excitations of their respective fields as observed by $$O$$. The standard model's particle content and interactions are preserved when transformed into observer-dependent formulations.
 
 #### **4.2.1. Observer-Dependent Field Operators**
 
-Field operators are defined with respect to $$\(\tau_O\)$$, ensuring that commutation relations and other quantum properties are maintained.
+Field operators are defined with respect to $$\tau_O$$, ensuring that commutation relations and other quantum properties are maintained.
 
 ### **4.3. Incorporation of Gravity**
 
@@ -201,13 +201,13 @@ Gravitational interactions are described in terms of observer-dependent spacetim
 
 #### **4.3.1. Observer-Dependent Metrics**
 
-The spacetime metric $$\(g_{\mu\nu}^O\)$$: is defined based on the observer's measurements, leading to a personalized description of spacetime curvature.
+The spacetime metric $$g_{\mu\nu}^O$$: is defined based on the observer's measurements, leading to a personalized description of spacetime curvature.
 
 ### **4.4. Mathematical Proof of Consistency**
 
 #### **4.4.1. Example: Free Particle Motion**
 
-Consider a free particle of mass $$\(m\)$$. The observer-dependent Lagrangian is:
+Consider a free particle of mass $$m$$. The observer-dependent Lagrangian is:
 
 $$
 L_O = \frac{1}{2} m \left( \frac{dx}{d\tau_O} \right)^2.
@@ -223,7 +223,7 @@ This shows that the particle moves at a constant velocity in the observer's emer
 
 #### **4.4.2. Compatibility with Lorentz Transformations**
 
-By adapting Lorentz transformations to include $$\(\tau_O\)$$, we can show that the speed of light remains invariant and that the laws of physics are the same in all inertial frames, satisfying the postulates of special relativity.
+By adapting Lorentz transformations to include $$\tau_O$$, we can show that the speed of light remains invariant and that the laws of physics are the same in all inertial frames, satisfying the postulates of special relativity.
 
 ---
 
@@ -235,7 +235,7 @@ By adapting Lorentz transformations to include $$\(\tau_O\)$$, we can show that 
 
 At atomic and subatomic scales:
 
-- **Discrete Interactions:** The observer interacts with individual particles, leading to a highly discrete and probabilistic emergent time $$\(\tau_O^{\text{quantum}}\)$$.
+- **Discrete Interactions:** The observer interacts with individual particles, leading to a highly discrete and probabilistic emergent time $$\tau_O^{\text{quantum}}$$.
 - **Quantum Uncertainties:** The observer's measurements are subject to the Heisenberg uncertainty principle, and the emergent time reflects these uncertainties.
 
 #### **5.1.2. Macroscopic Scale Interactions**
@@ -243,7 +243,7 @@ At atomic and subatomic scales:
 At larger scales:
 
 - **Aggregated Interactions:** The observer interacts with a vast number of particles simultaneously.
-- **Classical Emergent Time:** Quantum fluctuations average out, and the emergent time $$\(\tau_O^{\text{macro}}\)$$ becomes smooth and continuous, aligning with classical time.
+- **Classical Emergent Time:** Quantum fluctuations average out, and the emergent time $$\tau_O^{\text{macro}}$$ becomes smooth and continuous, aligning with classical time.
 
 ### **5.2. Mathematical Explanation**
 
@@ -255,7 +255,7 @@ $$
 d\tau_O^{\text{quantum}} = F_O^{\text{quantum}}(\{x_i\}, \{v_i\}, \{\phi_i\}) \, dt,
 $$
 
-where $$\(F_O^{\text{quantum}}\)$$ captures the probabilistic nature of quantum interactions.
+where $$F_O^{\text{quantum}}$$ captures the probabilistic nature of quantum interactions.
 
 #### **5.2.2. Emergent Time at Macroscopic Scale**
 
@@ -265,7 +265,7 @@ $$
 d\tau_O^{\text{macro}} = \left\langle F_O^{\text{quantum}} \right\rangle_{\text{ensemble}} \, dt,
 $$
 
-where $$\(\left\langle F_O^{\text{quantum}} \right\rangle_{\text{ensemble}}\)$$ represents the ensemble average over a large number of particles.
+where $$\left\langle F_O^{\text{quantum}} \right\rangle_{\text{ensemble}}$$ represents the ensemble average over a large number of particles.
 
 ---
 
@@ -280,30 +280,30 @@ where $$\(\left\langle F_O^{\text{quantum}} \right\rangle_{\text{ensemble}}\)$$ 
 
 #### **6.1.2. Impact on Emergent Time**
 
-- **Heating:** The observer's emergent time $$\(\tau_O\)$$ may experience a relative compression due to increased interaction rates.
+- **Heating:** The observer's emergent time $$\tau_O$$ may experience a relative compression due to increased interaction rates.
 - **Cooling:** The emergent time may experience a relative dilation due to decreased interaction rates.
 
 #### **6.1.3. Mathematical Formulation**
 
-Let $$\(\lambda_i\)$$ represent the interaction rate between the observer and molecule $$\(i\)$$:
+Let $$\lambda_i$$ represent the interaction rate between the observer and molecule $$i$$:
 
 $$
 d\tau_O = \left( \sum_i \lambda_i \right) dt,
 $$
 
-Since $$\(\lambda_i \propto \sqrt{T}\)$$, where $$\(T\)$$ is temperature:
+Since $$\lambda_i \propto \sqrt{T}$$, where $$T$$ is temperature:
 
 $$
 d\tau_O \propto \left( \sum_i \sqrt{T} \right) dt.
 $$
 
-As temperature increases, $$\(d\tau_O\)$$ increases for a given $$\(dt\)$$, reflecting the increased interaction rates.
+As temperature increases, $$d\tau_O$$ increases for a given $$dt$$, reflecting the increased interaction rates.
 
 ### **6.2. Magnetism**
 
 #### **6.2.1. Observer-Dependent Maxwell's Equations**
 
-Maxwell's equations are modified to include $$\(\tau_O\)$$, for example:
+Maxwell's equations are modified to include $$\tau_O$$, for example:
 
 $$
 \nabla \times \mathbf{E}_O = -\frac{\partial \mathbf{B}_O}{\partial \tau_O}.
@@ -317,19 +317,19 @@ $$
 \mathbf{F}_O = q \left( \mathbf{E}_O + \mathbf{v}_O \times \mathbf{B}_O \right),
 $$
 
-with $$\(\mathbf{v}_O = \frac{d\mathbf{r}}{d\tau_O}\)$$.
+with $$\mathbf{v}_O = \frac{d\mathbf{r}}{d\tau_O}$$.
 
 #### **6.2.3. Emergent Time and Magnetic Phenomena**
 
-- The observer's perception of magnetic fields and forces depends on $$\(\tau_O\)$$.
-- Differences in $$\(\tau_O\)$$ can lead to different measurements of magnetic effects, emphasizing the relational nature of electromagnetic phenomena.
+- The observer's perception of magnetic fields and forces depends on $$\tau_O$$.
+- Differences in $$\tau_O$$ can lead to different measurements of magnetic effects, emphasizing the relational nature of electromagnetic phenomena.
 
 ### **6.3. Conceptual Link Between Magnetism and Gravity**
 
 #### **6.3.1. Scale Dependency**
 
-- **Quantum Scales:** Magnetism dominates interactions, influencing $$\(\tau_O\)$$ through quantum effects arising from particle spins and magnetic moments.
-- **Macroscopic Scales:** Gravity becomes significant due to accumulated mass, influencing $$\(\tau_O\)$$ through spacetime curvature.
+- **Quantum Scales:** Magnetism dominates interactions, influencing $$\tau_O$$ through quantum effects arising from particle spins and magnetic moments.
+- **Macroscopic Scales:** Gravity becomes significant due to accumulated mass, influencing $$\tau_O$$ through spacetime curvature.
 
 #### **6.3.2. Transition from Quantum to Classical Behavior**
 
@@ -339,7 +339,7 @@ with $$\(\mathbf{v}_O = \frac{d\mathbf{r}}{d\tau_O}\)$$.
 #### **6.3.3. Mass-Energy Equivalence**
 
 - Electromagnetic energy contributes to the stress-energy tensor in general relativity.
-- In extreme conditions, such as in neutron stars or magnetars, electromagnetic and gravitational effects both significantly influence $$\(\tau_O\)$$.
+- In extreme conditions, such as in neutron stars or magnetars, electromagnetic and gravitational effects both significantly influence $$\tau_O$$.
 
 ---
 
@@ -367,7 +367,7 @@ with $$\(\mathbf{v}_O = \frac{d\mathbf{r}}{d\tau_O}\)$$.
 ### **8.1. Addressing Potential Critiques**
 
 - **Observer Dependency:** While the model emphasizes the observer's role, it maintains consistency with objective physical laws by ensuring that transformations between observers yield consistent descriptions of phenomena.
-- **Implementation Challenges:** Defining the functional dependence \(F_O\) precisely is critical and may require new theoretical tools or interpretations of existing principles.
+- **Implementation Challenges:** Defining the functional dependence F_O precisely is critical and may require new theoretical tools or interpretations of existing principles.
 
 ### **8.2. Synchronization of Human Time Perception**
 
