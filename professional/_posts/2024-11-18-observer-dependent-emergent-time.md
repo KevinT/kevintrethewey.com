@@ -167,7 +167,7 @@ $$
 G_{\mu\nu}^O = \frac{8\pi G}{c^4} T_{\mu\nu}^O,
 $$
 
-where all tensors are defined with respect to observer O's measurements and emergent time \tau_O.
+where all tensors are defined with respect to observer O's measurements and emergent time $$\tau_O$$.
 
 ---
 
@@ -367,7 +367,7 @@ with $$\mathbf{v}_O = \frac{d\mathbf{r}}{d\tau_O}$$.
 ### **8.1. Addressing Potential Critiques**
 
 - **Observer Dependency:** While the model emphasizes the observer's role, it maintains consistency with objective physical laws by ensuring that transformations between observers yield consistent descriptions of phenomena.
-- **Implementation Challenges:** Defining the functional dependence F_O precisely is critical and may require new theoretical tools or interpretations of existing principles.
+- **Implementation Challenges:** Defining the functional dependence $$F_O$$ precisely is critical and may require new theoretical tools or interpretations of existing principles.
 
 ### **8.2. Synchronization of Human Time Perception**
 
