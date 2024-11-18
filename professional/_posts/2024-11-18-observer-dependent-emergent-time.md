@@ -4,7 +4,7 @@ title: Observer-Dependent Emergent Time
 tags: [physics, time, relativity, quantum mechanics]
 comments: true
 description: >
-  A new theoretical framework in which time is neither a universal constant nor a shared parameter within a system but **an emergent property** dependent on the observer's position relative to, and interactions with, _particles_.
+A new theoretical framework where time is not a universal constant or a shared parameter within a system but is instead _an emergent property that depends on the observer's relative position and interactions with particles_.
 ---
 
 # **Observer-Dependent Emergent Time: A Relational Framework for Fundamental Physics**
@@ -15,7 +15,7 @@ Johannesburg, South Africa
 
 **Abstract**
 
-We propose a novel theoretical framework in which time is neither a universal constant nor a shared parameter within a system but **an emergent property** dependent on the observer's position relative to, and interactions with, _particles_. By redefining fundamental laws without assuming a single time parameter, we develop a relational model with rigorous mathematical formulations. 
+We propose a novel theoretical framework in which time is not a universal constant or a shared parameter within a system but is instead an emergent property that depends on the observer's relative position and interactions with particles. By redefining fundamental laws without assuming a single time parameter, we develop a relational model with rigorous mathematical formulations. 
 
 We provide proofs of consistency with established physical laws and explore the consequences of this new model, including explanations of the transition from quantum to classical behavior, thermodynamic processes in fluids, magnetism, and a conceptual link between magnetism and gravity.
 
