@@ -1,21 +1,19 @@
 ---
 layout: post
-title: Observer-Dependent Emergent Time
+title: Explaining the Wave-Particle Duality of Light
 tags: [physics, time, relativity, quantum mechanics]
 comments: true
 description: >
   In the context of the **observer-dependent emergent time model**, we can provide a novel explanation for the wave-particle duality of light by considering how the observer's interactions with photons influence the emergent perception of light's behavior.
 ---
 
-# **Observer-Dependent Emergent Time: A Relational Framework for Fundamental Physics**
+# Using the Observer-Dependent Emergent Time Model to Explain the Wave-Particle Duality of Light
 
 Authors: [OpenAI o1-preview](https://openai.com/index/learning-to-reason-with-llms/), [Kevin Trethewey](https://kevintrethewey.com)
 
 Johannesburg, South Africa
 
 ---
-
-# Using the Observer-Dependent Emergent Time Model to Explain the Wave-Particle Duality of Light
 
 ## **1. Introduction**
 
