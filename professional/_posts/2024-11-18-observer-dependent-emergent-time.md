@@ -53,9 +53,9 @@ We avoid introducing a single time parameter, even at the system level. Instead,
 
 For an observer \(O\), we define an emergent time parameter \(\tau_O\) constructed from interactions between \(O\) and particles \(\{P_i\}\):
 
-\[
+$$
 d\tau_O = F_O(\{x_i\}, \{v_i\}, \{\phi_i\}) \, dt,
-\]
+$$
 
 where:
 
@@ -402,3 +402,5 @@ We have developed a theoretical model where time emerges from the interactions b
 10. Kittel, C., & Kroemer, H. (1980). *Thermal Physics*. W. H. Freeman.
 
 ---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
