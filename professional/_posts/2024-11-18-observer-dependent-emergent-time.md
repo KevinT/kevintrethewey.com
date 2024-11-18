@@ -49,9 +49,9 @@ Space and time are relational properties that arise from interactions, not absol
 
 We avoid introducing a single time parameter, even at the system level. Instead, time is defined as a functional construct that emerges from the observer's interactions with particles.
 
-#### **3.1.1. Observer's Temporal Construct \(\tau_O\)**
+#### **3.1.1. Observer's Temporal Construct $$\tau_O$$**
 
-For an observer $$\(O\)$$, we define an emergent time parameter $$\(\tau_O\)$$ constructed from interactions between $$\(O\)$$ and particles $$\(\{P_i\}\)$$:
+For an observer $$O$$, we define an emergent time parameter $$\tau_O$$ constructed from interactions between $$O$$ and particles $$\{P_i\}$$:
 
 $$
 d\tau_O = F_O(\{x_i\}, \{v_i\}, \{\phi_i\}) \, dt,
