@@ -198,3 +198,5 @@ The wave-particle duality of light is a fundamental concept in quantum mechanics
 The observer-dependent emergent time model offers a compelling explanation for the wave-particle duality of light by emphasizing the role of the observer's interactions in shaping the emergent time $$\tau_O$$. Depending on the nature and scale of these interactions, the emergent time adjusts, leading the observer to perceive light as exhibiting either wave-like or particle-like properties. This relational framework aligns with established quantum principles and provides a new perspective on the fundamental nature of light and observation in quantum mechanics.
 
 ---
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
