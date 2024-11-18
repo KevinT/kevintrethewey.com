@@ -37,7 +37,7 @@ The wave-particle duality of light is a fundamental concept in quantum mechanics
   i\hbar \frac{\partial \psi_O}{\partial \tau_O} = \hat{H}_O \psi_O,
   $$
 
-  where \(\psi_O$$ is the wavefunction as perceived by observer $$O$$, and $$\hat{H}_O$$ is the Hamiltonian operator including interactions accessible to $$O$$.
+  where $$\psi_O$$ is the wavefunction as perceived by observer $$O$$, and $$\hat{H}_O$$ is the Hamiltonian operator including interactions accessible to $$O$$.
 
 ---
 
