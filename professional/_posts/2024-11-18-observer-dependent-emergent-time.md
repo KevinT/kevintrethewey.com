@@ -59,13 +59,13 @@ $$
 
 where:
 
-- $$\(d\tau_O\)$$: Differential of the observer's emergent time.
-- $$\(F_O\)$$: Functional dependence on the observer's interactions.
-- $$\(\{x_i\}\)$$, $$\(\{v_i\}\)$$: Positions and velocities of particles as measured by $$\(O\)$$.
-- $$\(\{\phi_i\}\)$$: Fields through which $$\(O\)$$ interacts with particles.
+- $$d\tau_O$$: Differential of the observer's emergent time.
+- $$F_O$$: Functional dependence on the observer's interactions.
+- $$\{x_i\}$$, $$\{v_i\}$$: Positions and velocities of particles as measured by $$O$$.
+- $$\{\phi_i\}$$: Fields through which $$O$$ interacts with particles.
 - $$dt$$: An infinitesimal increment used as a mathematical tool but not physically observable.
 
-**Note:** The observer $$\(O\)$$ can be any reference frame or point from which measurements and analyses are made.
+**Note:** The observer $$O$$ can be any reference frame or point from which measurements and analyses are made.
 
 ### **3.2. Reformulating Equations of Motion**
 
@@ -73,7 +73,7 @@ We reformulate fundamental equations to reflect observer-dependent time, without
 
 #### **3.2.1. Observer-Dependent Action Principle**
 
-The action $$\(S_O\)$$ for observer $$\(O\)$$ interacting with particles $$\(\{P_i\}\)$$ is:
+The action $$S_O$$ for observer $$O$$ interacting with particles $$\{P_i\}$$ is:
 
 $$
 S_O = \int L_O(\{x_i\}, \{\dot{x}_i\}, \{\phi_i\}) \, d\tau_O,
@@ -81,8 +81,8 @@ $$
 
 with:
 
-- $$\(L_O\)$$: Observer-dependent Lagrangian.
-- $$\(\dot{x}_i = \frac{dx_i}{d\tau_O}\)$$: Particle velocities with respect to $$\(\tau_O\)$$.
+- $$L_O$$: Observer-dependent Lagrangian.
+- $$\dot{x}_i = \frac{dx_i}{d\tau_O}$$: Particle velocities with respect to $$\tau_O$$.
 
 The equations of motion are derived from the principle of stationary action:
 
@@ -92,7 +92,7 @@ $$
 
 #### **3.2.2. Lagrangian and Hamiltonian Formulations**
 
-- **Lagrangian $$\(L_O\)$$:**
+- **Lagrangian $$L_O$$:**
 
   $$
   L_O = \sum_i \left[ \frac{1}{2} m_i \left( \frac{dx_i}{d\tau_O} \right)^2 \right] - V_O(\{x_i\}, \{\phi_i\}),
