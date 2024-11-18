@@ -10,7 +10,9 @@ description: >
 # **Observer-Dependent Emergent Time: A Relational Framework for Fundamental Physics**
 
 Authors: [OpenAI o1-preview](https://openai.com/index/learning-to-reason-with-llms/), [Kevin Trethewey](https://kevintrethewey.com)
+
 Reviewed by: [Claude Sonnet 3.5](https://www.anthropic.com/claude/sonnet)
+
 Johannesburg, South Africa
 
 **Abstract**
