@@ -165,7 +165,7 @@ Einstein's field equations are re-expressed:
 
 $$
 G_{\mu\nu}^O = \frac{8\pi G}{c^4} T_{\mu\nu}^O,
-\]
+$$
 
 where all tensors are defined with respect to observer O's measurements and emergent time \tau_O.
 
