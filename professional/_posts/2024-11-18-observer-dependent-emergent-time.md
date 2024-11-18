@@ -4,7 +4,7 @@ title: Observer-Dependent Emergent Time
 tags: [physics, time, relativity, quantum mechanics]
 comments: true
 description: >
-  A new theoretical framework in which time is neither a universal constant nor a shared parameter within a system but an emergent property dependent on the observer's position relative to, and interactions with, particles.
+  A new theoretical framework in which time is neither a universal constant nor a shared parameter within a system but **an emergent property** dependent on the observer's position relative to, and interactions with, _particles_.
 ---
 
 # **Observer-Dependent Emergent Time: A Relational Framework for Fundamental Physics**
@@ -15,7 +15,11 @@ Johannesburg, South Africa
 
 **Abstract**
 
-We propose a novel theoretical framework in which time is neither a universal constant nor a shared parameter within a system but an emergent property dependent on the observer's position relative to, and interactions with, particles. By redefining fundamental laws without assuming a single time parameter, we develop a relational model with rigorous mathematical formulations. We provide proofs of consistency with established physical laws and explore the consequences of this new model, including explanations of the transition from quantum to classical behavior, thermodynamic processes in fluids, magnetism, and a conceptual link between magnetism and gravity. Additionally, we discuss how the synchronization of human observers arises naturally due to shared material composition and physiological processes.
+We propose a novel theoretical framework in which time is neither a universal constant nor a shared parameter within a system but **an emergent property** dependent on the observer's position relative to, and interactions with, _particles_. By redefining fundamental laws without assuming a single time parameter, we develop a relational model with rigorous mathematical formulations. 
+
+We provide proofs of consistency with established physical laws and explore the consequences of this new model, including explanations of the transition from quantum to classical behavior, thermodynamic processes in fluids, magnetism, and a conceptual link between magnetism and gravity.
+
+Additionally, we discuss how the synchronization of human observers arises naturally due to shared material composition and physiological processes.
 
 ---
 
@@ -384,7 +388,9 @@ These shared characteristics result in the emergent time parameters for differen
 
 ## **9. Conclusion**
 
-We have developed a theoretical model where time emerges from the interactions between observers and particles, without assuming a universal or system-specific time parameter. By reformulating fundamental equations to be observer-dependent, we provide a new perspective on the nature of time and its role in physics. Mathematical proofs demonstrate the model's consistency with established physical laws, and applications show how it can explain phenomena such as the transition from quantum to classical behavior, thermodynamic processes in fluids, and magnetism. While the model does not inherently unify magnetism and gravity, it offers a conceptual link through the scale-dependent influence on the observer's emergent time. Further research is needed to refine the mathematical formulations, specify the functional dependencies, and explore the model's implications for unifying fundamental forces.
+We have developed a theoretical model where time emerges from the interactions between observers and particles, without assuming a universal or system-specific time parameter. By reformulating fundamental equations to be observer-dependent, we provide a new perspective on the nature of time and its role in physics. Mathematical proofs demonstrate the model's consistency with established physical laws, and applications show how it can explain phenomena such as the transition from quantum to classical behavior, thermodynamic processes in fluids, and magnetism. 
+
+While the model does not inherently unify magnetism and gravity, it offers a conceptual link through the scale-dependent influence on the observer's emergent time. Further research is needed to refine the mathematical formulations, specify the functional dependencies, and explore the model's implications for unifying fundamental forces.
 
 ---
 
