@@ -92,8 +92,12 @@ Agents need intent, scope, and constraints to act meaningfully. Humans do too. *
 
 This is where things get exciting—and uncertain.
 
-### 1. **From roles to capabilities to functions**
-Traditional org charts based on stable roles are already under pressure. With agents in the mix, **we’ll need to model work in terms of capability graphs**, where both humans and AI components can be dynamically assigned to goals. 
+1. From roles to capabilities to outcome-defined functions
+Traditional org charts based on stable roles are already under pressure. With agents in the mix, we’ll need to model work in terms of capability graphs, where both humans and AI components can be dynamically assigned to outcome-defined goals.
+
+
+### 1. **From roles to capabilities to outcome-defined functions**
+Traditional org charts based on stable roles are already under pressure. With agents in the mix, **we’ll need to model work in terms of capability graphs**, where both humans and AI components can be dynamically assigned to outcome-aligned goals. 
 
 Think: _“Who can satisfy this intent under these constraints?”_ not _“Whose job is this?”_
 
