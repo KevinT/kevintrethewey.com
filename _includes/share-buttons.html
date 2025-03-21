@@ -4,7 +4,7 @@
     <span class="icon-twitter"></span>
     <span class="sr-only">Share on Twitter</span>
   </a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Share on LinkedIn" class="no-mark-external">
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url | append: page.url | url_encode }}&title={{ page.title | url_encode }}&summary={{ page.description | default: page.excerpt | strip_html | truncate: 300 | url_encode }}" target="_blank" title="Share on LinkedIn" class="no-mark-external">
     <span class="icon-linkedin2"></span>
     <span class="sr-only">Share on LinkedIn</span>
   </a>
