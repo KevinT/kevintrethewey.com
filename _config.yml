@@ -146,7 +146,9 @@ disqus:                kevint
 # ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
 
-hydejack:
+hydejack:  
+  # Enable the search feature
+  search: true
   # Configure the order of complementary content on blog posts
   post_addons:         [about, newsletter, related, random]
 
