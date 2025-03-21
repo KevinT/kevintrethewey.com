@@ -35,6 +35,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Add required gems for Jekyll
 gem 'rexml'
 gem 'webrick'
-
-# Add rexml for kramdown HTML parsing
-gem 'rexml'
+gem 'kramdown-parser-gfm'
