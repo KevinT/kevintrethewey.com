@@ -2,6 +2,25 @@
 (function(w, d) {
   'use strict';
 
+  w.loadJSDeferred = function(src) {
+    return new Promise(function(resolve, reject) {
+      var script = d.createElement('script');
+      script.src = src;
+      script.onload = resolve;
+      script.onerror = reject;
+      
+      function insert() {
+        d.body.appendChild(script);
+      }
+
+      if (d.readyState === 'loading') {
+        d.addEventListener('DOMContentLoaded', insert);
+      } else {
+        insert();
+      }
+    });
+  };
+
   var pushState = history.pushState;
   var replaceState = history.replaceState;
 
@@ -11,7 +30,6 @@
 
     searchInput.addEventListener('input', function(e) {
       var value = e.target.value;
-      // Implement search logic here
       console.log('Searching for:', value);
     });
   }
@@ -20,14 +38,4 @@
     setupSearch();
   });
 
-  // Export
-  w.loadJSDeferred = function(src) {
-    return new Promise(function(resolve, reject) {
-      var script = d.createElement('script');
-      script.src = src;
-      script.onload = resolve;
-      script.onerror = reject;
-      d.head.appendChild(script);
-    });
-  };
 })(window, document);
