@@ -1,7 +1,13 @@
 
 <div class="share-buttons">
-  <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Share on LinkedIn"><i class="fa fa-linkedin"></i></a>
+  <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" title="Share on Twitter" class="no-mark-external">
+    <span class="icon-twitter"></span>
+    <span class="sr-only">Share on Twitter</span>
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Share on LinkedIn" class="no-mark-external">
+    <span class="icon-linkedin2"></span>
+    <span class="sr-only">Share on LinkedIn</span>
+  </a>
 </div>
 
 <style>
@@ -13,8 +19,13 @@
   margin: 0 10px;
   color: #333;
   text-decoration: none;
+  font-size: 24px;
 }
 .share-buttons a:hover {
   color: #666;
+}
+.share-buttons .icon-twitter,
+.share-buttons .icon-linkedin2 {
+  font-family: 'icomoon' !important;
 }
 </style>
