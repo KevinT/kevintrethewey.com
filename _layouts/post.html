@@ -17,7 +17,13 @@
 layout: base
 ---
 
+{% assign words = content | number_of_words %}
+{% assign reading_time = words | divided_by: 180 | plus: 1 %}
+<div class="reading-time" style="font-style: italic; margin-bottom: 1rem;">
+  Estimated reading time: {{ reading_time }} min
+</div>
 {% include components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image %}
+{% include share-buttons.html %}
 
 <hr class="dingbat related" />
 
