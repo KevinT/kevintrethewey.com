@@ -71,7 +71,7 @@
   "bugs": {
     "url": "https://github.com/qwtel/hydejack/issues"
   },
-  "homepage": "https://hydejack.com/",
+  "homepage": "https://yourusername.github.io/your-repo-name",
   "engines": {
     "node": ">=11"
   }
