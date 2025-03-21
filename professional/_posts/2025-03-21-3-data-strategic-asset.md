@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Data as a Strategic Asset - Beyond Technology to Sociotechnical Design
+title: Data as a Strategic Asset; Beyond Technology to Sociotechnical Design
 tags: [data strategy, organizational design, sociotechnical systems]
 comments: true
 description: >
