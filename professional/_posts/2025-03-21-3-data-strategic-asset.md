@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Data as a Strategic Asset; Beyond Technology to Sociotechnical Design
