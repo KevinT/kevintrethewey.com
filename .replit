@@ -18,3 +18,7 @@ mode = "sequential"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "bundle exec jekyll serve --host=0.0.0.0"
+
+[[ports]]
+localPort = 4000
+externalPort = 80
