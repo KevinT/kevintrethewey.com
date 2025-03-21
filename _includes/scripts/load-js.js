@@ -13,8 +13,6 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-// Compress via uglify:
-// uglifyjs load-js.js -c -m > load-js.min.js
 !function(window, document) {
   'use strict';
 
@@ -30,24 +28,23 @@
     if (cb) addEvent(script, 'load', cb, { once: true });
     var ref = document.scripts[0];
     ref.parentNode.insertBefore(script, ref);
-
     return script;
   };
 
-  window._loaded = false;
   window.loadJSDeferred = function(src, cb) {
     var script = document.createElement('script');
     script.src = src;
+    if (cb) addEvent(script, 'load', cb, { once: true });
 
     function insert() {
-      window._loaded = true;
-      if (cb) addEvent(script, 'load', cb, { once: true });
-      var ref = document.scripts[0];
-      ref.parentNode.insertBefore(script, ref);
+      document.body.appendChild(script);
     }
 
-    if (window._loaded) insert();
-    else addEvent(window, 'load', insert, { once: true });
+    if (window.requestIdleCallback) {
+      window.requestIdleCallback(insert);
+    } else {
+      window.addEventListener('load', insert);
+    }
 
     return script;
   };
