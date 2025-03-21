@@ -96,7 +96,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-titles-from-headings
-  kramdown (~> 2.3.1)
+  kramdown (~> 2.3.2)
   kramdown-parser-gfm
   rexml
   tzinfo-data
