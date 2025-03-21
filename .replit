@@ -6,3 +6,15 @@ channel = "stable-24_05"
 
 [deployment]
 run = ["sh", "-c", "npm run dev"]
+
+[workflows]
+runButton = "Jekyll"
+
+[[workflows.workflow]]
+name = "Jekyll"
+author = 39749535
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "bundle exec jekyll serve --host=0.0.0.0"
