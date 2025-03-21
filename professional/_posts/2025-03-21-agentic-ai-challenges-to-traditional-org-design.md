@@ -1,13 +1,13 @@
 ---
 layout: post
-title: From Silos to Systems: How Agentic AI Challenges Traditional Organizational Design
+title: From Silos to Systems; How Agentic AI Challenges Traditional Organizational Design
 tags: [organizational design, AI, software teams, future of work]
 comments: true
 description: >
   Agentic AI is forcing a rethink of how we structure work and teams. This post explores what organizational design principles will endure—and which will need to change as AI becomes more embedded in our daily workflows.
 ---
 
-In a [previous post]({% post_url 2025-03-21-functional-specialization-cost %}), I explored how functional specialization — at various levels of an organisation  — creates hidden organizational debt that slows it down and reduces optionality. Slow delivery, brittle systems, and increasing misalignment between how we structure our people and how we want our systems to behave.
+In a [previous post]({% post_url 2025-03-21-1-functional-specialization-cost %}), I explored how functional specialization — at various levels of an organisation  — creates hidden organizational debt that slows it down and reduces optionality. Slow delivery, brittle systems, and increasing misalignment between how we structure our people and how we want our systems to behave.
 
 But that analysis assumed a world of mostly human actors.
 
