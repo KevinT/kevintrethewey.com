@@ -15,7 +15,7 @@ Now, with the accelerating rise of **agentic AI**—tools and systems capable of
 
 And we’re going to need **new organisational metaphors, constraints, and incentives** to match.
 
-This is still an emerging field. But the early signals are clear: as agentic tooling becomes more capable, **the way we structure our organisations will be a major determining factor on amplify or constrain their potential.**
+This is still an emerging field. But the early signals are clear: as agentic tooling becomes more capable, **the way we structure our organisations will be a major determining factor on our ability to amplify (and constrain) their potential.**
 
 Those companies who fail to adapt will get rapidly replaced by those that do, with new kinds of companies emerging that were not possible before.
 
