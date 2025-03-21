@@ -148,7 +148,7 @@ disqus:                kevint
 
 hydejack:  
   # Enable the search feature
-  search: true
+  search: false
   # Configure the order of complementary content on blog posts
   post_addons:         [about, newsletter, related, random]
 
