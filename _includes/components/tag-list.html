@@ -1,3 +1,4 @@
+
 {% assign tags = include.tags %}
 {% assign meta = include.meta %}
 {% assign start_with = include.start_with %}
@@ -8,17 +9,9 @@
 
 {% if tags.size > 0 %}
   {% assign content = start_with %}
-  {% for tag_slug in tags %}
+  {% for tag in tags %}
     {% capture iter_separator %}{% if forloop.last %}{{ end_with }}{% else %}{{ separator }}{% endif %}{% endcapture %}
-
-    {% assign tag = meta | where: "slug", tag_slug | first %}
-
-    {% if tag %}
-      {% capture content_temp %}{{ content }}<a href="{{ tag.url | relative_url }}" class="flip-title">{{ tag.title }}</a>{{ iter_separator }}{% endcapture %}
-    {% else %}
-      {% capture content_temp %}{{ content }}<a href="/tag-{{ tag_slug }}" class="flip-title">{{ tag_slug | capitalize }}</a>{{ iter_separator }}{% endcapture %}
-    {% endif %}
-
+    {% capture content_temp %}{{ content }}<a href="/tag/{{ tag | slugify }}" class="flip-title">{{ tag | capitalize }}</a>{{ iter_separator }}{% endcapture %}
     {% assign content = content_temp %}
   {% endfor %}
 {% endif %}
