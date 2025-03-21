@@ -237,6 +237,10 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
+    
+  tags:
+    permalink:         /tag/:title/
+    output:            true
 
 
 # File inclusion/exclusion

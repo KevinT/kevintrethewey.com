@@ -3,14 +3,11 @@
 layout: list
 ---
 
-{% assign tag = page.slug | default:page.tag %}
+{% assign tag = page.url | split: '/' | last %}
 {% assign posts = site.tags[tag] %}
 
 <header>
-  <h1 class="page-title">{{ page.title | default: tag | capitalize }}</h1>
-  {% if page.description %}
-    {% include components/message.html text=page.description %}
-  {% endif %}
+  <h1 class="page-title">Posts tagged '{{ tag | capitalize }}'</h1>
 </header>
 
 {% for post in posts %}
