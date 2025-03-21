@@ -19,7 +19,10 @@ This is still an emerging field. But the early signals are clear: as agentic too
 
 Those companies who fail to adapt will get rapidly replaced by those that do, with new kinds of companies emerging that were not possible before.
 
-What operating principles we currently believe will still be valid, and what will need to change?
+What thinking that we currently hold tightly to will still be valid, and what will need to let go of or change?
+
+
+
 
 ---
 
@@ -105,7 +108,7 @@ This mirrors how effective engineering teams work today: strategy at the top, ex
 ### 4. **Governance, ethics, and observability become foundational**
 When agents are taking actions with consequences, we need **radically better observability, traceability, and accountability**. These aren’t bolt-ons. They become the scaffolding of trustworthy organisational systems.
 
-## Final Thoughts: It’s Not Just About Tech, and making the right tool decisions
+## Final Thoughts: It’s Not Just About Tech, or making the right tool decisions
 
 This shift isn't just technical—it’s **deeply human and organisational**.
 
