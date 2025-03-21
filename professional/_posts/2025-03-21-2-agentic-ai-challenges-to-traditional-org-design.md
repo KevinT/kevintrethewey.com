@@ -1,21 +1,21 @@
 ---
 layout: post
-title: From Silos to Systems; How Agentic AI Challenges Traditional Organizational Design
-tags: [organizational design, AI, software teams, future of work]
+title: From Silos to Systems; How Agentic AI Challenges Traditional Organisational Design
+tags: [organisational design, AI, software teams, future of work]
 comments: true
 description: >
-  Agentic AI is forcing a rethink of how we structure work and teams. This post explores what organizational design principles will endure—and which will need to change as AI becomes more embedded in our daily workflows.
+  Agentic AI is forcing a rethink of how we structure work and teams. This post explores what organisational design principles will endure—and which will need to change as AI becomes more embedded in our daily workflows.
 ---
 
-In a [previous post]({% post_url 2025-03-21-1-functional-specialization-cost %}), I explored how functional specialization — at various levels of an organisation  — creates hidden organizational debt that slows it down and reduces optionality. Slow delivery, brittle systems, and increasing misalignment between how we structure our people and how we want our systems to behave.
+In a [previous post]({% post_url 2025-03-21-1-functional-specialisation-cost %}), I explored how functional specialisation — at various levels of an organisation  — creates hidden organisational debt that slows it down and reduces optionality. Slow delivery, brittle systems, and increasing misalignment between how we structure our people and how we want our systems to behave.
 
 But that analysis assumed a world of mostly human actors.
 
 Now, with the accelerating rise of **agentic AI**—tools and systems capable of taking initiative, decomposing goals, and coordinating their own workflows—we’re entering a new design space.
 
-And we’re going to need **new organizational metaphors, constraints, and incentives** to match.
+And we’re going to need **new organisational metaphors, constraints, and incentives** to match.
 
-This is still an emerging field. But the early signals are clear: as agentic tooling becomes more capable, **the way we structure our organizations will be a major determining factor on amplify or constrain their potential.**
+This is still an emerging field. But the early signals are clear: as agentic tooling becomes more capable, **the way we structure our organisations will be a major determining factor on amplify or constrain their potential.**
 
 Those companies who fail to adapt will get rapidly replaced by those that do, with new kinds of companies emerging that were not possible before.
 
@@ -42,7 +42,7 @@ It also raises urgent questions:
 
 ## The End of the Knowledge Monopoly
 
-Traditional organizational hierarchies were built on the premise that knowledge and expertise flow from the top down. Functional specialists held monopolies over their domains. But agentic AI is about to shatter this model:
+Traditional organisational hierarchies were built on the premise that knowledge and expertise flow from the top down. Functional specialists held monopolies over their domains. But agentic AI is about to shatter this model:
 
 1. **Expertise Becomes Ambient**: When AI can provide expert-level insights in real-time, the value shifts from holding knowledge to knowing how to apply it effectively
 
@@ -50,13 +50,13 @@ Traditional organizational hierarchies were built on the premise that knowledge 
 
 3. **Role Fluidity**: Fixed functional roles become less relevant when AI can rapidly scaffold domain knowledge
 
-## New Organizational Primitives
+## New Organisational Primitives
 
-Instead of organizing around functional specialties, companies may need to organize around:
+Instead of organising around functional specialties, companies may need to organise around:
 
 1. **Context Pods**: Small, cross-functional groups with deep shared context about specific business domains
 
-2. **Learning Loops**: Structures optimized for rapid experimentation and feedback between humans and AI
+2. **Learning Loops**: Structures optimised for rapid experimentation and feedback between humans and AI
 
 3. **Intent Networks**: Loose configurations of humans and AI agents aligned around clear outcomes rather than prescribed processes
 
@@ -70,11 +70,11 @@ The key differentiator becomes our uniquely human capabilities:
 
 3. **Social Orchestration**: Building trust and alignment across human-AI teams
 
-The organizations that thrive won't be those with the best AI, but those who best understand how to create environments where humans and AI amplify each other's strengths.
+The organisations that thrive won't be those with the best AI, but those who best understand how to create environments where humans and AI amplify each other's strengths.
 
 ## What Principles Still Hold?
 
-Despite the hype and change, some organizational design truths will most likely remain remarkably resilient.
+Despite the hype and change, some organisational design truths will most likely remain remarkably resilient.
 
 ### 1. **Sociotechnical alignment still matters**
 The core principle from Conway’s Law still applies: **your systems will reflect your communication structures.** If you introduce autonomous agents into brittle, siloed org structures, you’ll get fragmented, brittle AI usage.
@@ -97,25 +97,25 @@ Think: _“Who can satisfy this intent under these constraints?”_ not _“Whos
 ### 2. **Teams as dynamic coalitions**
 The idea of a "team" as a static group of people may give way to **fluid coalitions** of humans and AI agents assembled around a problem or opportunity. This could drive a move toward **short-lived, goal-oriented micro-teams**, orchestrated by platform or protocol.
 
-### 3. **Organizational structure becomes more recursive**
+### 3. **Organisational structure becomes more recursive**
 As agents become internal developers, decision-makers, and testers, we may see orgs that are **nested systems of delegation**—humans designing high-level strategies and constraints, agents handling tactical execution within those boundaries.
 
 This mirrors how effective engineering teams work today: strategy at the top, execution at the edge, with feedback loops across the system. The difference is who (or what) is at the edge.
 
 ### 4. **Governance, ethics, and observability become foundational**
-When agents are taking actions with consequences, we need **radically better observability, traceability, and accountability**. These aren’t bolt-ons. They become the scaffolding of trustworthy organizational systems.
+When agents are taking actions with consequences, we need **radically better observability, traceability, and accountability**. These aren’t bolt-ons. They become the scaffolding of trustworthy organisational systems.
 
 ## Final Thoughts: It’s Not Just About Tech, and making the right tool decisions
 
-This shift isn't just technical—it’s **deeply human and organizational**.
+This shift isn't just technical—it’s **deeply human and organisational**.
 
 Just like DevOps and agile ways of working required rethinking culture, incentives, and collaboration, agentic AI will force a similar reckoning. It’s not enough to bolt agents into old workflows. We’ll need to **rethink what work is, who does it, and how systems evolve** over time.
 
-The organizations that thrive in this next wave will be those that **design for adaptability, not just efficiency.**  
+The organisations that thrive in this next wave will be those that **design for adaptability, not just efficiency.**  
 
 That means:
 - Investing in **platforms that support dynamic assembly**
 - Building **incentives around outcomes and learning**, not control
 - Focusing on **resilience, feedback loops, and optionality**
 
-We’re just getting started. But the future of work won’t be shaped by AI alone—it’ll be shaped by **how we choose to organize around it.**
+We’re just getting started. But the future of work won’t be shaped by AI alone—it’ll be shaped by **how we choose to organise around it.**
