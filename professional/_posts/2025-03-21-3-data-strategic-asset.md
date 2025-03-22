@@ -1,22 +1,22 @@
 ---
 layout: post
 title: Data as a Strategic Asset; Beyond Technology to Sociotechnical Design
-tags: [data strategy, organizational design, sociotechnical systems]
+tags: [data strategy, organisational design, sociotechnical systems]
 comments: true
 description: >
-  AI and agentic agents run on data and context. Most organizations treat data as a technical problem to be solved by IT. The real challenge—and opportunity—lies in understanding it as a sociotechnical system that requires intentional organizational design.
+  AI and agentic agents run on data and context. Most organisations treat data as a technical problem to be solved by IT. The real challenge—and opportunity—lies in understanding it as a sociotechnical system that requires intentional organisational design.
 ---
 
-Building on previous posts about [functional specialization]({% post_url 2025-03-21-1-functional-specialisation-cost %}) and [agentic AI]({% post_url 2025-03-21-2-agentic-ai-challenges-to-traditional-org-design %}), let's explore how the way we organize around data will become a primary differentiator between companies that thrive and those that struggle in the age of ambient intelligence.
+Building on previous posts about [functional specialisation]({% post_url 2025-03-21-1-functional-specialisation-cost %}) and [agentic AI]({% post_url 2025-03-21-2-agentic-ai-challenges-to-traditional-org-design %}), let's explore how the way we organise around data will become a primary differentiator between companies that thrive and those that struggle in the age of ambient intelligence.
 
 ## The Traditional Approach Is Failing
 
-Most organizations still treat data as primarily a technical challenge:
+Most organisations still treat data as primarily a technical challenge:
 - They hire data engineers and architects
 - They buy data platforms and tools
 - They create data strategies focused on storage, processing, and analytics
 
-But they're missing the fundamental point: **Data is a sociotechnical artifact**. It's continually created, modified, and consumed through human interactions, decisions, and organizational processes.
+But they're missing the fundamental point: **Data is a sociotechnical artifact**. It's continually created, modified, and consumed through human interactions, decisions, and organisational processes.
 
 And in a world where increasingly intelligent agents are acting on our behalf, **this data becomes the substrate of all action, judgment, and coordination**. It is not just an asset. It’s the fuel, the language, and the terrain.
 
@@ -24,7 +24,7 @@ And yet, most organisations treat it like exhaust.
 
 ## The Hidden Costs of Poor Data Design
 
-Just as with functional specialization, treating data as purely technical creates hidden organizational debt:
+Just as with functional specialisation, treating data as purely technical creates hidden organisational debt:
 
 1. **Knowledge Silos**: Data becomes trapped in functional teams
 2. **Quality Decay**: No clear ownership of data quality across its lifecycle
@@ -47,7 +47,7 @@ If your data is fragmented, siloed, poorly contextualised, or hidden behind org 
 
 Instead of asking "How do we manage our data?", we need to ask:
 
-> "How do we design our organization to treat data as a first-class strategic asset?"
+> "How do we design our organisation to treat data as a first-class strategic asset?"
 
 This reframing leads to different approaches:
 
@@ -59,7 +59,7 @@ This reframing leads to different approaches:
 
 ### 2. **All Teams are Data Teams**
 
-- Embed data expertise across the organization
+- Embed data expertise across the organisation
 - Consider creating "data pods" in that combine business and technical skills in key areas
 - Focus on outcomes over output
 
@@ -69,9 +69,9 @@ This reframing leads to different approaches:
 - Create clear decision rights and accountability
 - Build feedback loops between data producers and consumers
 
-## Organizational Design Implications
+## Organisational Design Implications
 
-The real problem is organisational, not just technical. This shift requires rethinking several aspects of how we organize.
+The real problem is organisational, not just technical. This shift requires rethinking several aspects of how we organise.
 
 We’ve spent decades building pipelines, lakes, warehouses, lakehouses, and catalogs. And yet most organisations still struggle to answer basic cross-cutting questions about their operations, customers, and systems.
 
@@ -115,10 +115,10 @@ We need to stop outsourcing “data work” to a separate class of specialists. 
 
 ### 5. **Team Structures**
 
-Move from centralized data teams to:
+Move from centralised data teams to:
 - Embedded data capabilities in teams
 - Data platform teams that focus on provide enabling infrastructure
-- Data governance networks that span the organization and focus on securing the flow of data, not blocking it
+- Data governance networks that span the organisation and focus on securing the flow of data, not blocking it
 
 ### 6. **Incentive Alignment**
 
@@ -141,7 +141,7 @@ This isn’t just about building the right APIs. It’s about **designing your o
 
 Success requires focusing on three key areas:
 
-### 1. **Organizational Clarity**
+### 1. **Organisational Clarity**
 
 - Clear ownership and decision rights
 - Explicit data quality standards
@@ -178,11 +178,11 @@ Success requires focusing on three key areas:
 
 ## Final Thoughts
 
-As data becomes more central to how organizations operate and compete, the ability to design effective sociotechnical systems around data will become a critical capability.
+As data becomes more central to how organisations operate and compete, the ability to design effective sociotechnical systems around data will become a critical capability.
 
 Managing data as a strategic asset is not just a CIO or CDO problem. It’s a **whole-organisation design challenge**.
 
-The organizations that thrive won't be those with the best technology, but those who best understand how to create environments where humans and machines can effectively collaborate around data to create value.
+The organisations that thrive won't be those with the best technology, but those who best understand how to create environments where humans and machines can effectively collaborate around data to create value.
 
 Focus on
 
