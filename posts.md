@@ -1,6 +1,7 @@
+
 ---
 layout: list
-title: Posts
+title: Blog Posts
 description: >
-  Go [here](/blog) for a more browse-friendly layout
+  All blog posts in chronological order. For a more browse-friendly experience, see the [Blog](/blog) page.
 ---
