@@ -3,11 +3,10 @@
 layout: list
 ---
 
-{% assign tag = page.url | split: '/' | last %}
-{% assign posts = site.tags[tag] %}
+{% assign posts = site.tags[page.slug] | default:site.posts %}
 
 <header>
-  <h1 class="page-title">Posts tagged '{{ tag | capitalize }}'</h1>
+  <h1 class="page-title">Posts tagged '{{ page.slug | capitalize }}'</h1>
 </header>
 
 {% for post in posts %}
