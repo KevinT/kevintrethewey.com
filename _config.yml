@@ -188,13 +188,9 @@ hydejack:
 
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
-  no_theme_color:      false
 
   # Set to `true` when building with the `--lsi` option
-  use_lsi:             false
 
-  # When using Google Analytics, set to `true` to display a cookie notice banner.
-  # When enabled, no user-related data will be stored until the user gives consent.
   cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
@@ -237,7 +233,7 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
-    
+
   tags:
     permalink:         /tag/:title/
     output:            true
@@ -259,6 +255,7 @@ exclude:
   - _js
   - _plugins
   - .sass-cache
+  - public #Removed public directory
 include:
   - LICENSE.md
   - .well-known
@@ -332,7 +329,7 @@ relative_links:
 titles_from_headings:
   strip_title:         true
   collections:         true
-  
+
 replace_img:
   re_img:              <img\s*(?<attrs>.*?)\s*/>
   re_ignore:           (re|data)-ignore
