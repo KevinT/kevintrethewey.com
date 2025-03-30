@@ -112,8 +112,12 @@ The rate of change in AI tooling and agentic architecture is exponential. Where 
 - Evolve code review practices to include AI-generated contributions
 - Maintain strong documentation of system boundaries and responsibilities
 - Instrument your systems deeply—**observability is the best early surface for experimenting with agents**
+- Make sure you're thinking about data effectively
 
-For more on that, see my article on data as a strategic asset [link].
+For more, see my articles that focus more deeply on:
+
+1. [Agentic AI]({% post_url 2025-03-21-2-agentic-ai-challenges-to-traditional-org-design %})
+2. [Data as a strategic asset]({% post_url 2025-03-21-3-data-strategic-asset %})
 
 ## Conclusion
 
