@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: model synthesis
+title: model synthesis
 permalink: /tags/model-synthesis/
 ---

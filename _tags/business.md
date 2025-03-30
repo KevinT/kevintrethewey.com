@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: business
+title: business
 permalink: /tags/business/
 ---

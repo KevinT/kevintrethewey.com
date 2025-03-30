@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: leadership
+title: leadership
 permalink: /tags/leadership/
 ---

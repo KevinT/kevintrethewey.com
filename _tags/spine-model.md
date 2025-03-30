@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: spine model
+title: spine model
 permalink: /tags/spine-model/
 ---

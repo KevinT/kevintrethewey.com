@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: sociotechnical systems
+title: sociotechnical-systems
 permalink: /tags/sociotechnical-systems/
 ---

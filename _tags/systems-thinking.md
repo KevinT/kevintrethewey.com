@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: systems thinking
+title: systems thinking
 permalink: /tags/systems-thinking/
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: time
+title: time
 permalink: /tags/time/
 ---

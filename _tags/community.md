@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: community
+title: community
 permalink: /tags/community/
 ---

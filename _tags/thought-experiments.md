@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: thought experiments
+title: thought experiments
 permalink: /tags/thought-experiments/
 ---

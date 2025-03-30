@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Beyond T-shaped people; The Invisible Cost of Functional Specialisation in Organisations
-tags: [team dynamics, organisational design, software development]
+tags: [team-dynamics, organisational-design, software-development]
 comments: true
 description: >
   Exploring how functional specialisation creates hidden organisational debt that compounds over time, impacting both team agility and organisational adaptability

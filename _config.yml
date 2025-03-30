@@ -235,7 +235,7 @@ collections:
     output:            true
 
   tags:
-    permalink:         /tag/:title/
+    permalink:         /tags/:title/
     output:            true
 
 

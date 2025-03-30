@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: dreyfus model
+title: dreyfus model
 permalink: /tags/dreyfus-model/
 ---

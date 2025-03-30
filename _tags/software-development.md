@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: software development
+title: software-development
 permalink: /tags/software-development/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: From Silos to Systems; How Agentic AI Challenges Traditional Organisational Design
-tags: [organisational design, AI, software teams, future of work]
+tags: [organisational-design, ai, software-teams, future-of-work]
 comments: true
 description: >
   Agentic AI will force a rethink of how we structure work and teams. This post explores what organisational design principles will endure—and which will need to change as AI becomes more embedded in our daily workflows.

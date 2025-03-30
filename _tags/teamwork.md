@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: teamwork
+title: teamwork
 permalink: /tags/teamwork/
 ---

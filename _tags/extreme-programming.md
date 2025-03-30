@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: extreme programming
+title: extreme programming
 permalink: /tags/extreme-programming/
 ---

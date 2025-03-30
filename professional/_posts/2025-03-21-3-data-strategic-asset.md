@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data as a Strategic Asset; Beyond Technology to Sociotechnical Design
-tags: [data strategy, organisational design, sociotechnical systems]
+tags: [data-strategy, organisational-design, sociotechnical-systems]
 comments: true
 description: >
   AI and agentic agents run on data and context. Most organisations treat data as a technical problem to be solved by IT. The real challenge—and opportunity—lies in understanding it as a sociotechnical system that requires intentional organisational design.

@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: future of work
+title: future-of-work
 permalink: /tags/future-of-work/
 ---

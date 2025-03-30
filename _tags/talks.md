@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: talks
+title: talks
 permalink: /tags/talks/
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: software
+title: software
 permalink: /tags/software/
 ---

@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: data strategy
+title: data-strategy
 permalink: /tags/data-strategy/
 ---

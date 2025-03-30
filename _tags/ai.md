@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: AI
+title: ai
 permalink: /tags/ai/
 ---

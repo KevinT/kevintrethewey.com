@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: technical writing
+title: technical writing
 permalink: /tags/technical-writing/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Engineering Leaders Guide to Recalibrating for the Agentic Era
-tags: [AI, leadership, software teams, future of work]
+tags: [ai, leadership, software-teams, future-of-work]
 comments: true
 description: >
   As experienced engineering leaders, we need to recalibrate our understanding of how software will be built in the age of AI. Here's my current perspective on where to start and what to recalibrate. Subject to change as the landscape shifts underneath us.

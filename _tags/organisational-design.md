@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: organisational design
+title: organisational-design
 permalink: /tags/organisational-design/
 ---

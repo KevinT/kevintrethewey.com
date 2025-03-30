@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: podcasts
+title: podcasts
 permalink: /tags/podcasts/
 ---

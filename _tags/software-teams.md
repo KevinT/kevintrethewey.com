@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: software teams
+title: software-teams
 permalink: /tags/software-teams/
 ---

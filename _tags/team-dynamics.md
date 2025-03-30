@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: team dynamics
+title: team-dynamics
 permalink: /tags/team-dynamics/
 ---

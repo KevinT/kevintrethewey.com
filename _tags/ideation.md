@@ -1,5 +1,5 @@
 ---
 layout: tag
-tag: ideation
+title: ideation
 permalink: /tags/ideation/
 ---
