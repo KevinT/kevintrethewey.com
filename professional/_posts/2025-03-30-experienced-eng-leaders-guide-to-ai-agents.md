@@ -23,11 +23,11 @@ We need you.
 | Developer productivity is key          | System-level throughput is key                            |
 | Expertise drives quality               | Context curation enables quality                          |
 | Engineers act in prod with guardrails  | Agents act in prod, sometimes unpredictably               |
-| Deep specialization prized             | Synthesis, integration, and orchestration valued          |
+| Deep specialisation prized             | Synthesis, integration, and orchestration valued          |
 
 If we think of agentic tools merely as faster ways to write software, we’re falling into “faster horses” thinking. The shift isn't just about building the same systems faster—it's about *different forms* of systems, made and operated in fundamentally new ways.
 
-The rise of agentic AI tooling is more than a wave of productivity hacks or code co-pilots. It’s a **fundamental shift in how we conceptualize software creation, collaboration, and execution**. And if you haven’t been hands-on with these tools yet, you're not just missing out—you may be planning for a world that's already disappearing.
+The rise of agentic AI tooling is more than a wave of productivity hacks or code co-pilots. It’s a **fundamental shift in how we conceptualise software creation, collaboration, and execution**. And if you haven’t been hands-on with these tools yet, you're not just missing out—you may be planning for a world that's already disappearing.
 
 Agentic systems don’t just assist—they *act*. They operate across tools, interpret context, pursue goals, and make decisions—sometimes intelligent, sometimes deeply flawed. Crucially, these agents run *in the real world*, not just in test environments or behind review gates. They update data, trigger deployments, reconfigure infrastructure, and take domain-specific actions that no one explicitly coded line-by-line.
 
@@ -41,7 +41,7 @@ If you're like me, you've developed strong intuitions about what makes good soft
 
 ### 1. Expertise as Bottleneck → Context as Substrate
 
-We’ve long prized deep human expertise as the cornerstone of quality. But agents thrive not on knowing more, but on being given *the right context*. Your new job: shaping that context. Standardizing interfaces. Curating knowledge. Designing work in ways that make it legible to machines.
+We’ve long prized deep human expertise as the cornerstone of quality. But agents thrive not on knowing more, but on being given *the right context*. Your new job: shaping that context. Standardising interfaces. Curating knowledge. Designing work in ways that make it legible to machines.
 
 ### 2. Architecture as Fixed Plan → Architecture as Dialogue
 
@@ -64,7 +64,7 @@ AI tools can generate code rapidly, but this speed can mask comprehension gaps. 
 
 ### 6. From Specialist to Synthesist
 
-Deep technical specialization is still valuable—but increasingly needs to be paired with:
+Deep technical specialisation is still valuable—but increasingly needs to be paired with:
 - Strong system design principles
 - Effective prompt engineering skills
 - Ability to validate and integrate AI-generated solutions while they are running
@@ -108,7 +108,7 @@ If you're completely new to agentic tools:
 
 The rate of change in AI tooling and agentic architecture is exponential. Where you focus will depend on your context, but key foundations are universal:
 
-- Emphasize architectural integrity over implementation correctness
+- Emphasise architectural integrity over implementation correctness
 - Evolve code review practices to include AI-generated contributions
 - Maintain strong documentation of system boundaries and responsibilities
 - Instrument your systems deeply—**observability is the best early surface for experimenting with agents**
