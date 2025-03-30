@@ -21,16 +21,12 @@ description: >
 
 {% assign plugins = site.plugins | default:site.gems %}
 
-<h2>[ Recent ]</h2>
+<h2>[ All Posts ]</h2>
 <ul class="related-posts">
   {% for post in site.posts limit:3 %} {% include components/post-list-item.html
   post=post %} {% endfor %}
 </ul>
-
-<i><a href="/posts/">...</a></i>
-
-<h2>[ All Posts ]</h2>
-
+  
 {% if plugins contains 'jekyll-paginate' %} {% for post in paginator.posts %} {%
 include components/post.html post=post no_link_title=page.no_link_title
 no_excerpt=page.no_excerpt hide_image=page.hide_image %} {% endfor %} {% include
