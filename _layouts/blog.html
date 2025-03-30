@@ -1,25 +1,21 @@
+
 ---
 # Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
 layout: base
 description: >
   [All blog posts](/posts)
 ---
 
 {% assign plugins = site.plugins | default:site.gems %}
+
+<h2>Recent Articles</h2>
+<ul class="related-posts">
+  {% for post in site.posts limit:5 %}
+    {% include components/post-list-item.html post=post %}
+  {% endfor %}
+</ul>
+
+<h2>All Posts</h2>
 
 {% if plugins contains 'jekyll-paginate' %}
   {% for post in paginator.posts %}
