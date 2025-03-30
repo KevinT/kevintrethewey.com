@@ -74,7 +74,7 @@ Deep technical specialization is still valuable—but increasingly needs to be p
 If you're already familiar with ChatGPT or using code copilots, it's time to move beyond enhanced software construction and look at how the **systems themselves** will be designed differently in an agentic world.
 
 - **Use the Tools Personally**  
-  Install GPT-based agents locally or in agent-enabled IDEs like Cursor or Continue.dev. Try multi-agent frameworks like AutoGen, crewAI, or LangGraph. Give yourself *real* tasks to solve (repeat them kata-style). Don’t outsource the learning—experience the new ergonomics of agency.
+  Install GPT-based agents locally or in agent-enabled IDEs. Try multi-agent frameworks. Give yourself *real* tasks to solve (repeat them kata-style). Don’t outsource the learning—experience the new ergonomics of agency.
 
 - **Codify What You Know**  
   The best agents are trained on *your* ways of working. Document your playbooks, architectural heuristics, and domain insights as structured prompts or decision trees. You're not just enabling people—you’re enabling your future AI collaborators.
