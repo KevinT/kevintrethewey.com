@@ -1,41 +1,33 @@
----
-# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+---
 layout: base
-description: >
-  [All blog posts](/posts)
 ---
 
-{% assign plugins = site.plugins | default:site.gems %}
+{% assign posts = site.posts %}
 
-<h2>[ Recent ]</h2>
-<ul class="related-posts">
-  {% for post in site.posts limit:3 %} {% include components/post-list-item.html
-  post=post %} {% endfor %}
-</ul>
+<article class="page" role="article">
+  {% if content contains "<!--more-->" %}
+    {{ content | split:"<!--more-->" | first }}
+    {% if content contains "<!--more-->" %}
+      <hr class="dingbat"/>
+    {% endif %}
+  {% else %}
+    {{ content }}
+  {% endif %}
 
-<i><a href="/posts/">...</a></i>
+  {% assign no_link_title = page.no_link_title | default:site.hydejack.no_link_title %}
+  {% assign no_excerpt = page.no_excerpt | default:site.hydejack.no_excerpt %}
+  {% assign hide_image = page.hide_image | default:site.hydejack.hide_image %}
 
-<h2>[ All Posts ]</h2>
+  <h2>Recent Posts</h2>
+  <ul class="related-posts">
+    {% for post in posts limit:5 %}
+      {% include components/post-list-item.html post=post %}
+    {% endfor %}
+  </ul>
 
-{% if plugins contains 'jekyll-paginate' %} {% for post in paginator.posts %} {%
-include components/post.html post=post no_link_title=page.no_link_title
-no_excerpt=page.no_excerpt hide_image=page.hide_image %} {% endfor %} {% include
-components/pagination.html %} {% else %} {% capture text %}To use this layout,
-include the `jekyll-paginate` plugin in your `Gemfile` and your `_config.yml`
-under `plugins`. For more, see [Jekyll
-Pagination](https://jekyllrb.com/docs/pagination/).{% endcapture %} {% include
-components/message.html text=text %} {% endif %}
+  <h2>All Posts</h2>
+  {% for post in posts %}
+    {% include components/post.html post=post no_link_title=no_link_title no_excerpt=no_excerpt hide_image=hide_image %}
+  {% endfor %}
+</article>
