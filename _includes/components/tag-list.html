@@ -11,7 +11,7 @@
   {% assign content = start_with %}
   {% for tag in tags %}
     {% capture iter_separator %}{% if forloop.last %}{{ end_with }}{% else %}{{ separator }}{% endif %}{% endcapture %}
-    {% capture content_temp %}{{ content }}<a href="/tags/{{ tag | slugify }}" class="flip-title">{{ tag | capitalize }}</a>{{ iter_separator }}{% endcapture %}
+    {% capture content_temp %}{{ content }}<a href="/tags/{{ tag }}" class="flip-title">{{ tag }}</a>{{ iter_separator }}{% endcapture %}
     {% assign content = content_temp %}
   {% endfor %}
 {% endif %}
