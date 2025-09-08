@@ -1,5 +1,5 @@
 ---
 layout: redirect
 redirect:
-  to: /professional/
+  to: /blog/
 ---
