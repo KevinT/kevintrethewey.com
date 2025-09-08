@@ -7,6 +7,8 @@ description: >
   AI and agentic agents run on data and context. Most organisations treat data as a technical problem to be solved by IT. The real challenge—and opportunity—lies in understanding it as a sociotechnical system that requires intentional organisational design.
 ---
 
+![image](/assets/img/blog/data-as-an-asset.jpg)
+
 Building on previous posts about [functional specialisation]({% post_url 2025-03-21-1-functional-specialisation-cost %}) and [agentic AI]({% post_url 2025-03-21-2-agentic-ai-challenges-to-traditional-org-design %}), let's explore how the way we organise around data will become a primary differentiator between companies that thrive and those that struggle in the age of ambient intelligence.
 
 ## The Traditional Approach Is Failing

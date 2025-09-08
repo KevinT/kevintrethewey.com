@@ -7,6 +7,8 @@ description: >
   Agentic AI will force a rethink of how we structure work and teams. This post explores what organisational design principles will endure—and which will need to change as AI becomes more embedded in our daily workflows.
 ---
 
+![image](/assets/img/blog/silos-to-systems.jpg)
+
 In a [previous post]({% post_url 2025-03-21-1-functional-specialisation-cost %}), I explored how functional specialisation — at various levels of an organisation  — creates hidden organisational debt that slows it down and reduces optionality. Slow delivery, brittle systems, and increasing misalignment between how we structure our people and how we want our systems to behave.
 
 But that analysis assumed a world of mostly human actors.

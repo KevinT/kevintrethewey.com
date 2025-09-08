@@ -7,6 +7,8 @@ description: >
   As experienced engineering leaders, we need to recalibrate our understanding of how software will be built in the age of AI. Here's my current perspective on where to start and what to recalibrate. Subject to change as the landscape shifts underneath us.
 ---
 
+![image](/assets/img/blog/agentic-era.jpg)
+
 After 25+ years in software engineering and leading global teams across platforms and industries, I’ve seen multiple waves of technological change. But the emergence of agentic AI—systems that *act*, not just assist—represents a shift more profound than anything prior. It’s not just an evolution in tooling. It’s a transformation in how software is created, operated, and evolved.
 
 This post is a checkpoint for myself—and a guide for others who’ve spent years building mature, human-centered engineering teams. If you already know how to lead teams that deliver, now’s the time to recalibrate. The ground is shifting quickly.

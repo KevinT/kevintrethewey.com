@@ -7,6 +7,8 @@ description: >
   Exploring how functional specialisation creates hidden organisational debt that compounds over time, impacting both team agility and organisational adaptability
 ---
 
+![image](/assets/img/blog/beyond-t-shaped.jpg)
+
 Back in 2017, I tweeted that 
 > "Functional specialisation of individuals destroys team agility. Functional specialisation of teams destroys organisational agility." 
 
