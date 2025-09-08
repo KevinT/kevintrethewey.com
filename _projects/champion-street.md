@@ -22,9 +22,9 @@ We planted over 300 trees, many of which I grew from seed. Other great features 
 1. Everything two young boys could ever want - from the trampoline and jungle gym when they were toddlers to the zip-line, cricket nets and football field as they grew up
 
 Cottage & dust, 2010
-![image](/assets/img/projects/family-home-cottage.jpg)
+![image](/assets/img/projects/family-home-cottag.jpg)
 Laying the first grass
-![image](/assets/img/projects/family-home-first-grass.jpg)
+![image](/assets/img/projects/family-home-first-gras.jpg)
 Pouring the roof slab for the main house, 2016
 ![image](/assets/img/projects/family-home-slab.jpg)
 The secret house tree, up the bookshelf
