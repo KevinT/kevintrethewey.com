@@ -15,4 +15,4 @@ ruby ./tools/tag-gen.rb
 1. TinyLetter newsletter integration?
 1. Pottery project detail
 1. Better image on AdvisorPro
-1. Add blog posts
+1. Add writing posts

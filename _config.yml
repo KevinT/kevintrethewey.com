@@ -18,20 +18,20 @@ baseurl:               ''
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
-# The title of your blog. Used in the sidebar and the browser tab.
+# The title of your writing. Used in the sidebar and the browser tab.
 title:                 Kevin Trethewey
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   My Personal Site
-  This site is a collection of personal writing and projects, including a sporadically updated blog, and hobby projects.
+  This site is a collection of personal writing and projects, including sporadic writing, and hobby projects.
 
 # A shorter description for the sidebar.
 tagline:               >
   Personal Site
 
-# A list of keywords for your blog
+# A list of keywords for your writing
 keywords:              [software development, software engineering, technical leadership, agility, pottery]
 
 # A (square) logo for your site.
@@ -48,8 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
+  - title:             Writing
+    url:               /writing
   - title:             Projects
     url:               /projects/
   - title:             Résumé*

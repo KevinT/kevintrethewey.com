@@ -17,12 +17,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run format` - Format JavaScript files with Prettier
 
 ### Content Management
-- `ruby ./tools/tag-gen.rb` - Regenerate tag pages from blog post frontmatter
+- `ruby ./tools/tag-gen.rb` - Regenerate tag pages from writing post frontmatter
 
 ## Architecture Overview
 
 ### Jekyll Site Structure
-- **Main content**: Blog posts in `professional/_posts/` with YAML frontmatter
+- **Main content**: Writing posts in `professional/_posts/` with YAML frontmatter
 - **Collections**: Projects in `_projects/`, tags in `_tags/`
 - **Layouts**: Page templates in `_layouts/` 
 - **Includes**: Reusable components in `_includes/`
@@ -42,7 +42,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Site configuration in `_config.yml`
 
 ### Content Types
-- **Blog posts**: Professional writing in `professional/_posts/` with tags
+- **Writing posts**: Professional writing in `professional/_posts/` with tags
 - **Projects**: Portfolio items in `_projects/`
 - **Static pages**: Resume, hypotheses, etc. as `.md` files in root
 - **Tags**: Auto-generated tag pages in `_tags/` via Ruby script
