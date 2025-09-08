@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
 # Jekyll version with proper dependencies
-gem "jekyll", "~> 3.10.0"
-gem "kramdown", "~> 2.3.2"
+gem "jekyll", "~> 4.3.0"
+gem "kramdown", "~> 2.4.0"
 gem "kramdown-parser-gfm"
 gem "webrick"
-gem "rexml"
+gem "rexml", "~> 3.4.0"
 
 # Jekyll plugins
 group :jekyll_plugins do
