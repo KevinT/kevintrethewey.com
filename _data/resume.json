@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Kevin Trethewey",
-    "label": "Software Engineering Leader",
+    "label": "Technology Leader",
     "picture": "/assets/img/kevint-128-128.jpg",
     "email": "",
     "phone": "+27 (0) 82 579-9154",
     "website": "https://linktr.ee/kevintrethewey",
-    "summary": "Over the course of my career I have had the opportunity to work in and observe projects, teams and organisations in vastly different environments, and seen vastly differing levels of success amongst them. Through my experiences I have grown an understanding of the values, principles and practices that are required for healthy systems, as well as gained deep experience in how to bring these into organisations as a technical leader.",
+    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career.<BR><BR>At Sand Technologies I am accountable for the software engineering outcomes across the organisation, which operates remotely, and has a global customer base. SandTech delivers data intelligence using the latest in data and AI technology. We have deployed impactful solutions in 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to joining Sand (via the ExploreAI aquisition), I was Director of Engineering at Jemstep, a Silicon Valley based fintech firm owned by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
     "location": {
       "address": "Sandton",
       "postalCode": "2146",
@@ -66,6 +66,14 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "Drivenci Unconference Johannesburg",
+      "position": "Organiser, Sponsor",
+      "website": "https://kevintrethewey.com/projects/drivenci/",
+      "startDate": "2014-11-01",
+      "endDate": "2025-07-31",
+      "summary": "An all weekend invitation-only unconference. I organised 10 annual events."
+    },
     {
       "organization": "Coderetreat South Africa",
       "position": "Organiser, Sponsor",

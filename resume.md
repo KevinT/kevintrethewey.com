@@ -1,8 +1,8 @@
 ---
 layout: resume
-title: Résumé*
+title: Professional Resume
 description: >
-  I've been in the software industry since 1998. This is a summary of my more recent experience.
+  I've been in the industry since 1998. Below is a summary of some of my experience.
 hide_description: false
 menu: true
 order: 3
