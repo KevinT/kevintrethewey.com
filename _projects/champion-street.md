@@ -10,7 +10,7 @@ screenshot:
     480w: /assets/img/projects/family-home@0,25x.jpg
 caption: The perfect family home.
 description: >
-  Starting in 2007 with an empty plot of land, where the highest thing was an anthill, my wife and I developed the property into a paradise for our family, with a large family home, cottage, rolling lawns and gardens.
+  Beginning in 2007 with an empty plot of land, the tallest thing was an anthill, my wife and I developed the property into a paradise for our family, with a large family home, cottage, rolling lawns and gardens.
 ---
 
 Starting with owner-building a cottage in 2010, and then having the privilege to work with a great architect, builder and QS to develop our dream home, looking down the valley into the sunsets. 
