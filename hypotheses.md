@@ -10,7 +10,7 @@ Short personal insights, observations and hypotheses over time.
 
 I use these as thought experiments, and as markers to come back to and see if and how my thinking has expanded or moved on over time.
 
-@ me on [@kevintrethewey](https://x.com/KevinTrethewey) to interact with me or my ideas directly...
+*@ me on [@kevintrethewey](https://x.com/KevinTrethewey) to interact with me or my ideas directly...*
 
 
 |2021|
