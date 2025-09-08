@@ -27,6 +27,8 @@ Laying the first grass
 ![image](/assets/img/projects/family-home-first-grass.jpg)
 Pouring the roof slab for the main house, 2016
 ![image](/assets/img/projects/family-home-slab.jpg)
+The secret house tree, up the bookshelf
+![image](/assets/img/projects/family-home-house-tree.jpg)
 Establishing the gardens
 ![image](/assets/img/projects/family-home-garden.jpg)
 Summer swims
