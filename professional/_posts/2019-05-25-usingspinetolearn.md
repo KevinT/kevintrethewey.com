@@ -4,7 +4,7 @@ title: Using the Spine Model to inform your path to guide your learning
 tags: [spine model, dreyfus model, model synthesis, systemic thinking]
 comments: true
 description: >
-  Combining the Spine Model and the Dreyfus Model of Skills Acquisition can provide some useful insights into how to lean new skills
+  Combining the Spine Model and the Dreyfus Model of Skills Acquisition can provide some useful insights into how to learn new skills
 ---
 
 This post assumes you are already familiar with the [Spine Model][spine]

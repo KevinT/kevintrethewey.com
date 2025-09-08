@@ -6,9 +6,9 @@ order: 2
 sitemap: true
 ---
 
-Short personal insights, observations and hypothesis over time. 
+Short personal insights, observations and hypotheses over time. 
 
-I use these as thought experiments, and as test straps to see how my thinking has expanded or moved on over time...
+I use these as thought experiments, and as markers to come back to and see if and how my thinking has expanded or moved on over time...
 
 
 |2021|
@@ -19,11 +19,11 @@ Hypothesis: When scaling, “time” is the vector most easily forgotten and mos
 |The best way I know how to manage this is to work in small increments of customer value with continual feedback loops between product vision, strategy and tactics. Functional increments/agile delivery are not the ticket. And, easier said on twitter than done in reality.[[↪]](https://twitter.com/KevinTrethewey/status/1370415501256577026){:target="_blank"}|
 |It always surprises me how little we do this, and how much it helps. Also, nb: The sequence is important, don't skip a step. So are the words "people" and "to". As well as the separation between people and work.[[↪]](https://twitter.com/KevinTrethewey/status/1385244312745783297){:target="_blank"}|
 |Such a correlation between humbleness and ability to learn, adapt and grow. Which are way bigger levers for success that “smart”, or “educated”, measured over the long term. At least that’s become my belief, through personal experience.[[↪]](https://twitter.com/KevinTrethewey/status/1377902313294098435){:target="_blank"}|
-|Being aware of Conways Law, sadly, does not negate the effects of Conways Law. When it comes to systemic effects, “wanting really hard” (even if everyone in the system is all wanting hard together), while possibly necessary, is definitely insufficient.[[↪]](https://twitter.com/KevinTrethewey/status/1347079151182819330){:target="_blank"}|
+|Being aware of Conway's Law, sadly, does not negate the effects of Conway's Law. When it comes to systemic effects, “wanting really hard” (even if everyone in the system is all wanting hard together), while possibly necessary, is definitely insufficient.[[↪]](https://twitter.com/KevinTrethewey/status/1347079151182819330){:target="_blank"}|
 |If you're reading for learning, "finishing" a book is a meaningless concept. Particularly if you plan to do that by reading to the end of it.[[↪]](https://twitter.com/KevinTrethewey/status/1381540916444459008){:target="_blank"}|
 |Human civilisation is just slow devops.[[↪]](https://twitter.com/KevinTrethewey/status/1368554123742830597){:target="_blank"}|
 |I don’t believe Messi has been successful despite this, I think it’s *because* this. As a leader, I try to make it safe for people to amuse themselves and be happy at work, and I’m at my best when I do the same.[[↪]](https://twitter.com/KevinTrethewey/status/1391069917856796674){:target="_blank"}|
-|When it comes to systemic effects like Conways Law, “wanting really hard” (even if everyone in the system is all wanting hard together), while possibly necessary, is definitely insufficient.[[↪]](https://twitter.com/KevinTrethewey/status/1384012892425515010){:target="_blank"}|
+|When it comes to systemic effects like Conway's Law, "wanting really hard" (even if everyone in the system is all wanting hard together), while possibly necessary, is definitely insufficient.[[↪]](https://twitter.com/KevinTrethewey/status/1384012892425515010){:target="_blank"}|
 |When you find yourself trying to convince someone they’re using a word wrong, it’s time to go up the spine together. Up to Principles. To Values. To Needs. You’ll come away with agreement and both having learnt things.[[↪]](https://twitter.com/KevinTrethewey/status/1383337916601028616){:target="_blank"}|
 |You measure impact of hiring another software engineer the same way you measure the impact of putting another potato into a stew. Make sure it’s not a rotten one. Check to see more potatoes will improve the stew. Don’t add too many at the same time or the cooking will slow down too much. A good stew is not just potatoes. Maybe more than one kind of potato would be nice for a change.And as long as it’s a healthy well grown potato it’s mostly going to soak up the flavour of the stew anyway, so focus on that.[[↪]](https://twitter.com/KevinTrethewey/status/1369867643478478849){:target="_blank"}|
 |Here’s the problem: In for-profit companies, high quality code does not matter. What matters, and even then only sometimes, is having poor quality code. The challenge for software people is that when that does matter it matters hard, and it’s on us to account for. [[↪]](https://twitter.com/KevinTrethewey/status/1408295009686900746){:target="_blank"}|

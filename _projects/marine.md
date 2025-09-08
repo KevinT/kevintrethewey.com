@@ -17,7 +17,7 @@ This was my first salt water tank, after keeping smaller fresh water tanks for a
 
 ![](/assets/img/projects/live-fish.jpg)
 
-It is the sort of hobby that would take a lifetime to master - a confluence of marine biology, chemistry, lighting, plumbing, electricity, aesthetic design and several other fields. I think I was also drawn to it because it's was opportunity to work with my hands, which is a nice contrast from during the week when I am mostly using my mind.
+It is the sort of hobby that would take a lifetime to master - a confluence of marine biology, chemistry, lighting, plumbing, electricity, aesthetic design and several other fields. I think I was also drawn to it because it was an opportunity to work with my hands, which is a nice contrast from during the week when I am mostly using my mind.
 
 In late 2019 the tank crashed. Possibly poisoned by a sea apple dying in the tank, but I don't know for sure. I lost all the fish except for 3, and several of the other critters. 
 

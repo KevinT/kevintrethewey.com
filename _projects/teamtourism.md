@@ -17,7 +17,7 @@ The idea of Team Tourism was that individuals would get a physical passport that
 
 This created a cross-organizational network of people who could visit each other, and a community of people who could learn about different ways of working.
 
-The concept emerged from a conversation between myself and [David Campey][campey] around 2013. At first it was just a couple of us (I particularly remember [Mark Pearl][pearl] being very active) asking friends in the software development industry if we could come and visit their environments as a tourist. It evolved into a community project, lost momentum with a few key people emmmigrating, and then covid put an end to visits, after which it has not (yet) recovered.
+The concept emerged from a conversation between myself and [David Campey][campey] around 2013. At first it was just a couple of us (I particularly remember [Mark Pearl][pearl] being very active) asking friends in the software development industry if we could come and visit their environments as a tourist. It evolved into a community project, lost momentum with a few key people emigrating, and then covid put an end to visits, after which it has not (yet) recovered.
 
 ![Team Tourism Passport](/assets/img/projects/teamtourismpassport.jpg)
 

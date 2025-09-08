@@ -18,6 +18,6 @@ links:
 
 Advisor Pro was a bank-grade digital wealth platform that enhanced the way financial advisors run their businesses, and built by Jemstep by Invesco, a wholly owned subsidiary of Invesco ([IVZ][IVZ]).
 
-I've was Director of Engineering of Jemstep for two and a half years, and led the delivery effort across multiple teams and geographical regions.
+I was Director of Engineering of Jemstep for two and a half years, and led the delivery effort across multiple teams and geographical regions.
 
 [IVZ]: https://finance.yahoo.com/quote/IVZ/

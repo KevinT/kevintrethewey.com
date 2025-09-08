@@ -4,7 +4,7 @@ title: 10 Structure Tips For Effective Technical Documents
 tags: [technical writing, software]
 comments: true
 description: >
-  When communicating technical ideas, writing and language skills are important, but structure can be importenter.
+  When communicating technical ideas, writing and language skills are important, but structure can be more important.
 ---
 
 These are 10 suggestions on how to structure your technical documentation in a way that will make it easier for others to follow and to remember…

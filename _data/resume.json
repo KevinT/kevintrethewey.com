@@ -6,7 +6,7 @@
     "email": "",
     "phone": "+27 (0) 82 579-9154",
     "website": "https://linktr.ee/kevintrethewey",
-    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career.<BR><BR>At Sand Technologies I am accountable for the software engineering outcomes across the organisation, which operates remotely, and has a global customer base. SandTech delivers data intelligence using the latest in data and AI technology. We have deployed impactful solutions in 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to joining Sand (via the ExploreAI aquisition), I was Director of Engineering at Jemstep, a Silicon Valley based fintech firm owned by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
+    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career.<BR><BR>At Sand Technologies I am accountable for the software engineering outcomes across the organisation, which operates remotely, and has a global customer base. SandTech delivers data intelligence using the latest in data and AI technology. We have deployed impactful solutions in 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to joining Sand (via the ExploreAI acquisition), I was Director of Engineering at Jemstep, a Silicon Valley based fintech startup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
     "location": {
       "address": "Sandton",
       "postalCode": "2146",
@@ -35,8 +35,8 @@
       "startDate": "2020-07-31",
       "summary": "SandTech's EnterpriseAI division builds AI-driven software and digital twins for global companies.",
       "highlights": [
-        "Built a world class, remote-first and globally distributed software engineering capabilty from the ground up",
-        "Delivered complex, cloud native, data intensive applications and services across mutiple cloud providers and technology stacks.",
+        "Built a world class, remote-first and globally distributed software engineering capability from the ground up",
+        "Delivered complex, cloud native, data intensive applications and services across multiple cloud providers and technology stacks.",
         "Created and delivered a strategy for growing socio-technical data ecosystems at scale across multiple industry domains.",
      ]
     },
@@ -46,7 +46,7 @@
       "website": "https://www.jemstep.com",
       "startDate": "2018-01-01",
       "endDate": "2020-07-31",
-      "summary": "Based in Silicon Valley, Jemstep is provides a digital investment advise product to large retail banks in the United States.",
+      "summary": "Based in Silicon Valley, Jemstep provides a digital investment advice product to large retail banks in the United States.",
       "highlights": [
         "Led software delivery teams across 3 continents and 4 time zones",
         "Delivered a complex, innovative fintech product to multiple large banking institutions in the USA.",
@@ -54,7 +54,7 @@
     },
     {
       "company": "Driven",
-      "position": "Founder, Principle Consultant",
+      "position": "Founder, Principal Consultant",
       "website": "https://drivenalliance.com",
       "startDate": "2008-03-01",
       "endDate": "2017-12-31",
@@ -88,7 +88,7 @@
       "website": "http://sisonkerising.com/",
       "startDate": "2014-03-01",
       "endDate": "2016-12-01",
-      "summary": "An impact and value driven community outreach programme that focused on teaching young people life skills through the vehicle of software developement."
+      "summary": "An impact and value driven community outreach programme that focused on teaching young people life skills through the vehicle of software development."
     }
   ],
   "languages": [
@@ -146,7 +146,7 @@
     },
     {
       "name": "Cheri Way",
-      "reference": "I worked with Kevin at De Beers. I found Kevin to have a wealth of technical knowledge which he is eager to share. He was early in the South African market to adopt the agile approach to development which is now becoming a mainstream movement. I am sure he will be a valueble asset to any company or team wanting to implement an agile approach to their development strategy."
+      "reference": "I worked with Kevin at De Beers. I found Kevin to have a wealth of technical knowledge which he is eager to share. He was early in the South African market to adopt the agile approach to development which is now becoming a mainstream movement. I am sure he will be a valuable asset to any company or team wanting to implement an agile approach to their development strategy."
     },
     {
       "name": "Chris Rheeder",

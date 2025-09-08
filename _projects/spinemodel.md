@@ -22,7 +22,7 @@ There's a long list of places where I've seen this deceptively simple model bein
 
 1. **Strategic Alignment:** Aligning the organization's strategy with its fundamental needs, ensuring that long-term goals are rooted in core values and principles.
 1. **Decision-Making**: Providing a structured approach for making decisions that reflect the organization's values and principles, leading to more consistent and ethical outcomes.
-1. **1. Change Management**: Guiding organizational change initiatives by ensuring new practices and tools are aligned with underlying principles and values.
+1. **Change Management**: Guiding organizational change initiatives by ensuring new practices and tools are aligned with underlying principles and values.
 1. **Culture Building**: Developing and nurturing a strong organizational culture that embodies shared values and principles derived from common needs.
 1. **Process Improvement**: Evaluating and refining business processes and practices to better align with core principles and effectively meet organizational needs.
 1. **Leadership Development**: Training leaders to embody the organization's values and principles in their actions and decision-making processes.
