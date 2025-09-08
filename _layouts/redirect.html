@@ -21,3 +21,8 @@ layout: base
   <h1 class="page-title">{{ site.data.strings.redirecting | default:"Redirecting…" }}</h1>
   <p class="lead"><a href="{{ page.redirect.to }}">{{ page.redirect.to }}</a></p>
 </div>
+
+<script>
+  // Immediate redirect for client-side routing compatibility
+  window.location.href = "{{ page.redirect.to }}";
+</script>

@@ -1,3 +1,5 @@
 ---
-redirect_to: /blog/
+layout: redirect
+redirect:
+  to: /professional/
 ---
