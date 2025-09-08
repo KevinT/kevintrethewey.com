@@ -1,5 +1,4 @@
 ---
-cover: true
 image: /assets/img/kevint-256-256.jpg
 hide_description: true
 ---

@@ -251,12 +251,8 @@ if (!window._noDrawer && hasFeatures(REQUIREMENTS) && !isUCBrowser) {
       // Save scroll position before the drawer gets initialized.
       const scrollTop = window.pageYOffset || document.body.scrollTop;
 
-      // Start the drawer in `opened` state when the cover class is present,
-      // and the user hasn't started scrolling already.
-      const opened =
-        drawerEl.classList.contains("cover") &&
-        scrollTop <= 0 &&
-        !(history.state && history.state.closedOnce);
+      // Disable auto-opening drawer behavior to prevent full-screen overlay on first visit
+      const opened = false;
 
       if (!opened) {
         if (!history.state) history.replaceState({}, document.title);
