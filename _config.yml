@@ -86,7 +86,7 @@ accent_color:          rgb(150, 148, 140)
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(189, 154, 94)
+theme_color:           "#ffffff"
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -201,13 +201,13 @@ hydejack:
     # Set to `true` to always use the dark theme.
     always:            false
 
-    # Set to `true` to use the dark theme based on visitors' local time.
-    dynamic:           true
+    # Disable automatic dark mode to keep site consistent across devices
+    dynamic:           false
     sunrise:           6
     sunset:            18
 
-    # Set to `true` to allow visitors to switch between light and dark mode.
-    icon:              true
+    # Hide the dark mode toggle icon
+    icon:              false
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
