@@ -12,7 +12,6 @@ I use these as thought experiments, and as markers to come back to and see if an
 
 *@ me on [@kevintrethewey](https://x.com/KevinTrethewey) to interact with me or my ideas directly...*
 
-
 |2021|
 |----|
 Hypothesis: When scaling, “time” is the vector most easily forgotten and most dangerous to ignore.[[↪]](https://twitter.com/KevinTrethewey/status/1384791653618180097){:target="_blank"}|
