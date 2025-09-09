@@ -3,7 +3,6 @@ image: /assets/img/headshot.png
 hide_description: true
 ---
 
-{% include mobile-header.html %}
 
 # Welcome
 

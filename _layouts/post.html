@@ -17,8 +17,6 @@
 layout: base
 ---
 
-{% include mobile-header.html %}
-
 {% assign words = content | number_of_words %}
 {% assign reading_time = words | divided_by: 180 | plus: 1 %}
 <div class="reading-time" style="font-style: italic; margin-bottom: 1rem;">
