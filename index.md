@@ -4,11 +4,13 @@ hide_description: true
 ---
 
 
-# Welcome
+# Kevin Trethewey
 
-I'm always interested in new opportunities to learn or interesting collaborations.
+Welcome. This is where I occasionally [write](/blog), share [things I'm working on][projects], and record a list of [hypotheses] I think are worth considering.
 
-This personal site is where I make occasional [writing] posts, discuss some of the [things I'm working on][projects], and keep a list of [hypotheses] I think are worth considering.
+I'm always interested in new opportunities to learn or interesting collaborations, you can find my at any of the links in the panel.
+
+For my professional work, see my [resume].
 
 # Recent Writing
 
