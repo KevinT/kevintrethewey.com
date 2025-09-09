@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Kevin Trethewey",
-    "label": "Technology Leader",
-    "picture": "/assets/img/kevint-128-128.jpg",
+    "label": "Technology & Innovation Leader",
+    "picture": "/assets/img/headshot.png",
     "email": "",
     "phone": "+27 (0) 82 579-9154",
     "website": "https://linktr.ee/kevintrethewey",
-    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career.<BR><BR>At Sand Technologies I am accountable for the software engineering outcomes across the organisation, which operates remotely, and has a global customer base. SandTech delivers data intelligence using the latest in data and AI technology. We have deployed impactful solutions in 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to joining Sand (via the ExploreAI acquisition), I was Director of Engineering at Jemstep, a Silicon Valley based fintech startup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
+    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career. <BR><BR><B>My current deep focus is on the practical leverage of AI and agentic capabilities.</B><BR><BR>At Sand Technologies I am accountable for software and AI engineering across the organisation, which operates remotely, and has a global customer base. SandTech delivers data intelligence using the latest in data and AI technology. We have deployed impactful solutions in 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to joining Sand (via the ExploreAI acquisition), I was Director of Engineering at Jemstep, a Silicon Valley based fintech scaleup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
     "location": {
       "address": "Sandton",
       "postalCode": "2146",

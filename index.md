@@ -1,5 +1,5 @@
 ---
-image: /assets/img/kevint-256-256.jpg
+image: /assets/img/headshot.png
 hide_description: true
 ---
 

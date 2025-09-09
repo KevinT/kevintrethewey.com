@@ -11,11 +11,11 @@
 }
 
 @mixin darkmode() {
-  --text-muted: rgba(255,255,255,.5);
+  --text-muted: rgba(255,255,255,.6);
   --gray-bg: rgba(255,255,255,.033);
-  --gray-text: rgba(255,255,255,.625);
+  --gray-text: rgba(255,255,255,.75);
   --menu-text: rgba(255,255,255,.25);
-  --body-color: #ccc;
+  --body-color: #e0e0e0;
   --body-bg: #{hsl(hue($theme-color), 12.5%, 20%)};
   --border-color: #{hsl(hue($theme-color), 12.5%, 27.5%)};
 }

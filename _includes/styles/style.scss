@@ -75,6 +75,7 @@ $theme-color:         {{ site.theme_color  | default:'#193747' }};
   @import "spinner";
 
   @import "my-style";
+  @import "my-contrast-enhancements";
 {% else %}
   @import "pooleparty/_base.pre.scss";
   @import "pooleparty/_type.pre.scss";
@@ -118,6 +119,7 @@ $theme-color:         {{ site.theme_color  | default:'#193747' }};
 
   @import "my-inline";
   @import "my-style";
+  @import "my-contrast-enhancements";
 
   html { font-family: $font-family; }
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .heading { font-family: $font-family-heading; }
