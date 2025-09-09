@@ -15,12 +15,10 @@ Fill in `href`. You may have to adjust `rel`.
 <style>
 /* Scoped, conservative tweaks to avoid layout breakage */
 
-/* Sidebar background: use cover for better fill without distorting layout */
-.sidebar,
+/* Sidebar background: show the whole image (no cropping) */
 .sidebar-bg,
-hy-drawer .sidebar,
 hy-drawer .sidebar-bg {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -44,5 +42,19 @@ hy-drawer .sidebar-bg {
 .sidebar h4,
 .sidebar h5,
 .sidebar h6 { color: #fff; }
+/* Mobile-only top banner to make the top feel less bare */
+@media screen and (max-width: 640px) {
+  #_main::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 140px; /* adjust to taste */
+    background-image: url('{{ "/assets/img/top-bar.jpg" | relative_url }}');
+    background-size: cover; /* use contain if you prefer full image without crop */
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--border-color, #e5e5e5);
+  }
+}
 </style>
 
