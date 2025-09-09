@@ -42,21 +42,5 @@ hy-drawer .sidebar-bg {
 .sidebar h4,
 .sidebar h5,
 .sidebar h6 { color: #fff; }
-/* Mobile-only top banner to make the top feel less bare */
-@media screen and (max-width: 640px) {
-  #_main::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 140px; /* adjust to taste */
-    /* Slight overlay + full image without cropping */
-    background-image: linear-gradient(rgba(0,0,0,0.18), rgba(0,0,0,0.18)), url('{{ "/assets/img/top-bar.jpg" | relative_url }}');
-    background-size: 100% 100%, contain; /* overlay covers box, image is fully contained */
-    background-position: center center, center center;
-    background-repeat: no-repeat, no-repeat;
-    background-color: var(--body-bg, #ffffff); /* fills any letterbox area */
-    border-bottom: 1px solid var(--border-color, #e5e5e5);
-  }
-}
 </style>
 
