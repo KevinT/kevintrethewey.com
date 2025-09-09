@@ -164,10 +164,31 @@ table {
   }
 }
 
-// Sidebar background image improvements - show more of the image
+// Sidebar background image improvements
 .sidebar-bg {
-  // Show the entire image without any cropping
+  // Show the entire image without cropping
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
+}
+
+// Navigation button visibility improvements (hamburger menu and dark mode toggle)
+.nav-btn {
+  color: white !important;
+  opacity: 1 !important;
+  
+  .icon-contrast, .icon-menu {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 1.2rem;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  }
+  
+  &:hover {
+    color: rgba(255,255,255,0.8) !important;
+    
+    .icon-contrast, .icon-menu {
+      color: rgba(255,255,255,0.8) !important;
+    }
+  }
 }
