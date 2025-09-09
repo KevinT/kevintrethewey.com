@@ -44,12 +44,21 @@ hy-drawer .sidebar-bg {
 .sidebar h6 { color: #fff; }
 /* Mobile-only subtle top accent bar */
 @media screen and (max-width: 640px) {
+  /* Solid accent bar */
   #_main::before {
     content: '';
     display: block;
     width: 100%;
     height: 6px;
     background-color: {{ site.accent_color | default:'#4fb1ba' }};
+  }
+  /* Soft gradient fade below the bar */
+  #_main::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 16px; /* subtle fade height */
+    background: linear-gradient(to bottom, {{ site.accent_color | default:'#4fb1ba' }}, rgba(0,0,0,0));
   }
 }
 </style>
