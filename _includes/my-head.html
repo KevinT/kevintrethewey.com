@@ -13,131 +13,37 @@ Fill in `href`. You may have to adjust `rel`.
 {% endcomment %}
 
 <style>
-/* DIRECT CSS - BACKGROUND IMAGE FIX - AGGRESSIVE TARGETING */
+/* Scoped, conservative tweaks to avoid layout breakage */
+
+/* Sidebar background: use cover for better fill without distorting layout */
 .sidebar,
 .sidebar-bg,
 hy-drawer .sidebar,
-hy-drawer .sidebar-bg,
-body .sidebar,
-body .sidebar-bg,
-html body .sidebar,
-html body .sidebar-bg,
-.sidebar .sidebar-bg,
-hy-drawer.loaded .sidebar,
-hy-drawer.loaded .sidebar-bg {
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
+hy-drawer .sidebar-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-/* Target any element with background image */
-[style*="background-image"] {
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-}
-
-/* Even more specific targeting */
-* {
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-}
-
-/* Override any inline styles */
-.sidebar[style],
-.sidebar-bg[style],
-hy-drawer .sidebar[style],
-hy-drawer .sidebar-bg[style] {
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-}
-
-/* SIDEBAR TEXT READABILITY FIXES */
+/* Sidebar text readability: subtle overlay */
 .sidebar .sidebar-sticky {
-  background: rgba(0,0,0,0.7) !important;
-  border-radius: 8px !important;
-  padding: 1.5rem !important;
-  backdrop-filter: blur(4px) !important;
-  position: relative !important;
-  z-index: 999 !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
+  background: rgba(0,0,0,0.45);
+  border-radius: 8px;
+  padding: 1rem;
+  backdrop-filter: blur(2px);
 }
 
-.sidebar a {
-  color: #ffffff !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
-  font-weight: 700 !important;
-  text-decoration: none !important;
-}
+/* Keep link contrast inside sidebar without forcing global styles */
+.sidebar a { color: #fff; text-decoration: none; }
+.sidebar a:hover { opacity: 0.9; }
 
-.sidebar a:hover {
-  color: #ffffff !important;
-  text-shadow: 0 2px 6px rgba(0,0,0,1) !important;
-  opacity: 0.9 !important;
-}
-
-.sidebar .text-muted,
-.sidebar p,
-.sidebar span,
-.sidebar div {
-  color: #ffffff !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
-  font-weight: 600 !important;
-}
-
+/* Optional: improve headings contrast in sidebar only */
 .sidebar h1,
 .sidebar h2,
 .sidebar h3,
 .sidebar h4,
 .sidebar h5,
-.sidebar h6 {
-  color: #ffffff !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
-  font-weight: 700 !important;
-}
-
-/* NAVIGATION BUTTONS - SIMPLE VISIBILITY FIX */
-#_menu,
-#_search,
-#_dark-mode {
-  color: #000000 !important;
-  background: rgba(255,255,255,0.7) !important;
-  border-radius: 3px !important;
-  padding: 4px !important;
-}
-
-.icon-menu::before,
-.icon-contrast::before {
-  color: #000000 !important;
-  text-shadow: 0 0 2px rgba(255,255,255,1) !important;
-}
-
-.nav-btn:hover,
-a.nav-btn:hover,
-#_menu:hover,
-#_search:hover,
-#_dark-mode:hover {
-  color: #ffffff !important;
-  opacity: 0.8 !important;
-  background: rgba(0,0,0,0.5) !important;
-}
-
-.nav-btn:hover .icon-contrast,
-.nav-btn:hover .icon-menu,
-a.nav-btn:hover .icon-contrast,
-a.nav-btn:hover .icon-menu,
-#_menu:hover .icon-contrast,
-#_menu:hover .icon-menu,
-#_search:hover .icon-contrast,
-#_search:hover .icon-menu,
-#_dark-mode:hover .icon-contrast,
-#_dark-mode:hover .icon-menu {
-  color: #ffffff !important;
-  opacity: 0.8 !important;
-}
-
+.sidebar h6 { color: #fff; }
 </style>
 
 {% comment %} Fallback dark mode initialization for GitHub Pages compatibility {% endcomment %}
