@@ -42,5 +42,15 @@ hy-drawer .sidebar-bg {
 .sidebar h4,
 .sidebar h5,
 .sidebar h6 { color: #fff; }
+/* Mobile-only subtle top accent bar */
+@media screen and (max-width: 640px) {
+  #_main::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: {{ site.accent_color | default:'#4fb1ba' }};
+  }
+}
 </style>
 
