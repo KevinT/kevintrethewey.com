@@ -47,6 +47,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Static pages**: Resume, hypotheses, etc. as `.md` files in root
 - **Tags**: Auto-generated tag pages in `_tags/` via Ruby script
 
+
 ### Development Notes
 - Posts use YAML frontmatter for metadata, tags, and layout selection
 - Tag system generates individual tag pages automatically
