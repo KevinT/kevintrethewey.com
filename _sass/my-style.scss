@@ -76,3 +76,70 @@ p {
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
+
+// Sidebar fixes for white background
+.sidebar {
+  .sidebar-sticky {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 8px;
+    padding: 1.5rem;
+    backdrop-filter: blur(2px);
+  }
+  
+  a {
+    color: white !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    font-weight: 600;
+    
+    &:hover {
+      color: rgba(255,255,255,0.9) !important;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+    }
+  }
+  
+  .text-muted,
+  p, span, div {
+    color: rgba(255,255,255,0.8) !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  }
+}
+
+// Background image and navigation fixes
+.sidebar-bg {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+.nav-btn {
+  color: white !important;
+  opacity: 1 !important;
+  
+  .icon-contrast, .icon-menu {
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 1.2rem;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  }
+  
+  &:hover {
+    color: rgba(255,255,255,0.8) !important;
+    
+    .icon-contrast, .icon-menu {
+      color: rgba(255,255,255,0.8) !important;
+    }
+  }
+}
+
+// Higher specificity for production mode
+html body .sidebar .sidebar-sticky {
+  background: rgba(0,0,0,0.6) !important;
+  border-radius: 8px;
+  padding: 1.5rem;
+  backdrop-filter: blur(2px);
+}
