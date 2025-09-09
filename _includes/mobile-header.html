@@ -1,0 +1,15 @@
+<!-- Mobile Header for better mobile UX -->
+<div class="mobile-header">
+  <h1 class="mobile-title">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </h1>
+  <p class="mobile-tagline">{{ site.tagline }}</p>
+  <nav class="mobile-nav">
+    {% for node in site.menu %}
+      <a href="{{ node.url | relative_url }}"
+         {% if page.url contains node.url %}class="current"{% endif %}>
+        {{ node.title }}
+      </a>
+    {% endfor %}
+  </nav>
+</div>

@@ -3,6 +3,8 @@ image: /assets/img/headshot.png
 hide_description: true
 ---
 
+{% include mobile-header.html %}
+
 # Welcome
 
 I'm always interested in new opportunities to learn or interesting collaborations.
