@@ -2,11 +2,18 @@
 // =============================
 // Improve mobile experience by adding a compact header and better spacing
 
-// Mobile-first approach: styles apply to mobile, then get overridden for larger screens
-@media screen and (max-width: 768px) {
+// IMPORTANT: Mobile header should ONLY appear on small mobile screens
+// Default state: hide mobile header on all devices
+.mobile-header {
+  display: none !important;
+}
+
+// Only show mobile header on actual mobile devices (phones, small tablets)
+@media screen and (max-width: 640px) {
   
-  // Add a compact mobile header with key info
+  // Show mobile header only on small screens
   .mobile-header {
+    display: block !important;
     background: var(--gray-bg, #f8f9fa);
     border-bottom: 1px solid var(--border-color, #dee2e6);
     padding: 1rem 1.5rem;
@@ -172,7 +179,7 @@
 
 // Dark mode adjustments for mobile header
 body.dark-mode {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 640px) {
     .mobile-header {
       background: var(--gray-bg);
       border-bottom-color: var(--border-color);
@@ -185,21 +192,32 @@ body.dark-mode {
   }
 }
 
-// Tablet adjustments (768px - 1024px)
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+// Explicitly hide mobile header on tablets and larger screens
+@media screen and (min-width: 641px) {
   .mobile-header {
-    display: none; // Hide mobile header on tablet and desktop
+    display: none !important;
   }
-  
+}
+
+// Tablet-specific improvements (641px - 1024px)
+@media screen and (min-width: 641px) and (max-width: 1024px) {
   .content {
     max-width: 90%;
     margin: 0 auto;
   }
 }
 
-// Hide mobile header on desktop
-@media screen and (min-width: 1025px) {
+// Additional safeguards: Force hide mobile header on medium and large screens
+@media screen and (min-width: 768px) {
   .mobile-header {
-    display: none;
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-header {
+    display: none !important;
+    visibility: hidden !important;
   }
 }
