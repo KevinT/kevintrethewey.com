@@ -192,3 +192,11 @@ table {
     }
   }
 }
+
+// Higher specificity version for production mode CSS ordering
+html body .sidebar .sidebar-sticky {
+  background: rgba(0,0,0,0.6) !important;
+  border-radius: 8px;
+  padding: 1.5rem;
+  backdrop-filter: blur(2px);
+}

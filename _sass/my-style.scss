@@ -77,69 +77,151 @@ p {
   margin-bottom: 1rem;
 }
 
-// Sidebar fixes for white background
-.sidebar {
-  .sidebar-sticky {
-    background: rgba(0,0,0,0.6) !important;
-    border-radius: 8px;
-    padding: 1.5rem;
-    backdrop-filter: blur(2px);
-  }
-  
-  a {
-    color: white !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-    font-weight: 600;
-    
-    &:hover {
-      color: rgba(255,255,255,0.9) !important;
-      text-shadow: 0 1px 3px rgba(0,0,0,0.9);
-    }
-  }
-  
-  .text-muted,
-  p, span, div {
-    color: rgba(255,255,255,0.8) !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: white !important;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-  }
+// ULTIMATE NUCLEAR OPTION - MOST AGGRESSIVE CSS POSSIBLE
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) .sidebar-sticky:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) .sidebar-sticky:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) .sidebar-sticky:not(#nonexistent),
+html:not(#nonexistent) .sidebar:not(#nonexistent) .sidebar-sticky:not(#nonexistent),
+.sidebar .sidebar-sticky {
+  background: rgba(0,0,0,0.8) !important;
+  border-radius: 8px !important;
+  padding: 1.5rem !important;
+  backdrop-filter: blur(4px) !important;
+  position: relative !important;
+  z-index: 999 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5) !important;
 }
 
-// Background image and navigation fixes
+// ULTIMATE TEXT FIXES
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) a:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) a:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) a:not(#nonexistent),
+html:not(#nonexistent) .sidebar:not(#nonexistent) a:not(#nonexistent),
+.sidebar a {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+}
+
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) a:hover:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) a:hover:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) a:hover:not(#nonexistent),
+.sidebar a:hover {
+  color: #ffffff !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,1) !important;
+  opacity: 0.9 !important;
+}
+
+// ULTIMATE TEXT ELEMENTS
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) .text-muted:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) p:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) span:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) div:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) .text-muted:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) p:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) span:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) div:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) .text-muted:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) p:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) span:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) div:not(#nonexistent),
+.sidebar .text-muted,
+.sidebar p,
+.sidebar span,
+.sidebar div {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
+  font-weight: 600 !important;
+}
+
+// ULTIMATE HEADINGS
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h1:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h2:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h3:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h4:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h5:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h6:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h1:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h2:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h3:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h4:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h5:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) hy-drawer.loaded:not(#nonexistent) .sidebar:not(#nonexistent) h6:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) h1:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) h2:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) h3:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) h4:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) h5:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .sidebar:not(#nonexistent) h6:not(#nonexistent),
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
+  font-weight: 700 !important;
+}
+
+// ULTIMATE NAVIGATION BUTTONS
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) .nav-btn:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .nav-btn:not(#nonexistent),
+html:not(#nonexistent) .nav-btn:not(#nonexistent),
+.nav-btn {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
+}
+
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) .nav-btn:not(#nonexistent) .icon-contrast:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) .nav-btn:not(#nonexistent) .icon-menu:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .nav-btn:not(#nonexistent) .icon-contrast:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .nav-btn:not(#nonexistent) .icon-menu:not(#nonexistent),
+.nav-btn .icon-contrast,
+.nav-btn .icon-menu {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-size: 1.4rem !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,1) !important;
+}
+
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) .nav-btn:hover:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .nav-btn:hover:not(#nonexistent),
+.nav-btn:hover {
+  color: #ffffff !important;
+  opacity: 0.8 !important;
+}
+
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) .nav-btn:hover:not(#nonexistent) .icon-contrast:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) #_yPushState:not(#nonexistent) .nav-btn:hover:not(#nonexistent) .icon-menu:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .nav-btn:hover:not(#nonexistent) .icon-contrast:not(#nonexistent),
+html:not(#nonexistent) body:not(#nonexistent) .nav-btn:hover:not(#nonexistent) .icon-menu:not(#nonexistent),
+.nav-btn:hover .icon-contrast,
+.nav-btn:hover .icon-menu {
+  color: #ffffff !important;
+  opacity: 0.8 !important;
+}
+
+// ULTIMATE BACKGROUND IMAGE FIXES
+html:not(#nonexistent) body:not(#nonexistent) .sidebar-bg:not(#nonexistent),
+html:not(#nonexistent) .sidebar-bg:not(#nonexistent),
 .sidebar-bg {
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
 }
 
-.nav-btn {
-  color: white !important;
-  opacity: 1 !important;
-  
-  .icon-contrast, .icon-menu {
-    color: white !important;
-    opacity: 1 !important;
-    font-size: 1.2rem;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-  }
-  
-  &:hover {
-    color: rgba(255,255,255,0.8) !important;
-    
-    .icon-contrast, .icon-menu {
-      color: rgba(255,255,255,0.8) !important;
-    }
-  }
+// SIMPLE BACKGROUND IMAGE FIX - SHOULD WORK
+.sidebar {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
 }
 
-// Higher specificity for production mode
-html body .sidebar .sidebar-sticky {
-  background: rgba(0,0,0,0.6) !important;
-  border-radius: 8px;
-  padding: 1.5rem;
-  backdrop-filter: blur(2px);
+hy-drawer .sidebar {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
 }
