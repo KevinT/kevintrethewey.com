@@ -1,0 +1,173 @@
+// Comprehensive Contrast Enhancements
+// Improves readability across all devices and modes
+
+// Enhanced font weights for better readability on larger screens
+@media screen and (min-width: 768px) {
+  // Strengthen secondary text with font-weight instead of just color
+  .reading-time,
+  .post-date,
+  .text-muted,
+  small,
+  .small,
+  .post-list-item .post-excerpt {
+    font-weight: 500; // Semi-bold for better contrast
+  }
+  
+  // Improve sidebar text readability
+  .sidebar .text-muted {
+    font-weight: 500;
+  }
+  
+  // Better contrast for menu items
+  .menu a {
+    font-weight: 500;
+  }
+  
+  // Enhance pagination readability
+  .pagination {
+    font-weight: 500;
+  }
+}
+
+// Universal improvements for both mobile and desktop
+.content {
+  // Ensure body text uses the improved color variables
+  p, li, td, th {
+    color: var(--body-color);
+  }
+  
+  // Better contrast for metadata
+  .post-date,
+  .reading-time {
+    color: var(--gray-text);
+  }
+}
+
+// Link improvements for better accessibility (content area only)
+.content a:not(.btn):not(.navbar-brand) {
+  // Ensure links have sufficient contrast in light mode
+  color: #2c5282; // Darker blue for better contrast
+  
+  &:hover {
+    color: #1a365d; // Even darker on hover
+  }
+}
+
+// Dark mode link improvements (content area only)
+body.dark-mode .content a:not(.btn):not(.navbar-brand) {
+  color: #90cdf4; // Light blue for dark mode
+  
+  &:hover {
+    color: #bee3f8; // Lighter on hover
+  }
+}
+
+// Sidebar-specific improvements for white background
+.sidebar {
+  // Add dark overlay behind text for better contrast
+  .sidebar-sticky {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 8px;
+    padding: 1.5rem;
+    backdrop-filter: blur(2px);
+  }
+  
+  a {
+    color: white !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    font-weight: 600;
+    
+    &:hover {
+      color: rgba(255,255,255,0.9) !important;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+    }
+  }
+  
+  // Menu items specifically
+  .menu a {
+    color: white !important;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    
+    &:hover {
+      color: rgba(255,255,255,0.9) !important;
+      text-decoration: underline;
+    }
+  }
+  
+  // All text elements
+  .text-muted,
+  p, span, div {
+    color: rgba(255,255,255,0.8) !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  }
+  
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+  }
+}
+
+// Specific improvements for common elements
+.post-list-item {
+  .post-title a {
+    color: var(--body-color);
+    font-weight: 600; // Stronger titles
+    
+    &:hover {
+      color: var(--body-color);
+      opacity: 0.8;
+    }
+  }
+  
+  .post-excerpt {
+    color: var(--gray-text);
+    line-height: 1.6; // Better readability
+  }
+}
+
+// Footer improvements
+.footer {
+  color: var(--gray-text);
+  
+  a {
+    color: var(--gray-text);
+    font-weight: 500;
+    
+    &:hover {
+      color: var(--body-color);
+    }
+  }
+}
+
+// Ensure proper contrast for all text elements
+.text-muted {
+  color: var(--text-muted) !important;
+}
+
+// Improve blockquote readability
+blockquote {
+  color: var(--gray-text);
+  border-left-color: var(--border-color);
+}
+
+// Better table contrast
+table {
+  th {
+    color: var(--body-color);
+    font-weight: 600;
+  }
+  
+  td {
+    color: var(--body-color);
+  }
+}
+
+// Sidebar background image improvements - show more of the image
+.sidebar-bg {
+  // Show the entire image without any cropping
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
