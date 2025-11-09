@@ -1,0 +1,42 @@
+{
+  "inferred_at": "2025-11-09T17:46:16.454197+00:00",
+  "attempt_number": 1,
+  "output": {
+    "format": "json",
+    "destination": "file",
+    "include_metadata": true,
+    "file_location": "output/springboks/"
+  },
+  "data_structure": {
+    "type": "unknown",
+    "fields": [
+      "id"
+    ],
+    "constraints": []
+  },
+  "persistence": {
+    "enabled": true,
+    "format": "json",
+    "location": "./output/",
+    "change_detection": "hash_based"
+  },
+  "act_requirements": {
+    "has_api_call": true,
+    "api_type": null,
+    "has_transformation": false,
+    "has_aggregation": false
+  },
+  "previous_attempts": [],
+  "failure_analysis": {
+    "has_failures": false,
+    "failure_categories": [],
+    "improvement_suggestions": [],
+    "recent_failures": []
+  },
+  "warning_history": {
+    "has_warnings": false,
+    "warning_patterns": {},
+    "recent_warnings": []
+  },
+  "llm_guidance": "# Code Generation Guidance\n\nGenerate Python code wrapped in custom delimiters (NOT markdown code blocks):\n===RAVL_CODE_START===\n[Your Python code here]\n===RAVL_CODE_END===\n\nYour generated code should:\n\n- Save results to file in: output/springboks/ (use relative path, not absolute)\n- File format: JSON\n- Include metadata: timestamp, record count, if data changed\n- Each item should have fields: id\n- Implement change detection (hash-based comparison)\n- Only save if data has changed from previous run\n\n# Your code will be verified against:\n- - [ ] `./output/springboks-results.json` exists and contains game results with scores, scorers, and individual player performance analysis\n- - [ ] Any new or missing Springbok games have been added to `./output/springboks-results.json`\n- - [ ] If a more recent game was detected than previously recorded, a new file `./output/springbok-coach-tips-YYYY-MMM-DD.md` exists with today's date containing exactly 3 coaching suggestions for Rassie based on the most recent information\n- - [ ] If no more recent game was detected than previously recorded, no new coaching tips file was created"
+}

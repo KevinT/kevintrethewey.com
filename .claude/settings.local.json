@@ -14,7 +14,6 @@
       "Bash(find:*)",
       "Bash(screencapture:*)",
       "Bash(sips:*)",
-      "WebFetch(domain:spine.wetware.works)",
       "Bash(curl:*)",
       "Bash(JEKYLL_ENV=production bundle exec jekyll serve)",
       "Bash(git add:*)",
