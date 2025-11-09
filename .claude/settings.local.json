@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(bundle install:*)",
+      "Bash(bundle exec:*)",
+      "Bash(lsof:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install)",
+      "Bash(export NODE_OPTIONS=\"--openssl-legacy-provider\")",
+      "Bash(bundle:*)",
+      "Bash(npm outdated)",
+      "WebFetch(domain:quadrants.wetware.works)",
+      "Bash(find:*)",
+      "Bash(screencapture:*)",
+      "Bash(sips:*)",
+      "WebFetch(domain:spine.wetware.works)",
+      "Bash(curl:*)",
+      "Bash(JEKYLL_ENV=production bundle exec jekyll serve)",
+      "Bash(git add:*)",
+      "Bash(./ravl:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
