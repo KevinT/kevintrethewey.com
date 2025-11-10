@@ -4,6 +4,11 @@ loop_type: markdown
 
 execution_timeout: 30
 
+# Code generation settings
+code_generation:
+  cache_code: false
+  cache_reason: "Exploratory loop must discover new things each run - cached code produces repetitive exploration"
+
 # Metadata for categorization
 metadata:
   complexity: beginner
