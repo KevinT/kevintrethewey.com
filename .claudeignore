@@ -1,0 +1,12 @@
+# Personal notes
+.ravl/docs/WIP/*.md
+
+# Ravl generated code caches
+**/__pycache__/
+**/*.pyc
+.ravl/.pytest_cache/
+
+# Ravl build artifacts
+.ravl/dist/
+.ravl/build/
+.ravl/*.egg-info/
