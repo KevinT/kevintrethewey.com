@@ -1,5 +1,5 @@
 ---
-image: /assets/img/headshot.png
+image: /assets/img/headshot.jpg
 hide_description: true
 ---
 
