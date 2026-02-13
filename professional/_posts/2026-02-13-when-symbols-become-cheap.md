@@ -4,7 +4,7 @@ title: When Symbols Become Cheap and Reality Does Not
 tags: [ai, organisational-design, systems-thinking]
 comments: true
 description: >
-  AI is driving the marginal cost of hyperreality generation toward zero, but reality does not follow the same curve. We are entering a structural divergence between symbolic abundance and embodied constraint.
+  AI is driving the marginal cost of digital reality generation toward zero, but physical reality does not follow the same curve. We are entering a structural divergence between symbolic abundance and embodied constraint.
 ---
 
 AI is driving the marginal cost of near real time digital generation toward zero.
