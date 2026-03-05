@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Time, Truth, and Ontology: The Three Axes Your Knowledge System Is Probably Missing Two Of, and that's why it's broken."
-date: 2026-03-05
-categories: professional
+title: >
+  Time, Truth, and Ontology: The three axes your knowledge system is probably missing two of, and that's why it's broken.
 tags: [knowledge-management, organisational-design, software-development, agentic-ai]
-description: "Most teams, intentionally or by default, digitally record their knowledge along a single axis - usually time (slack, emails etc). Real knowledge leverage (human and agentic!) comes from using all three axes deliberately and connecting information across them."
-image: /assets/img/blog/web.jpg
+description: >
+  Most teams, intentionally or by default, digitally record their knowledge along a single axis - usually time (slack, emails etc). Real knowledge leverage (human and agentic!) comes from using all three axes deliberately and connecting information across them.
 ---
 
 ![image](/assets/img/blog/web.jpg)
