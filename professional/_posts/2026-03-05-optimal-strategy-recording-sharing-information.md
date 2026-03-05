@@ -5,8 +5,10 @@ date: 2026-03-05
 categories: professional
 tags: [knowledge-management, organisational-design, software-development, agentic-ai]
 description: "Most teams, intentionally or by default, digitally record their knowledge along a single axis - usually time (slack, emails etc). Real knowledge leverage (human and agentic!) comes from using all three axes deliberately and connecting information across them."
-image: /assets/img/blog/knowledge-axes.jpg
+image: /assets/img/blog/web.jpg
 ---
+
+![image](/assets/img/blog/web.jpg)
 
 Why most teams, and organisations, can't find anything in their own tools - and why the answer isn't a "better" tool, but a better understanding of what knowledge actually needs from its structure.
 

@@ -5,7 +5,10 @@ tags: [ai, organisational-design, systems-thinking]
 comments: true
 description: >
   AI is driving the marginal cost of digital reality generation toward zero, but physical reality does not follow the same curve. We are entering a structural divergence between symbolic abundance and embodied constraint.
+image: /assets/img/blog/symbols.jpg
 ---
+
+![image](/assets/img/blog/symbols.jpg)
 
 AI is driving the marginal cost of near real time digital generation toward zero.
 
