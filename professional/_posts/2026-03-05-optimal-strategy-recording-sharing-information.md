@@ -13,7 +13,7 @@ Most teams, intentionally or by default, digitally record their knowledge along 
 
 Here's how I've come to think about it (my ontology for this problem space, for those who like it meta)...
 
-## The Problem is Structural, Not Technical
+## The problem is structural, not technical
 
 Why is it so hard to find things in Slack? Why does Notion inevitably bloat into a graveyard of half-maintained pages?
 
@@ -25,7 +25,7 @@ The key insight is this: **there are three natural axes for organising knowledge
 
 A decision log (time) should link to the architectural principle it invoked (ontology) and update the system configuration it changed (truth). A team roster (truth) should reference the meeting where the restructure was agreed (time) and connect to the domain concepts that team owns (ontology). When these axes work in isolation, each one eventually fails in predictable ways. When they're connected, they reinforce each other and the whole system becomes more than the sum of its parts.
 
-## The Three Axes (And How Each One Fails Alone)
+## The three axes (and how each one fails alone)
 
 Each axis has a natural domain where it's the right primary organiser. But each also has a characteristic failure mode - one that is largely *solved by connecting to the other two*.
 
@@ -86,7 +86,7 @@ Glossaries. Domain models. "What is a PSR?" type questions. Architectural princi
   </tr></tbody>
 </table>
 
-## A common anti-pattern: Folder/File Thinking
+## A common anti-pattern: folder/file thinking
 
 There's a fourth pattern that deserves attention, not because it's a good organising axis, but because it's the one many people have been pattern-entrained into thinking with: **hierarchical folder structures**.
 
@@ -96,7 +96,7 @@ Folder structures force single-inheritance thinking onto information that is inh
 
 The pathology is predictable: people create shortcuts, duplicates, and "see also" files. The structure becomes a fiction maintained by convention rather than utility. Eventually, everyone just uses search-which means the folder hierarchy was doing nothing useful in the first place.
 
-## Why This Matters More in the Age of Agents
+## Why this matters more in the age of agents
 
 If you've been following my recent thinking on [agentic AI and organisational design](/blog/professional/2025-03-21-2-agentic-ai-challenges-to-traditional-org-design/), you'll recognise why this connected, multi-axis approach matters more than ever.
 
@@ -106,7 +106,7 @@ Here's the critical point: **an agent's ability to reason effectively is directl
 
 This means your knowledge management strategy isn't just an internal productivity concern anymore. It's becoming **infrastructure for autonomous work**. The organisations that build well-connected knowledge systems will have agents that can operate with meaningful autonomy. Those that dump everything into a single time-ordered stream will find their agents are only as good as the disorganised knowledge they're built on top of.
 
-## The Connective Tissue
+## The connective tissue
 
 Understanding the three axes individually is necessary but not sufficient. The real leverage comes from the links *between* them. Think of it as a triangle where each edge represents a different kind of connection:
 
@@ -118,7 +118,7 @@ Understanding the three axes individually is necessary but not sufficient. The r
 
 When all three edges of this triangle are maintained, you get something qualitatively different from any single axis alone: a knowledge system that is simultaneously navigable, trustworthy, and historically grounded. Each piece of information has context, currency, and connections. That's the difference between a knowledge base and a knowledge *system*.
 
-## Practical Heuristics
+## Practical heuristics
 
 Each piece of information should have a **primary** axis-the one that determines where it lives and how it's structured:
 
@@ -130,7 +130,7 @@ Each piece of information should have a **primary** axis-the one that determines
 
 But regardless of which axis is primary, **always ask: what should this link to on the other two axes?** That question-more than any tool selection or taxonomy design-is what separates knowledge management that compounds from knowledge management that decays.
 
-## Moving Forward
+## What to do next time
 
 The next time you're setting up a new Notion workspace, choosing how to structure your Confluence, or designing the knowledge layer that your agent fleet will operate against - don't just ask "what is the primary organising axis here?" Ask the harder question: **how will information on this axis connect to the other two?**
 
