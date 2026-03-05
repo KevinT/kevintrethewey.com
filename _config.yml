@@ -249,10 +249,17 @@ exclude:
   - node_modules
   - package.json
   - package-lock.json
+  - package-lock.json.backup
+  - package.json.backup
   - readme.md
   - webpack.config.js
   - "*.gemspec"
   - _js
+  - ravl
+  - ravl_loops
+  - .ravl
+  - stats.json
+  - attached_assets
   - _plugins
   - .sass-cache
   - public #Removed public directory
