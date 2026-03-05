@@ -54,7 +54,7 @@
     "@webcomponents/webcomponentsjs": "^2.8.0",
     "core-js": "^2.6.12",
     "elem-dataset": "^2.0.0",
-    "hy-drawer": "1.0.0-pre.27",
+    "hy-drawer": "1.0.0-uvw.0",
     "hy-img": "1.0.0-hydejack.12",
     "hy-push-state": "1.0.0-pre.27",
     "intersection-observer": "^0.12.2",
