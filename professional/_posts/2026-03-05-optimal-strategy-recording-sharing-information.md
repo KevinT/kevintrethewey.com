@@ -4,12 +4,14 @@ title: >
   Time, Truth, and Ontology: The three axes your knowledge system is probably missing two of, and that's why it's broken.
 tags: [knowledge-management, organisational-design, software-development, agentic-ai]
 description: >
-  Most teams, intentionally or by default, digitally record their knowledge along a single axis - usually time (slack, emails etc). Real knowledge leverage (human and agentic!) comes from using all three axes deliberately and connecting information across them.
+  Why most teams, and organisations, can't find anything in their own tools - and why the answer isn't a "better" tool, but a better understanding of what knowledge actually needs from its structure.
 ---
 
 ![image](/assets/img/blog/web.jpg)
 
-Why most teams, and organisations, can't find anything in their own tools - and why the answer isn't a "better" tool, but a better understanding of what knowledge actually needs from its structure.
+Most teams, intentionally or by default, digitally record their knowledge along a single axis - usually time (slack, emails etc). Real knowledge leverage (human and agentic!) comes from using all three axes deliberately and connecting information across them.
+
+Here's how I've come to think about it (my ontology for this problem space, for those who like it meta)...
 
 ## The Problem is Structural, Not Technical
 
@@ -33,11 +35,18 @@ Use this when it matters **when something happened**.
 
 Meeting notes. Chat transcripts. Decision logs. Incident timelines. Who said what, and when.
 
-* **The promise:** A well-structured timeline lets you reconstruct events, track decisions, and maintain accountability. You can always go back and see what was said, when it was said, and by whom - providing clarity and historical context when making decisions.
-
-* **The pitfall:** Time is a never-ending conveyor belt. Information on the belt gets lost as more arrives. It becomes progressively harder to search for, and nearly impossible to discover what the "current truth" is for any given question. You end up re-reading weeks of Slack threads to find the one message that matters.
-
-* **The connection:** Time-based records become far more useful when they link outward. A meeting note that updates a truth record ("we changed the API owner to Team X") and references an ontology entry ("see: API Governance Principles") transforms from a forgettable chat log into a node in a living system. The time record provides provenance; the other axes provide meaning.
+<table style="width:100%; table-layout:fixed">
+  <thead><tr>
+    <th style="width:33%">🔵 Promise</th>
+    <th style="width:33%">🔴 Pitfall</th>
+    <th style="width:34%">🟢 Connection</th>
+  </tr></thead>
+  <tbody><tr>
+    <td style="vertical-align:top; padding:0.5em">A well-structured timeline lets you reconstruct events, track decisions, and maintain accountability. You can always go back and see what was said, when it was said, and by whom—providing clarity and historical context when making decisions.</td>
+    <td style="vertical-align:top; padding:0.5em">Time is a never-ending conveyor belt. Information on the belt gets lost as more arrives. It becomes progressively harder to search for, and nearly impossible to discover what the "current truth" is for any given question. You end up re-reading weeks of Slack threads to find the one message that matters.</td>
+    <td style="vertical-align:top; padding:0.5em">Time-based records become far more useful when they link outward. A meeting note that updates a truth record ("we changed the API owner to Team X") and references an ontology entry ("see: API Governance Principles") transforms from a forgettable chat log into a node in a living system. The time record provides provenance; the other axes provide meaning.</td>
+  </tr></tbody>
+</table>
 
 ### 2. Current TRUTH
 
@@ -45,11 +54,18 @@ Use this when the content represents **the current state of something**.
 
 People profiles. Team compositions. System configurations. Active contracts. Architectural decisions in force.
 
-* **The promise:** A single source of truth ensures alignment across teams, reducing duplication and inconsistencies. When properly maintained, it provides an authoritative and up-to-date reference-making it easy to access accurate information without second-guessing its validity.
-
-* **The pitfall:** As content grows, it becomes progressively harder to know where the single point of truth lives for any given fact. Different systems might disagree about what the truth is, or represent it from different perspectives. Without active curation, truth-oriented systems decay into a collection of confidently wrong pages that nobody trusts.
-
-* **The connection:** Truth records gain credibility and context when they link to their history (time) and their domain (ontology). A team roster that shows *when* it was last updated, *which decision* changed it, and *what domain* that team is responsible for is infinitely more trustworthy than a standalone page that might be six months stale. Time gives truth a lineage. Ontology gives truth a reason to exist.
+<table style="width:100%; table-layout:fixed">
+  <thead><tr>
+    <th style="width:33%">🔵 Promise</th>
+    <th style="width:33%">🔴 Pitfall</th>
+    <th style="width:34%">🟢 Connection</th>
+  </tr></thead>
+  <tbody><tr>
+    <td style="vertical-align:top; padding:0.5em">A single source of truth ensures alignment across teams, reducing duplication and inconsistencies. When properly maintained, it provides an authoritative and up-to-date reference—making it easy to access accurate information without second-guessing its validity.</td>
+    <td style="vertical-align:top; padding:0.5em">As content grows, it becomes progressively harder to know where the single point of truth lives for any given fact. Different systems might disagree about what the truth is, or represent it from different perspectives. Without active curation, truth-oriented systems decay into a collection of confidently wrong pages that nobody trusts.</td>
+    <td style="vertical-align:top; padding:0.5em">Truth records gain credibility and context when they link to their history (time) and their domain (ontology). A team roster that shows <em>when</em> it was last updated, <em>which decision</em> changed it, and <em>what domain</em> that team is responsible for is infinitely more trustworthy than a standalone page that might be six months stale. Time gives truth a lineage. Ontology gives truth a reason to exist.</td>
+  </tr></tbody>
+</table>
 
 ### 3. Knowledge ONTOLOGY
 
@@ -57,11 +73,18 @@ Use this when information needs to be **connected into a rich web** of related c
 
 Glossaries. Domain models. "What is a PSR?" type questions. Architectural principles. Design patterns and their relationships to each other.
 
-* **The promise:** A well-connected knowledge system fosters deep understanding and discovery. By linking related concepts and providing context, it accelerates learning, enables informed decision-making, and allows knowledge to evolve organically as new insights emerge.
-
-* **The pitfall:** As the knowledge base expands, it can become overwhelming and difficult to navigate. Without clear structure or active curation, connections become tangled - leading to redundancy, outdated information, and contradictions. A poorly maintained ontology devolves into an unmanageable sprawl, making it just as hard to find what you need as if nothing had been recorded at all.
-
-* **The connection:** An ontology that links to current truth records and time-stamped decisions stays grounded. The concept of "API Governance" becomes actionable when it connects to the current API owners (truth) and the decisions that shaped the policy (time). Without those links, ontology drifts into abstraction - a beautifully structured map of a territory that no longer exists.
+<table style="width:100%; table-layout:fixed">
+  <thead><tr>
+    <th style="width:33%">🔵 Promise</th>
+    <th style="width:33%">🔴 Pitfall</th>
+    <th style="width:34%">🟢 Connection</th>
+  </tr></thead>
+  <tbody><tr>
+    <td style="vertical-align:top; padding:0.5em">A well-connected knowledge system fosters deep understanding and discovery. By linking related concepts and providing context, it accelerates learning, enables informed decision-making, and allows knowledge to evolve organically as new insights emerge.</td>
+    <td style="vertical-align:top; padding:0.5em">As the knowledge base expands, it can become overwhelming and difficult to navigate. Without clear structure or active curation, connections become tangled—leading to redundancy, outdated information, and contradictions. A poorly maintained ontology devolves into an unmanageable sprawl, making it just as hard to find what you need as if nothing had been recorded at all.</td>
+    <td style="vertical-align:top; padding:0.5em">An ontology that links to current truth records and time-stamped decisions stays grounded. The concept of "API Governance" becomes actionable when it connects to the current API owners (truth) and the decisions that shaped the policy (time). Without those links, ontology drifts into abstraction—a beautifully structured map of a territory that no longer exists.</td>
+  </tr></tbody>
+</table>
 
 ## A common anti-pattern: Folder/File Thinking
 
