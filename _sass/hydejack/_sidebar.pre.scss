@@ -13,6 +13,8 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+@use "sass:math";
+
 hy-drawer {
   width: 100%; // inline
   position: relative; // inline
@@ -48,7 +50,7 @@ hy-drawer {
   }
 
   @media screen and (min-width: $break-point-dynamic) {
-    $r28: ($content-width-5 / 2) + $content-margin-5;
+    $r28: math.div($content-width-5, 2) + $content-margin-5;
 
     width: calc(50% - #{$r28});
 

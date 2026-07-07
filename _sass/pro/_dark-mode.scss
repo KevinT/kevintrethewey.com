@@ -1,5 +1,7 @@
 // Copyright (c) 2019 Florian Klampfer <https://qwtel.com/>
 
+@use "sass:color";
+
 @mixin lightmode() {
   --text-muted: #{$gray};
   --gray-bg: #{$gray-bg};
@@ -16,8 +18,8 @@
   --gray-text: rgba(255,255,255,.75);
   --menu-text: rgba(255,255,255,.25);
   --body-color: #e0e0e0;
-  --body-bg: #{hsl(hue($theme-color), 12.5%, 20%)};
-  --border-color: #{hsl(hue($theme-color), 12.5%, 27.5%)};
+  --body-bg: #{hsl(color.channel($theme-color, "hue", $space: hsl), 12.5%, 20%)};
+  --border-color: #{hsl(color.channel($theme-color, "hue", $space: hsl), 12.5%, 27.5%)};
 }
 
 @media screen {
