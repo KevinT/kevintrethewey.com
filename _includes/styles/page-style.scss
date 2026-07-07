@@ -1,15 +1,13 @@
 // These styles interact with JavsScript!
 // Their ordering MUST NOT be changed. See `_js/cross-fader.js`!
 
-@use "sass:color";
-
 {% assign color       = include.color       | default:'#4fb1ba' %}
 {% assign theme_color = include.theme_color | default:'#193747' %}
 
 // 0
 .content a:not(.btn) {
   color: {{ color }};
-  border-color: color.adjust({{ color }}, $alpha: -0.8);
+  border-color: fade-out({{ color }}, 0.8);
 }
 
 // 1
@@ -37,8 +35,8 @@
 // 5
 .btn-primary:hover, .btn-primary.hover {
   color: #fff;
-  background-color: color.adjust({{ color }}, $lightness: -7.5%);
-  border-color: color.adjust({{ color }}, $lightness: -7.5%);
+  background-color: darken({{ color }}, 7.5%);
+  border-color: darken({{ color }}, 7.5%);
 }
 
 // 6
@@ -51,24 +49,24 @@
 // 7
 .btn-primary:active, .btn-primary.active {
   color: #fff;
-  background-color: color.adjust({{ color }}, $lightness: -7.5%);
-  border-color: color.adjust({{ color }}, $lightness: -7.5%);
+  background-color: darken({{ color }}, 7.5%);
+  border-color: darken({{ color }}, 7.5%);
 }
 
 // 8
 {% if site.hydejack.dark_mode.dynamic %}
 @media screen {
   body.dark-mode {
-    --body-bg: #{hsl(color.channel({{ theme_color }}, "hue", $space: hsl), 12.5%, 20%)};
-    --border-color: #{hsl(color.channel({{ theme_color }}, "hue", $space: hsl), 12.5%, 27.5%)};
+    --body-bg: #{hsl(hue({{ theme_color }}), 12.5%, 20%)};
+    --border-color: #{hsl(hue({{ theme_color }}), 12.5%, 27.5%)};
   }
 }
 
 // 9
 @media screen and (prefers-color-scheme: dark) {
   body {
-    --body-bg: #{hsl(color.channel({{ theme_color }}, "hue", $space: hsl), 12.5%, 20%)};
-    --border-color: #{hsl(color.channel({{ theme_color }}, "hue", $space: hsl), 12.5%, 27.5%)};
+    --body-bg: #{hsl(hue({{ theme_color }}), 12.5%, 20%)};
+    --border-color: #{hsl(hue({{ theme_color }}), 12.5%, 27.5%)};
   }
 }
 {% endif %}
