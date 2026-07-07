@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Kevin thrives on designing and leading large-scale, multi-site software product and platform initiatives—especially during scale-up phases where engineering meets complexity. With 25+ years in software, he currently leads EnterpriseAI Engineering & Platform at Sand Technologies, building global data applications across cloud and on-prem environments. He previously served as Director of Engineering at Jemstep (Invesco) and founded Driven, a consultancy advancing technical practices for agility. Professionally obsessed with systems that produce software; amateurishly curious about everything else.
+    Kevin thrives on designing and leading large-scale, multi-site software product and platform initiatives—especially during scale-up phases where engineering meets complexity. With 25+ years in software, he is currently Single-Threaded Leader of Delivery Enablement and Head of Delivery Software Engineering at Sand Technologies, focused on the infrastructure, intelligence and engineering standards that let globally distributed delivery teams ship client value fast and safely. He previously led Sand's EnterpriseAI Engineering & Platform capability, served as Director of Engineering at Jemstep (Invesco), and founded Driven, a consultancy advancing technical practices for agility. Professionally obsessed with systems that produce software; amateurishly curious about everything else.
   # This photo will be used in the about section
   picture:
     path:            /assets/img/headshot.jpg

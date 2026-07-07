@@ -6,7 +6,7 @@
     "email": "",
     "phone": "+27 (0) 82 579-9154",
     "website": "https://linktr.ee/kevintrethewey",
-    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career. <BR><BR><B>My current deep focus is on the practical leverage of AI and agentic capabilities.</B><BR><BR>At Sand Technologies I am accountable for software and AI engineering across the organisation, which operates remotely, and has a global customer base. SandTech delivers data intelligence using the latest in data and AI technology. We have deployed impactful solutions in 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to joining Sand (via the ExploreAI acquisition), I was Director of Engineering at Jemstep, a Silicon Valley based fintech scaleup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
+    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career. <BR><BR><B>My current deep focus is on the practical leverage of AI and agentic capabilities.</B><BR><BR>At Sand Technologies I am Single-Threaded Leader of Delivery Enablement and Head of Delivery Software Engineering, responsible for the infrastructure, intelligence and engineering standards that let Sand's globally distributed delivery teams ship client value fast, safely, and together with clients. Sand Technologies delivers data intelligence using the latest in data and AI technology, with impactful solutions deployed across 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to this role, I built Sand's engineering and platform capability from the ground up following the ExploreAI acquisition in late 2023. Before that, I was Director of Engineering at Jemstep, a Silicon Valley based fintech scaleup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
     "location": {
       "address": "Sandton",
       "postalCode": "2146",
@@ -29,16 +29,31 @@
   },
   "work": [
     {
+      "company": "Sand Technologies",
+      "position": "Head of Software Engineering for Client Delivery and Single-Threaded Leader of Delivery Enablement",
+      "website": "https://www.sandtech.com/",
+      "startDate": "2026-01-01",
+      "summary": "Delivery Enablement is a horizontal capability within Sand's Delivery function that provides the infrastructure, intelligence and professional capability enabling client delivery teams to ship value fast, safely, and together with clients.",
+      "highlights": [
+        "Head of Delivery Software Engineering, setting the hiring bar, ways of working and cross-team engineering standards across Sand's Delivery function",
+        "Single-Threaded Leader of Delivery Enablement, forming and running a core enablement strategy + capability across the Delivery Intelligence, Delivery Capabilities and Delivery Infrastructure workstreams",
+        "Steward of the Sand3 Ontology, the Sand Cowork plugin and Sand Organization Skills, the system-layer artefacts underpinning Sand's delivery intelligence",
+        "Jointly runs the Sand-wide Delivery Forum with the GRC function, providing technical review per workstream every 4 weeks"
+      ]
+    },
+    {
       "company": "Sand Technologies, EnterpriseAI",
       "position": "Head of Engineering & Platform",
       "website": "https://www.sandtech.com/",
       "startDate": "2020-07-31",
+      "endDate": "2025-12-31",
       "summary": "SandTech's EnterpriseAI division builds AI-driven software and digital twins for global companies.",
       "highlights": [
         "Built a world class, remote-first and globally distributed software engineering capability from the ground up",
         "Delivered complex, cloud native, data intensive applications and services across multiple cloud providers and technology stacks.",
         "Created and delivered a strategy for growing socio-technical data ecosystems at scale across multiple industry domains.",
-     ]
+        "Supported and implemented the successful acquisition and integration of ExploreAI's enterprise division with Sand Technologies"
+      ]
     },
     {
       "company": "Jemstep by Invesco",
@@ -49,7 +64,7 @@
       "summary": "Based in Silicon Valley, Jemstep provides a digital investment advice product to large retail banks in the United States.",
       "highlights": [
         "Led software delivery teams across 3 continents and 4 time zones",
-        "Delivered a complex, innovative fintech product to multiple large banking institutions in the USA.",
+        "Delivered a complex, innovative fintech product to multiple large banking institutions in the USA."
       ]
     },
     {
@@ -61,7 +76,7 @@
       "summary": "Driven was a consulting and coaching organisation that provided corporate clients with access to deep technical skills and experience, whilst also being a very active supporter of the local development community",
       "highlights": [
         "Started the company in 2008",
-        "Grew Driven to becoming a recognised name in South African software development circles",
+        "Grew Driven to becoming a recognised name in South African software development circles"
       ]
     }
   ],
