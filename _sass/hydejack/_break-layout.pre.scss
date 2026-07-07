@@ -13,8 +13,6 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-@use "sass:math";
-
 // <<<<< LINK
 pre, table:not(.highlight), .katex-display, .break-layout  {
   $pad: $content-padding * 2;
@@ -25,12 +23,12 @@ pre, table:not(.highlight), .katex-display, .break-layout  {
   }
 
   @media screen and (min-width: $content-width) {
-    $x: math.div($content-width, 2) - $pad;
+    $x: ($content-width / 2) - $pad;
     width: calc(100% + 50vw - #{$x});
   }
 
   @media screen and (min-width: $break-point-2) {
-    $x: math.div($content-width-2, 2) - $pad;
+    $x: ($content-width-2 / 2) - $pad;
     width: calc(100% + 50vw - #{$x});
   }
 
@@ -50,7 +48,7 @@ pre, table:not(.highlight), .katex-display, .break-layout  {
   }
 
   @media screen and (min-width: $break-point-dynamic) {
-    $x: math.div($content-width-5, 2) - $pad;
+    $x: ($content-width-5 / 2) - $pad;
     width: calc(100% + 50vw - #{$x});
   }
 }

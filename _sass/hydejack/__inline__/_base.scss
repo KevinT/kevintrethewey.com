@@ -7,8 +7,6 @@
 // During development you can run `npm run watch:css`
 // to continuosly rebuild this file.
 
-@use "sass:math";
-
 // Copyright (c) 2017 Florian Klampfer <https://qwtel.com/>
 //
 // This program is free software: you can redistribute it and/or modify
@@ -43,7 +41,7 @@
   }
 
   @media (min-width: $break-point-dynamic) {
-    $r28: math.div($content-width-5, 2) + $content-margin-5;
+    $r28: ($content-width-5 / 2) + $content-margin-5;
     body::before { width: calc(50% - #{$r28}); }
   }
 }
@@ -59,7 +57,7 @@ html {
 }
 
 
-// @media print { html { font-size: $root-font-size-print; } } 
+// @media print { html { font-size: $root-font-size-print; } }
 .fade-in {
   animation-duration: 500ms;
   animation-timing-function: ease;
