@@ -35,6 +35,8 @@ That's intentional, and it's meant to be complementary to, not competing with, t
 
 Each patches a hole the other leaves open.
 
+This isn't only a personal-life problem - it's just as true inside a single organisation. Every person in it sits inside their own set of trust boundaries: what a manager can see isn't what a peer can see, what one team shares with another isn't what either shares with a client, and no two people's boundaries line up the same way. Any system that doesn't treat that as a first-level design constraint - one that, for example, requires everyone to pour their context or prompts into one central store to get value from it - is solving the wrong problem. It will get worked around, or quietly abandoned, by exactly the people whose trust it needed.
+
 I'm designing FCP after running into the limits of a single personal folder bolted onto an employer's context and data systems - which hard-coded one orientation and physically co-locates content that belongs to mismatched audiences. 
 
 [v0.1 is out now][github-fcp], specified as a set of tool-agnostic principles plus a canonical implementation (git repos, event-sourced context streams, folded views) that adopters can implement however suits them, and versioned like any other protocol via semantic versioning and decision records.
