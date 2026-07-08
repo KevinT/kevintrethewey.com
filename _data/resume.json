@@ -6,7 +6,7 @@
     "email": "",
     "phone": "+27 (0) 82 579-9154",
     "website": "https://linktr.ee/kevintrethewey",
-    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career. <BR><BR><B>My current deep focus is on the practical leverage of AI and agentic capabilities.</B><BR><BR>At Sand Technologies I am Single-Threaded Leader of Delivery Enablement and Head of Delivery Software Engineering, responsible for the infrastructure, intelligence and engineering standards that let Sand's globally distributed delivery teams ship client value fast, safely, and together with clients. Sand Technologies delivers data intelligence using the latest in data and AI technology, with impactful solutions deployed across 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to this role, I built Sand's engineering and platform capability from the ground up following the ExploreAI acquisition in late 2023. Before that, I was Director of Engineering at Jemstep, a Silicon Valley based fintech scaleup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
+    "summary": "I enjoy the challenge of designing, leading and growing capabilities of large scale, multi site software product and platform efforts for organizations during their scale-up phase, and my career and personal experiences reflect this over my 25+ year career. <BR><BR><B>My current deep focus is on the practical leverage of AI and agentic capabilities.</B><BR><BR>At Sand Technologies I am Head of Software Engineering for Client Delivery and Head of Delivery Enablement, responsible for the infrastructure, intelligence and engineering standards that let Sand's globally distributed delivery teams ship client value fast, safely, and together with clients. Sand Technologies delivers data intelligence using the latest in data and AI technology, with impactful solutions deployed across 5+ industries, running on AWS, Azure and GCP as well as private clouds and on prem.<BR><BR>Prior to this role, I built Sand's engineering and platform capability from the ground up following the ExploreAI acquisition in late 2023. Before that, I was Director of Engineering at Jemstep, a Silicon Valley based fintech scaleup acquired by Invesco, an S&P500 listed company.<BR><BR>In 2008 I founded and ran a software consultancy, Driven. For 10 years we enabled blue chip orgs to deliver software effectively, focussing on the technical practices required for high impact agility.",
     "location": {
       "address": "Sandton",
       "postalCode": "2146",
@@ -30,13 +30,13 @@
   "work": [
     {
       "company": "Sand Technologies",
-      "position": "Head of Software Engineering for Client Delivery and Single-Threaded Leader of Delivery Enablement",
+      "position": "Head of Software Engineering for Client Delivery and Head of Delivery Enablement",
       "website": "https://www.sandtech.com/",
       "startDate": "2026-01-01",
       "summary": "Delivery Enablement is a horizontal capability within Sand's Delivery function that provides the infrastructure, intelligence and professional capability enabling client delivery teams to ship value fast, safely, and together with clients.",
       "highlights": [
-        "Head of Delivery Software Engineering, setting the hiring bar, ways of working and cross-team engineering standards across Sand's Delivery function",
-        "Single-Threaded Leader of Delivery Enablement, forming and running a core enablement strategy + capability across the Delivery Intelligence, Delivery Capabilities and Delivery Infrastructure workstreams",
+        "Head of Software Engineering for Client Delivery, setting the hiring bar, ways of working and cross-team engineering standards across Sand's Delivery function",
+        "Head of Delivery Enablement, forming and running a core enablement strategy and capability across the Delivery Intelligence, Delivery Capabilities and Delivery Infrastructure workstreams",
         "Steward of the Sand3 Ontology, the Sand Cowork plugin and Sand Organization Skills, the system-layer artefacts underpinning Sand's delivery intelligence",
         "Jointly runs the Sand-wide Delivery Forum with the GRC function, providing technical review per workstream every 4 weeks"
       ]
@@ -87,15 +87,15 @@
       "website": "https://kevintrethewey.com/projects/drivenci/",
       "startDate": "2014-11-01",
       "endDate": "2025-07-31",
-      "summary": "An all weekend invitation-only unconference. I organised 10 annual events."
+      "summary": "An all weekend invitation-only unconference. I organised 10 annual events, then stepped back in 2025 and handed it over to the community."
     },
     {
       "organization": "Coderetreat South Africa",
       "position": "Organiser, Sponsor",
       "website": "https://meetup.com/CodeRetreat",
       "startDate": "2012-03-01",
-      "endDate": "today",
-      "summary": "Local events in the style of the global CodeRetreat.org movement."
+      "endDate": "2018-12-31",
+      "summary": "Local events in the style of the global CodeRetreat.org movement, run from 2012 to 2018."
     },
     {
       "organization": "SisonkeRising",
@@ -106,11 +106,41 @@
       "summary": "An impact and value driven community outreach programme that focused on teaching young people life skills through the vehicle of software development."
     }
   ],
+  "publications": [
+    {
+      "name": "Time, Truth, and Ontology: The three axes your knowledge system is probably missing two of",
+      "publisher": "kevintrethewey.com",
+      "releaseDate": "2026-03-05",
+      "website": "https://kevintrethewey.com/blog/professional/2026-03-05-optimal-strategy-recording-sharing-information/",
+      "summary": "On the three axes (time, truth and ontology) that most knowledge systems get wrong."
+    },
+    {
+      "name": "Agents, Paradigms and Strange Loops: Toward Emergent Digital Intelligence in AI Agents",
+      "publisher": "kevintrethewey.com",
+      "releaseDate": "2025-09-19",
+      "website": "https://kevintrethewey.com/blog/professional/2025-09-19-agents/",
+      "summary": "On emergent digital intelligence and the paradigms shaping AI agent design."
+    },
+    {
+      "name": "An Engineering Leaders Guide to Recalibrating for the Agentic Era",
+      "publisher": "kevintrethewey.com",
+      "releaseDate": "2025-03-30",
+      "website": "https://kevintrethewey.com/blog/professional/2025-03-30-experienced-eng-leaders-guide-to-ai-agents/",
+      "summary": "On how experienced engineering leaders should recalibrate for the agentic era."
+    },
+    {
+      "name": "The Spine Model",
+      "publisher": "kevintrethewey.com",
+      "releaseDate": "2017-01-01",
+      "website": "https://kevintrethewey.com/projects/spinemodel/",
+      "summary": "A framework for applying organisational-design thinking to leadership challenges."
+    }
+  ],
   "languages": [
     {
       "language": "English",
       "fluency": "Native speaker"
-    }    
+    }
   ],
   "interests": [
     {
